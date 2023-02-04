@@ -1,5 +1,5 @@
-//import logo from './assets/logo.svg';
-//import './styles/_app.scss';
+
+import './styles/_home.scss';
 import {Routes , Route} from 'react-router-dom';
 import Home from './composants/Home';
 import Apropos from './composants/Apropos';

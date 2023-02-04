@@ -2,50 +2,81 @@
 
 
 .kasa-header {
-  
-    .header{
+    
     position: absolute;
     width: 1240px;
     height: 68px;
     left: 100px;
     top: 40px;
     
-    }
-    h1{
-      color:$h1headercolor;  
-    }
-    
-    
- }
- .kasa-header-nav{
-        .Accueil{
-            position: absolute;
-        left: 90.65%;
-        right: 0%;
-        top: 25%;
-        bottom: 25%;
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 142.6%;
-        /* or 34px */
-
-        display: flex;
-        align-items: flex-end;
-        text-align: right;
-
-        color: #FF6060;
-
-   }
-
- }
-.kasa-header-logo{
-    position: absolute;
+   &_logo{
+        position: absolute;
         left: 0%;
         right: 83.04%;
         top: 0%;
         bottom: 0%;
-    color : red    
+        z-index: 1;
+    }
+     .kasa-header-nav nav{
+       
+        position: absolute;
+        left: 75.08%;
+        right: 0%;
+        top: 25%;
+        bottom: 25%;
+        z-index: 1;
+       
+        .Accueil{
+            position: absolute;
+           // left: 75.08%;
+           // right: 13.95%;
+            top: 25%;
+            bottom: 25%;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 142.6%;
+            /* or 34px */
+
+            display: flex;
+            align-items: flex-end;
+            text-align: right;
+            text-decoration-line: underline;
+
+            color: #FF6060;
+        }
+        .Apropos{
+            position: absolute;
+           // left: 90.65%;
+            right: 0%;
+            top: 25%;
+            bottom: 25%;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 142.6%;
+            /* or 34px */
+
+            display: flex;
+            align-items: flex-end;
+            text-align: right;
+
+            color: #FF6060;
+
+
+        }
+    }
 }
+    
+   
+        
+ 
+   
+    
+
+ 
+ 
