@@ -2,6 +2,8 @@
      position: relative;
      width: 1440px;
      height: 1024px;
+
+
      //background: #FFFFFF;
      
       
@@ -10,12 +12,13 @@
      
 }
 .kasa-home-section {
-     
+   /*  
      position: absolute;
      width: 1240px;
      height: 1095px;
-     //left: 100px;
-     //top: 171px;
+     left: 100px;
+     top: 171px;
+     */
      
      h1{
           position: absolute;
@@ -62,14 +65,16 @@
 .kasa-home-section-gallery{
      position: absolute;
      width: 1240px;
-     height: 829px;
+     //height: 829px;
+     height: 780px;
      left: 100px;
      top: 437px;
     
 
      background: #F7F7F7;
      border-radius: 25px;
-
+     overflow-y: scroll;
+     
 }
 
 

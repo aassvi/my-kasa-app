@@ -1,4 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { data } from './data';
+
+function Gallery() {
+  return (
+    <div className="kasa-home-thumb">
+      {data.map(item => (
+        <Link to={`/logement/${item.id}`} key={item.id}>
+          <div className="rectangle2">
+            <img src={item.cover} alt={item.title} />
+            <h2>{item.title}</h2>
+          </div>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+export default Gallery;
+
+
+
+/*import React from 'react';
+import {data} from './data';
+
+function Gallery() {
+return (
+<div className="kasa-home-thumb">
+{data.map(item => (
+<div className="rectangle2" key={item.id}>
+<img src={item.cover} alt={item.title} />
+<h2>{item.title}</h2>
+</div>
+))}
+</div>
+);
+}
+
+export default Gallery;
+
+/*import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const filePath = './services/data.json';
 
@@ -37,7 +78,7 @@ export default Gallery;
 
 
 
-/*//import React from 'react';
+import React from 'react';
 import logo from '../assets/logo.png';
 import logo2 from '../assets/logo2.png';
 
