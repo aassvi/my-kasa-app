@@ -5,14 +5,14 @@ import Home from './composants/Home';
 import Apropos from './composants/Apropos';
 import Error from './composants/Error';
 import Footer from './composants/Footer';
-import Header from './composants/Header';
+//import Header from './composants/Header';
 import Logement from './composants/Logement';
 
 
 function App() {
     return (
         <>
-        <Header/>
+      
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Apropos" element={<Apropos />} />

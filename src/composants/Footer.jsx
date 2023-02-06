@@ -4,7 +4,7 @@ function Footer(){
      return (
           <>
           <div className='kasa-footer '>
-               <div className='kasa-footer-elements '>
+               <div className='kasa-footer-elements'>
                     <img src={logo2} className="App-logo" alt="logo" />
                     <p>© 2020 Kasa. All rights reserved</p>
                </div>

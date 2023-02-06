@@ -1,0 +1,11 @@
+
+// mixin pages Desktop length D_Home D_Fiche-Logement D_404 D_A-Propos 
+
+
+@mixin pageLength{
+     position: relative;
+     width: 1440px;
+     height: 1024px;
+     
+     background: #FFFFFF;
+}

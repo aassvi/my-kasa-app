@@ -9,7 +9,7 @@
     left: 100px;
     top: 40px;
     
-   &_logo{
+   .kasa-header-logo{
         position: absolute;
         left: 0%;
         right: 83.04%;
@@ -71,7 +71,84 @@
         }
     }
 }
+@media (max-width: 375px){
+    /* styles CSS pour les écrans de 720 pixels ou moins */
+    .kasa-header {
     
+        position: absolute;
+        width: 335px;
+        height: 47px;
+        left: 20px;
+        top: 20px;
+                
+       &_logo{
+        position: absolute;
+        left: 0%;
+        right: 56.72%;
+        top: 0%;
+        bottom: 0%;
+            z-index: 1;
+        }
+         .kasa-header-nav nav{
+           
+            position: absolute;
+            left: 58.21%;
+            right: 0%;
+            top: 38.3%;
+            bottom: 25.53%;
+
+            z-index: 1;
+           
+            .Accueil{
+                position: absolute;
+                left: 58.21%;
+                right: 24.18%;
+                top: 38.3%;
+                bottom: 25.53%;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 142.6%;
+                /* or 17px */
+
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                text-decoration-line: underline;
+
+                color: #FF6060;
+
+            }
+            .Apropos{
+                position: absolute;
+                left: 78.81%;
+                right: 0%;
+                top: 38.3%;
+                bottom: 25.53%;
+                
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 142.6%;
+                /* or 17px */
+                
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                
+                color: #FF6060;
+                
+    
+    
+            }
+        }
+    }
+
+
+  }    
    
         
  

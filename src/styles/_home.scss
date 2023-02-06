@@ -1,75 +1,79 @@
+@import "../styles/mixins.scss";
 .kasa-home {
-     position: relative;
-     width: 1440px;
-     height: 1024px;
-
-
-     //background: #FFFFFF;
-     
-      
-    
+     @include pageLength();
      
      
 }
-.kasa-home-section {
-   /*  
+.kasa-home-body {
+   
      position: absolute;
      width: 1240px;
      height: 1095px;
      left: 100px;
      top: 171px;
-     */
-     
+
+    
+}    
+.kasa-home-body-section1{
+     //position: absolute;
+     //width: 1240px;
+     //height: 223px;
+     //left: 100px;
+     //top: 171px;
      h1{
           position: absolute;
-          left: 25.9%;
+          left: 21.9%;
           right: 25.14%;
-          top: 24.32%;
-          bottom: 69.04%;
-          
+          top: 14.32%;
+          bottom: 86.04%;
+
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 500;
           font-size: 48px;
           line-height: 142.6%;
           /* or 68px */
-          
+
           display: flex;
           align-items: flex-end;
-          
+
           color: #FFFFFF;
+
+
           z-index: 1;
      }
-    
-}    
-.kasa-home-section-mask{
-     position: absolute;
-     width: 1240px;
-     height: 223px;
-     left: 100px;
-     top: 171px;
-    
-     .img{
-          position: absolute;
-          width: 1278px;
-          height: 1933px;
-          left: 100px;
-          top: -573px;
-          border-radius: 25;
+
+     .kasa-home-body-section1-mask{
+          //position: absolute;
+          //width: 1240px;
+          //height: 223px;
+          //left: 100px;
+          //top: 171px;
+         
+          .img{
+               position: absolute;
+               width: 1278px;
+               height: 1933px;
+               left: 100px;
+               top: -573px;
+               border-radius: 25;
+          
+          }
+     
+          
      
      }
-
      
 
 }
+
 .kasa-home-section-gallery{
      position: absolute;
-     width: 1240px;
-     //height: 829px;
-     height: 780px;
-     left: 100px;
-     top: 437px;
-    
+    width: 1240px;
+    //height: 829px;
+    height: 780px;
+    left: -3px;
+    top: 278px;
 
      background: #F7F7F7;
      border-radius: 25px;
@@ -77,4 +81,91 @@
      
 }
 
+@media (max-width: 375px){
+     .kasa-home {
+          position: relative;
+          width: 375px;
+          height: 812px;
 
+     
+     
+          //background: #FFFFFF;
+          
+           
+         
+          
+          
+     }
+     .kasa-home-section {
+        /*  
+          position: absolute;
+          width: 1240px;
+          height: 1095px;
+          left: 100px;
+          top: 171px;
+          */
+          position: absolute;
+          width: 335px;
+          height: 805px;
+          left: 21px;
+          top: 216px;
+
+          
+          h1{
+               position: absolute;
+               left: 25.9%;
+               right: 25.14%;
+               top: 24.32%;
+               bottom: 69.04%;
+               
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 48px;
+               line-height: 142.6%;
+               /* or 68px */
+               
+               display: flex;
+               align-items: flex-end;
+               
+               color: #FFFFFF;
+               z-index: 1;
+          }
+         
+     }    
+     .kasa-home-section-mask{
+          position: absolute;
+          width: 1240px;
+          height: 223px;
+          left: 100px;
+          top: 171px;
+         
+          .img{
+               position: absolute;
+               width: 1278px;
+               height: 1933px;
+               left: 100px;
+               top: -573px;
+               border-radius: 25;
+          
+          }
+     
+          
+     
+     }
+     .kasa-home-section-gallery{
+          position: absolute;
+          width: 1240px;
+          //height: 829px;
+          height: 780px;
+          left: 100px;
+          top: 437px;
+         
+     
+          background: #F7F7F7;
+          border-radius: 25px;
+          overflow-y: scroll;
+          
+     }
+
+}

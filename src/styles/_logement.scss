@@ -1,8 +1,152 @@
+@import "../styles/mixins.scss";
 .kasa-logement {
-     h1{
-     color:rgb(92, 185, 123);
+     @include pageLength();
+     .kasa-logement-body{
+          position: absolute;
+          width: 1240px;
+          height: 643px;
+          left: 100px;
+          top: 128px;
+
      }
-     p{
-          color: rgb(22, 12, 167);
+     .kasa-logement-body-host{
+          position: absolute;
+          width: 64px;
+          height: 64px;
+          left: 1273px;
+          top: 567px;
+
+          background: #C4C4C4;
+     }
+     .kasa-logement-body-rate{
+          position: absolute;
+          width: 196px;
+          height: 36px;
+          left: 1144px;
+          top: 652px;
+
+     }
+     .kasa-logement-body-carousel{
+          
+          
+          p{
+               position: absolute;
+               left: 6.94%;
+               right: 80.83%;
+               top: 60.94%;
+               bottom: 36.52%;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 142.6%;
+               /* identical to box height, or 26px */
+
+               display: flex;
+               align-items: flex-end;
+
+               color: #FF6060;
+
+          }
+         
+
+     }
+     h2{
+          position: absolute;
+          width: 93px;
+          height: 52px;
+          left: 1170px;
+          top: 573px;
+
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 142.6%;
+          /* or 26px */
+
+          display: flex;
+          align-items: flex-end;
+          text-align: right;
+
+          color: #FF6060;
+
+
+     }
+     .kasa-logement-body-content{
+          position: absolute;
+          width: 1240px;
+          height: 101px;
+          left: 100px;
+          top: 670px;
+          .kasa-logement-body-content-tag{
+               position: absolute;
+               width: 115px;
+               height: 25px;
+               left: 100px;
+               top: 670px;
+               p{
+                    position: absolute;
+                    left: 34.78%;
+                    right: 35.65%;
+                    top: 12%;
+                    bottom: 8%;
+
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 142.6%;
+                    /* identical to box height, or 20px */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+
+               }
+               .rectangle3{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 0%;
+
+                    background: #FF6060;
+                    border-radius: 10px;
+
+               }
+
+          }
+          .kasa-logement-body-content-dropdowopen{
+               position: absolute;
+               width: 582px;
+               height: 52px;
+               left: 100px;
+               top: 719px;
+               .rectangle4close{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 0%;
+
+                    background: #FF6060;
+                    border-radius: 10px;
+               }
+               .rectangle4open{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 80.77%;
+                    bottom: -459.62%;
+
+                    background: #F7F7F7;
+                    border-radius: 10px;
+               }
+
+          }
+
+
      }
 }
