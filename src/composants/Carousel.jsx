@@ -8,36 +8,42 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
 function Carousel() {
-const { id } = useParams();
-const [currentIndex, setCurrentIndex] = useState(0);
-const logement = data.find(item => item.id === id);
-const { title, pictures } = logement;
+    const { id } = useParams();
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const logement = data.find(item => item.id === id);
+    const { title,location, pictures } = logement;
 
-const prevImage = () => {
-setCurrentIndex(currentIndex - 1);
-if (currentIndex === 0) {
-setCurrentIndex(pictures.length - 1);
-}
-};
+    const prevImage = () => {
+          setCurrentIndex(currentIndex - 1);
+          if (currentIndex === 0) {
+          setCurrentIndex(pictures.length - 1);
+          }
+    };
 
-const nextImage = () => {
-setCurrentIndex(currentIndex + 1);
-if (currentIndex === pictures.length - 1) {
-setCurrentIndex(0);
-}
-};
+    const nextImage = () => {
+          setCurrentIndex(currentIndex + 1);
+          if (currentIndex === pictures.length - 1) {
+          setCurrentIndex(0);
+          }
+    };
 
-return (
-<div className="carousel-container">
-
-<div className="carousel-arrow-container">
-<ArrowBackIosIcon onClick={prevImage} />
-<img src={pictures[currentIndex]} alt={title} />
-<ArrowForwardIosIcon onClick={nextImage} />
-</div>
-<h1>{title}</h1>
-</div>
-);
+    return (
+      <>
+        <div className="carousel-container">
+          <div className="carousel-arrow-container">
+              <ArrowBackIosIcon onClick={prevImage} />
+              <img src={pictures[currentIndex]} alt={title} />
+              <ArrowForwardIosIcon onClick={nextImage} />
+          </div>
+          
+        </div>
+        <div className="Carousel-title-location">
+              <h1>{title}</h1>
+              <p>{location}</p>
+        </div>
+        
+      </>
+    );
 }
 
 export default Carousel;

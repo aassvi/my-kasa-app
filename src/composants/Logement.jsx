@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
 import Header from './Header';
+import HostRate from './HostRate';
 
 function Logement() {
   return (
@@ -10,14 +11,14 @@ function Logement() {
           <div className='kasa-logement'>
 
                <div className='kasa-logement-body'>
-                    <div className='kasa-logement-body-host'></div>
-                    <div className='kasa-logement-body-rate'></div>
+                    
                     <div className='kasa-logement-body-carousel'>
                     <Carousel/>
-                    
-                         <p> lieu</p>
-                         
                     </div>
+                    <div className='kasa-logement-body-host'></div>
+                    <HostRate/>
+                 
+                   
 
                     <h2> Alexandre Dumas </h2>
                     <div className='kasa-logement-body-content'>
