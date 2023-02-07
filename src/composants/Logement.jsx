@@ -15,12 +15,9 @@ function Logement() {
                     <div className='kasa-logement-body-carousel'>
                     <Carousel/>
                     </div>
-                    <div className='kasa-logement-body-host'></div>
-                    <HostRate/>
                  
-                   
-
-                    <h2> Alexandre Dumas </h2>
+                    <HostRate/>
+                                
                     <div className='kasa-logement-body-content'>
                          <div className='kasa-logement-body-content-tag'>
                               <div className='rectangle3'>
