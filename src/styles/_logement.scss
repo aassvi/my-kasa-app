@@ -1,6 +1,6 @@
 @import "../styles/mixins.scss";
 .kasa-logement {
-     @include pageLength();
+     @include pageLengthdesktop();
      .kasa-logement-body{
           position: absolute;
           width: 1240px;

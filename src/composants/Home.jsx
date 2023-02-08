@@ -5,7 +5,6 @@ import Header from './Header';
 
 
 
-
 function Home(){
      return (
           <>
@@ -14,11 +13,9 @@ function Home(){
                <div className='kasa-home-body'>  
                     <div className='kasa-home-body-section1'>  
                          <h1>Chez vous,partout et ailleurs</h1>
-                         <div className='kasa-home-body-section1-mask'>  
-                              <img src={paysage} alt="paysage" />    
-                         </div>
+                         <img src={paysage} className= 'sectionimage'alt="paysage" />    
                      </div>
-               <div className='kasa-home-section-gallery'>
+                    <div className='kasa-home-section-gallery'>
                      <Thumb/>
                     </div>                 
                </div>
