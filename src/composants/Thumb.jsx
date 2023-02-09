@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { data } from './data';
 
+
 function Gallery() {
   return (
+    
     <div className="kasa-home-thumb">
       {data.map(item => (
         <Link to={`/logement/${item.id}`} key={item.id}>
@@ -12,9 +14,11 @@ function Gallery() {
             <h2>{item.title}</h2>
           </div>
         </Link>
-      ))}
+      ))} 
     </div>
+
   );
+ 
 }
 
 export default Gallery;

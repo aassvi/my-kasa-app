@@ -13,6 +13,24 @@ function Carousel() {
     const logement = data.find(item => item.id === id);
     const { title,location, pictures } = logement;
 
+    if (pictures.length === 1){
+      return (
+        <>
+          <div className="carousel-container">
+            <div className="carousel-arrow-container">  
+              <img src={pictures} alt={title} />
+            </div>
+            
+          </div>
+          <div className="Carousel-title-location">
+                <h1>{title}</h1>
+                <p>{location}</p>
+          </div>
+          
+        </>
+      );
+     
+    } else{
     const prevImage = () => {
           setCurrentIndex(currentIndex - 1);
           if (currentIndex === 0) {
@@ -27,6 +45,7 @@ function Carousel() {
           }
     };
 
+    
     return (
       <>
         <div className="carousel-container">
@@ -44,6 +63,7 @@ function Carousel() {
         
       </>
     );
+    }  
 }
 
 export default Carousel;
