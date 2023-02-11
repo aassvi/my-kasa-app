@@ -5,6 +5,7 @@ import Header from './Header';
 import HostRate from './HostRate';
 import { data } from './data';
 import Error from './Error';
+import Collapsable from './CollapseLogement';
 
 
 function Logement() { 
@@ -27,6 +28,7 @@ function Logement() {
                     <Carousel />
                     </div>
                     <HostRate />
+                    <Collapsable/>
                     <div className="kasa-logement-body-content">
                     <div className="kasa-logement-body-content-tag">
                     <div className="rectangle3">

@@ -3,34 +3,36 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { dataCollapse } from './dataCollapse';
 
 const Collapsable = () => {
-const [isOpen, setIsOpen] = useState(Array(dataCollapse.length).fill(false));
+  const [isOpen, setIsOpen] = useState(Array(4).fill(false));
+  
 
-const handleClick = (index) => {
-const newIsOpen = [...isOpen];
-newIsOpen[index] = !newIsOpen[index];
-setIsOpen(newIsOpen);
-};
+  const handleClick = (index) => {
+    const newIsOpen = [...isOpen];
+    newIsOpen[index] = !newIsOpen[index];
+    setIsOpen(newIsOpen);
+  };
 
-return (
-  <>
-    {dataCollapse.map((collapse, index) => (
-      <div className={`apropos-collapsable${index + 1}`} key={index}>
-        <div className='RectangleTitre' onClick={() => handleClick(index)}>
-          <h3>{collapse.titre}</h3>
-          <KeyboardArrowDownIcon style={{ transform: isOpen[index] ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-        </div>
-        {isOpen[index] && (
-          <div className='RectangleTexte'>
-            <div className='bis'>
-              <p>{collapse.texte}</p>
-            </div>
+  return (
+    <>
+      {dataCollapse.map((collapse, index) => (
+        <div className={`apropos-collapsable${index + 1}`} key={index}>
+          <div className='RectangleTitre' onClick={() => handleClick(index)}>
+            <h3>{collapse.titre}</h3>
+            <KeyboardArrowDownIcon style={{ transform: isOpen[index] ? 'rotate(180deg)' : 'rotate(0deg)' }} />
           </div>
-        )}
-      </div>
-    ))}
-  </>
-);
+          {isOpen[index] && (
+            <div className='RectangleTexte'>
+              <div className='bis'>
+                <p>{collapse.texte}</p>
+              </div>
+            </div>
+          )}
+        </div>
+      ))}
+    </>
+  );
 };
+
 
 export default Collapsable;
 /*
