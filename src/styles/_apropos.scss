@@ -16,19 +16,21 @@
 
 
    
-     .sectionimagekalen{
-          position: absolute;
-          width: 1240px;
-          height: 827px;
-          //left: 100px;
-          //top: -150px;
-          width: 100%;
-          mix-blend-mode: darken;
-          border-radius: 25px;
-          transform: translate(1px, -310px);
+          .sectionimagekalen{
+               position: absolute;
+               width: 1240px;
+               height: 827px;
+               //left: 100px;
+               //top: -150px;
+               width: 100%;
+               mix-blend-mode: darken;
+               border-radius: 25px;
+               transform: translate(1px, -310px);
+          }
+          .sectionimagegustavo{
+               display: none;
+          }
      }
-     .sectionimagegustavo{
-          display: none;
-     }
-}
+     
+        
 }

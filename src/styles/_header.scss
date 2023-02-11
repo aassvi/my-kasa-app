@@ -76,8 +76,8 @@
     }
 }
 
-//styles CSS pour les écrans de 720 pixels ou moins 
-@media (max-width: 375px){
+//styles CSS pour les écrans de 375 pixels ou moins 
+@media screen and (max-width: 375px){
     .kasa-header {
         position: absolute;
         width: 335px;
