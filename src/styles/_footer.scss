@@ -43,6 +43,51 @@
     }
     
 }
+.kasa-footerL{
+    
+     position: relative;
+     width: 1440px;
+     height: 209px;
+     background: #000000;
+    
+     //top: 4333px;
+     top: 2269px;
+     
+     
+     .kasa-footer-elements{
+          
+          img{
+               position: absolute;
+               left: 45.76%;
+               right: 45.76%;
+               top: 31.58%;
+               bottom: 49.55%;  
+               //align-items: center;
+          }
+          p{
+               position: absolute;
+               left: 32.15%;
+               right: 32.22%;
+               top: 64.11%;
+               bottom: 13.88%;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 24px;
+               line-height: 142.6%;
+               /* or 34px */
+
+               display: flex;
+               align-items:center;
+               text-align: center;
+               padding-left: 7%;
+               color: #FFFFFF;
+          }
+    }
+    
+}
+
 //styles CSS pour les écrans de 375 pixels ou moins 
 @media screen and (max-width: 375px){
      .kasa-footer{

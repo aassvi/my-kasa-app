@@ -1,0 +1,236 @@
+
+
+.logement-collapsable1{
+     .RectangleTitre{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 0%;
+          bottom: 0%;
+          width: 582px;
+          height: 52px;
+          background: #FF6060;
+          border-radius: 10px;
+          z-index: 1;
+     
+          h3 {
+          display: inline-block;
+          cursor: pointer;
+          position: absolute;
+          left: 3.44%;
+          right: 78.35%;
+          top: 25%;
+          bottom: 25%;
+     
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 142.6%;
+          /* or 34px */
+     
+          display: flex;
+          align-items: center;
+     
+          color: #FFFFFF;
+     
+          }
+          svg {
+               display: inline-block;
+               margin-left: 8px;
+               transition: transform 0.3s ease;
+               position: absolute;
+               
+             
+               left: 91.25%;
+               right: -39.88%;
+               top: 15.33%;
+               bottom: -6.83%;
+               height: 33px;
+                         
+               color: #FFFFFF;
+             }
+             
+             div + div {
+               overflow: hidden;
+               max-height: 0;
+               transition: max-height 0.3s ease;
+             }
+     }
+     .RectangleTexte{ 
+          height: 300px;
+          width: 582px;
+          //Top: 42px;
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 80.77%;
+          bottom: -459.62%;
+
+          background: #F7F7F7;
+          border-radius: 10px;
+         
+          .bis{
+               position: absolute;
+               height: 156px;
+               width: 550px;
+               //Top: 82px;
+               
+               background-color: #f7f7f7;
+
+               p{
+                    position: absolute;
+                    left: 3.44%;
+                    right: 2.06%;
+                    top: 2.69%;
+                    bottom: -370.69%;
+                    width: 550px;
+                    height: 156px;
+                    
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    /* or 26px */
+
+                    color: #FF6060;
+
+               }
+          }
+          
+     }
+}
+.logement-collapsable2{
+     .RectangleTitre{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 0%;
+          bottom: 0%;
+     
+          background: #FF6060;
+          border-radius: 10px;
+          z-index: 1;
+          h3 {
+          display: inline-block;
+          cursor: pointer;
+          position: absolute;
+          left: 3.44%;
+          right: 75.26%;
+          top: 25%;
+          bottom: 25%;
+     
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 142.6%;
+          /* or 34px */
+     
+          display: flex;
+          align-items: center;
+     
+          color: #FFFFFF;
+     
+          }
+          svg {
+               display: inline-block;
+               margin-left: 8px;
+               transition: transform 0.3s ease;
+               position: absolute;
+              
+               left: 92.75%;
+               right: 18.63%;
+               top: -7.33%;
+               bottom: -58.17%;
+               height: 55px;
+               font-size: 33px;
+             
+               color: #FFFFFF;
+             }
+             
+             div + div {
+               overflow: hidden;
+               max-height: 0;
+               transition: max-height 0.3s ease;
+             }
+     }
+     .RectangleTexte{  
+          height: 300px;
+          width: 582px;
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 80.77%;
+          bottom: -459.62%;
+
+          background: #F7F7F7;
+          border-radius: 10px;    
+          .bis{
+               position: absolute;
+               height: 182px;
+               width: 550px;
+               //Top: 82px;
+               left:20px;
+               //border-radius: 5px;
+               background-color: #f7f7f7;
+               color: #FF6060;
+
+               font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    position: absolute;
+
+     
+
+               p{
+                    position: absolute;
+                    left: 3.44%;
+                    right: 2.06%;
+                    top: 157.69%;
+                    bottom: -407.69%;
+
+                    
+     
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 142.6%;
+                    /* or 34px */
+                    //background: #f7f7f7;
+     
+                    color: #FF6060;
+               }
+          }
+          
+     }
+}     
+
+
+.logement-collapsable1{
+     position: absolute;
+     width: 582px;
+     height: 52px;
+     left: 0px;
+     //left: -96px;
+     top: 49px;
+    
+    
+   }
+.logement-collapsable2{
+     position: absolute;
+     width: 582px;
+     height: 52px;
+     //left: 758px;
+     left: 657px;
+     top: 49px;
+    
+    
+   }    
+
+
+         

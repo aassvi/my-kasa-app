@@ -3,6 +3,7 @@ import paysage2 from '../assets/paysage2.png';
 import paysagemobile from '../assets/paysagemobile.png';
 import Thumb from './Thumb';
 import Header from './Header';
+import Footer from './Footer';
 
 
 
@@ -29,6 +30,7 @@ function Home(){
                     </div>                 
                </div>
           </div>
+          <Footer/>
           </>
          
      )

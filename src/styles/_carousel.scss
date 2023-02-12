@@ -69,11 +69,18 @@
 .Carousel-title-location{
   h1{
     position: absolute;
+    //position: absolute;
+    width: 800px;
+    height: 77px;
+    //left: 100px;
+    //top: 573px;
     //left: 6.94%;
     left: -0.06%;
     right: 48.96%;
-    top: 55.96%;
+    //top: 55.96%;
     //bottom: 39.06%;
+    //bottom: 24.06%;
+    top: 63.96%;
     bottom: 24.06%;
      
     font-family: 'Montserrat';
@@ -94,9 +101,11 @@
     //left: 6.94%;
     left: -0.06%;
     right: 80.83%;
-    top: 60.94%;
+    //top: 60.94%;
     //bottom: 36.52%;
-    bottom: 20.52%;
+    //bottom: 20.52%;
+    top: 57.94%;
+    bottom: 19.52%;
  
     font-family: 'Montserrat';
     font-style: normal;

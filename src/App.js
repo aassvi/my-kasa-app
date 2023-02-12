@@ -4,7 +4,7 @@ import {Routes , Route} from 'react-router-dom';
 import Home from './composants/Home';
 import Apropos from './composants/Apropos';
 import Error from './composants/Error';
-import Footer from './composants/Footer';
+//import Footer from './composants/Footer';
 //import Header from './composants/Header';
 import Logement from './composants/Logement';
 
@@ -21,7 +21,7 @@ function App() {
             <Route path="/*" element={<Error />} />
         </Routes>
         </React.StrictMode>
-        <Footer/>
+       
        
         </>
     )

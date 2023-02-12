@@ -6,6 +6,8 @@ import HostRate from './HostRate';
 import { data } from './data';
 import Error from './Error';
 import Collapsable from './CollapseLogement';
+import Tag from './Tag';
+import Footer from './Footer';
 
 
 function Logement() { 
@@ -23,27 +25,18 @@ function Logement() {
                <>
                <Header />
                <div className="kasa-logement">
-               <div className="kasa-logement-body">
-                    <div className="kasa-logement-body-carousel">
-                    <Carousel />
-                    </div>
-                    <HostRate />
-                    <Collapsable/>
-                    <div className="kasa-logement-body-content">
-                    <div className="kasa-logement-body-content-tag">
-                    <div className="rectangle3">
-                         <p>importer tags fichier data composant tag</p>
-                    </div>
-                    </div>
-                    <div className="kasa-logement-body-content-dropdowopen">
-                    <div className="rectangle4close rectangle4open">
-                         <h3>importer description fichier data composant</h3>
-                         <h4>importer equipements fichier data composant</h4>
-                    </div>
-                    </div>
+                    <div className="kasa-logement-body">
+                         <div className="kasa-logement-body-carousel">
+                         <Carousel />
+                         </div>
+                         <HostRate />
+                         <div className="kasa-logement-body-content">
+                              <Tag/>                              
+                              <Collapsable/>
+                         </div>
                     </div>
                </div>
-               </div>
+               <Footer/>
                </>
      );
 }
