@@ -1,0 +1,608 @@
+// bonnes coordonées mais ne descendd pas 
+.apropos-collapsable1 {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+     @include collapse-apropos();
+     top: 406px;
+   
+     .RectangleTitre {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px;
+     
+       cursor: pointer;
+       position: absolute;
+       left: 0%;
+       right: 0%;
+       top: 0%;
+       bottom: 0%;
+       width: 1023px;
+       height: 47px;
+  
+       background: #FF6060;
+       border-radius: 5px;
+  
+
+       h3 {
+         margin: 0;
+         display: inline-block;
+          cursor: pointer;
+          position: absolute;
+          left: 1.77%;
+          //right: 88.46%;
+          //top: 3.12%;
+          bottom: 78.4%;
+          right: 88.46%;
+          top: 45.12%;
+
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 142.6%;
+          // or 34px 
+
+          display: flex;
+          align-items: center;
+
+          color: #FFFFFF;
+       }
+       svg {
+         width: 25px;
+         height: 25px;
+         display: inline-block;
+          margin-left: 8px;
+          transition: transform 0.3s ease;
+          position: absolute;
+         
+        
+          left: 92.75%;
+          right: 18.63%;
+          top: -3.33%;
+          bottom: -58.17%;
+          height: 50px;
+          font-size: 50px;
+        
+          color: #FFFFFF;
+       }
+     }
+   
+     .RectangleTexte {
+       overflow: hidden;
+       height: 0;
+       transition: height 0.3s ease-out;
+     }
+   
+     .RectangleTexte.open {
+       height: auto;
+       //margin-top: 50px;
+       transition: height 0.3s ease-out;
+     }
+   
+     .bis {
+       padding: 20px;
+    
+       height: 146px;
+          width: 1023px;
+          Top: 46px;
+          //border-radius: 5px;
+          background-color: #f7f7f7;
+
+          position: absolute;
+       p {
+         margin: 0;
+         position: absolute;
+         left: 1.76%;
+         right: 2.64%;
+         top: 40.22%;
+         bottom: 10.33%;
+         height: 146px;
+         width: 1023px;
+
+         font-family: 'Montserrat';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 142.6%;
+         // or 34px 
+         //background: #f7f7f7;
+
+         color: #FF6060;
+       }
+     }
+   }
+   .apropos-collapsable2 {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+     @include collapse-apropos();
+     top: 484px;
+   
+     .RectangleTitre {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px;
+     
+       cursor: pointer;
+       position: absolute;
+       position: absolute;
+       left: 0%;
+       right: 0%;
+       top: 0%;
+       bottom: 74.46%;
+       width: 1023px;
+       height: 47px;
+  
+       background: #FF6060;
+       border-radius: 5px;
+  
+
+       h3 {
+         margin: 0;
+         display: inline-block;
+          cursor: pointer;
+          position: absolute;
+          left: 1.77%;
+          //right: 88.46%;
+          //top: 3.12%;
+          bottom: 78.4%;
+          right: 88.46%;
+          top: 45.12%;
+
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 142.6%;
+          // or 34px 
+
+          display: flex;
+          align-items: center;
+
+          color: #FFFFFF;
+       }
+       svg {
+         width: 25px;
+         height: 25px;
+         display: inline-block;
+          margin-left: 8px;
+          transition: transform 0.3s ease;
+          position: absolute;
+         
+        
+          left: 92.75%;
+          right: 18.63%;
+          top: -3.33%;
+          bottom: -58.17%;
+          height: 50px;
+          font-size: 50px;
+        
+          color: #FFFFFF;
+       }
+     }
+   
+     .RectangleTexte {
+       overflow: hidden;
+       height: 0;
+       transition: height 0.3s ease-out;
+     }
+   
+     .RectangleTexte.open {
+       height: auto;
+       margin-top: 50px;
+       transition: height 0.3s ease-out;
+     }
+   
+     .bis {
+       padding: 20px;
+    
+       height: 146px;
+          width: 1023px;
+          Top: 46px;
+          //border-radius: 5px;
+          background-color: #f7f7f7;
+
+          position: absolute;
+       p {
+         margin: 0;
+         position: absolute;
+         left: 1.76%;
+         right: 2.64%;
+         top: 40.22%;
+         bottom: 10.33%;
+         height: 146px;
+         width: 1023px;
+
+         font-family: 'Montserrat';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 142.6%;
+         // or 34px 
+         //background: #f7f7f7;
+
+         color: #FF6060;
+       }
+     }
+   }   
+
+//
+
+.apropos-collapsable {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 20px;
+     @include collapse-apropos();
+   
+     .RectangleTitre {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px;
+     
+       cursor: pointer;
+       position: absolute;
+       left: 0%;
+       right: 0%;
+       top: 0%;
+       bottom: 74.46%;
+  
+       background: #FF6060;
+       border-radius: 5px;
+  
+
+       h3 {
+         margin: 0;
+         display: inline-block;
+     cursor: pointer;
+     position: absolute;
+     left: 1.77%;
+     //right: 88.46%;
+     //top: 3.12%;
+     bottom: 78.4%;
+     right: 88.46%;
+     top: 45.12%;
+
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 142.6%;
+     // or 34px 
+
+     display: flex;
+     align-items: center;
+
+     color: #FFFFFF;
+       }
+       svg {
+         width: 25px;
+         height: 25px;
+         display: inline-block;
+          margin-left: 8px;
+          transition: transform 0.3s ease;
+          position: absolute;
+          //left: 8.75%;
+          //right: 42.63%;
+          //top: 75.67%;
+          //bottom: -58.17%;
+          //height: 23px;
+          //width: 14px;
+        
+          left: 92.75%;
+          right: 18.63%;
+          top: -3.33%;
+          bottom: -58.17%;
+          height: 50px;
+          font-size: 50px;
+        
+          color: #FFFFFF;
+       }
+     }
+   
+     .RectangleTexte {
+       overflow: hidden;
+       height: 0;
+       transition: height 0.3s ease-out;
+     }
+   
+     .RectangleTexte.open {
+       height: auto;
+       transition: height 0.3s ease-out;
+     }
+   
+     .bis {
+       padding: 20px;
+    
+       height: 146px;
+          width: 1023px;
+          Top: 46px;
+          //border-radius: 5px;
+          background-color: #f7f7f7;
+
+          position: absolute;
+       p {
+         margin: 0;
+         position: absolute;
+         left: 1.76%;
+         right: 2.64%;
+         top: 40.22%;
+         bottom: 10.33%;
+         height: 146px;
+         width: 1023px;
+
+         font-family: 'Montserrat';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 142.6%;
+         // or 34px 
+         //background: #f7f7f7;
+
+         color: #FF6060;
+       }
+     }
+   }
+   
+.RectangleTitre{
+     position: absolute;
+     left: 0%;
+     right: 0%;
+     top: 0%;
+     bottom: 74.46%;
+
+     background: #FF6060;
+     border-radius: 5px;
+
+     h3 {
+     display: inline-block;
+     cursor: pointer;
+     position: absolute;
+     left: 1.77%;
+     //right: 88.46%;
+     //top: 3.12%;
+     bottom: 78.4%;
+     right: 88.46%;
+     top: 45.12%;
+
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 142.6%;
+     // or 34px 
+
+     display: flex;
+     align-items: center;
+
+     color: #FFFFFF;
+
+     }
+     svg {
+          display: inline-block;
+          margin-left: 8px;
+          transition: transform 0.3s ease;
+          position: absolute;
+          //left: 8.75%;
+          //right: 42.63%;
+          //top: 75.67%;
+          //bottom: -58.17%;
+          //height: 23px;
+          //width: 14px;
+        
+          left: 92.75%;
+          right: 18.63%;
+          top: -3.33%;
+          bottom: -58.17%;
+          height: 50px;
+          font-size: 50px;
+        
+          color: #FFFFFF;
+        }
+        
+        div + div {
+          overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.3s ease;
+        }
+}
+.RectangleTexte{      
+     .bis{
+          height: 146px;
+          width: 1023px;
+          Top: 46px;
+          //border-radius: 5px;
+          background-color: #f7f7f7;
+
+          position: absolute;
+          p{
+               position: absolute;
+               left: 1.76%;
+               right: 2.64%;
+               top: 40.22%;
+               bottom: 10.33%;
+               height: 146px;
+               width: 1023px;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 24px;
+               line-height: 142.6%;
+               // or 34px 
+               //background: #f7f7f7;
+
+               color: #FF6060;
+          }
+     }
+     
+}
+
+
+.apropos-collapsable1{
+    @include collapse-apropos();
+     //top: 484px;
+     top: 416px;
+    
+    
+   }
+.apropos-collapsable2{
+     @include collapse-apropos();
+     top: 625px;
+    
+    
+   }   
+.apropos-collapsable3{
+     @include collapse-apropos();
+     top: 842px;
+    
+    
+   }   
+.apropos-collapsable4{
+     @include collapse-apropos();
+     top: 1026px;
+    
+    
+
+   }   
+
+@media screen and (max-width: 375px){   
+     .RectangleTitre{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 0%;
+          bottom: 74.46%;
+     
+          background: #FF6060;
+          border-radius: 5px;
+          height: 30px;
+          width: 335px;
+          z-index: 1;
+
+     
+          h3 {
+          display: inline-block;
+          cursor: pointer;
+          position: absolute;
+          left: 1.77%;
+          //right: 88.46%;
+          //top: 3.12%;
+          bottom: 78.4%;
+          right: 88.46%;
+          top: 45.12%;
+     
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 142.6%;
+          // or 34px 
+     
+          display: flex;
+          align-items: center;
+     
+          color: #FFFFFF;
+     
+          }
+          svg {
+               display: inline-block;
+               margin-left: 8px;
+               transition: transform 0.3s ease;
+               position: absolute;
+               //left: 8.75%;
+               //right: 42.63%;
+               //top: 75.67%;
+               //bottom: -58.17%;
+               //height: 23px;
+               //width: 14px;
+             
+               left: 92.75%;
+               right: 18.63%;
+               top: -3.33%;
+               bottom: -58.17%;
+               height: 50px;
+               font-size: 50px;
+             
+               color: #FFFFFF;
+             }
+             
+             div + div {
+               overflow: hidden;
+               max-height: 0;
+               transition: max-height 0.3s ease;
+             }
+     }
+     .RectangleTexte{ 
+          overflow: hidden;
+          height: 0;
+          transition: height 0.3s ease-out;     
+          .bis{
+               height: 143px;
+               width: 335px;
+               left: 0px;
+               top: 24px;
+               border-radius: 5px;
+            
+               //border-radius: 5px;
+               background-color: #f7f7f7;
+     
+          position: absolute;
+               p{
+                    position: absolute;
+                    left: 1.76%;
+                    right: 2.64%;
+                    top: 10%;
+                    bottom: 10.33%;
+                    width: 97%;
+                  
+     
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 142.6%;
+                    // or 34px 
+                    //background: #f7f7f7;
+     
+                    color: #FF6060;
+               }
+          }
+          
+     }
+     .RectangleTexte.open {
+          height: auto;
+          transition: height 0.3s ease-out;
+          }
+     
+     .apropos-collapsable1{
+          @include collapse-aproposM();
+           //top: 484px;
+           top: 340px;
+          
+          
+         }
+      .apropos-collapsable2{
+           @include collapse-aproposM();
+           top: 625px;
+          
+          
+         }   
+      .apropos-collapsable3{
+           @include collapse-aproposM();
+           top: 842px;
+          
+          
+         }   
+      .apropos-collapsable4{
+           @include collapse-aproposM();
+           top: 1026px;
+          
+          
+      
+         }   
+
+}

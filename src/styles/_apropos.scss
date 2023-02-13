@@ -9,12 +9,8 @@
           background-size: cover;
           overflow: hidden;
           background: #1e1c1c3d;
-          
           mix-blend-mode: darken;
-         
           border-radius: 25px;
-
-
    
           .sectionimagekalen{
                position: absolute;
@@ -31,6 +27,44 @@
                display: none;
           }
      }
+     
+        
+}
+@media screen and (max-width: 375px){
+     .kasa-apropos{
+          @include pageLengthmobile();
+          .kasa-apropos-section1{
+               position: absolute;
+               width: 336px;
+               height: 223px;
+               left: 20px;
+               top: 84px;
+
+               background-size: cover;
+               overflow: hidden;
+               background: #1e1c1c3d;
+               mix-blend-mode: darken;
+               border-radius: 25px;
+        
+               .sectionimagekalen{
+                    display: none;
+               }
+               .sectionimagegustavo{
+                    display: unset;
+                    position: absolute;
+                    //width: 336px;
+                    height: 223px;
+                    //left: 20px;
+                    //top: 84px;
+                    width: 100%;
+                    mix-blend-mode: darken;
+                    border-radius: 25px;                  
+               }
+               
+          }
+          
+             
+     }     
      
         
 }

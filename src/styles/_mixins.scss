@@ -6,20 +6,36 @@
      position: relative;
      width: 1440px;
      height: 1024px;
-     
+
      background: #FFFFFF;
 }
-@mixin pageLengthDaproposOpen{
-     position: relative;
-     width: 1440px;
-     height: 1333px;
-     
-     background: #FFFFFF;
-}
+
 @mixin pageLengthmobile{
      position: relative;
      width: 375px;
      height: 812px;
 
      background: #FFFFFF;
+}
+
+// mixin composant collapse
+
+@mixin collapse-apropos{
+     position: absolute;
+     width: 1023px;
+     //height: 184px;
+     left: 208px;
+}
+@mixin pageLengthDaproposOpen{
+     position: absolute;
+     //width: 1440px;
+     height: 1333px;
+     
+    
+}
+@mixin collapse-aproposM{
+     position: absolute;
+     width: 335px;
+     height: 30px;
+     left: 20px;
 }

@@ -1,4 +1,6 @@
 @import "../styles/mixins.scss";
+
+
 .kasa-home {
      @include pageLengthdesktop();
      
@@ -11,15 +13,18 @@
      height: 1095px;
      left: 100px;
      top: 171px;
+     //width: 90%;
+   // height: 98%;
 
     
 }    
 .kasa-home-body-section1{
-     //position: absolute;
+     position: absolute;
      width: 1240px;
+     width: 100%;
      height: 223px;
-     left: 100px;
-     top: 171px;
+     //left: 100px;
+     //top: 171px;
  
      background: #1e1c1c3d;
      background-size: cover;
@@ -38,18 +43,27 @@
      }
      
      .kasa-home-body-section1-desk{
+         
+       
+
      h1{
+          
           position: absolute;
-          left: 21.9%;
+          left: 22.9%;
           right: 25.14%;
-          top: 9.32%;
-          bottom: 86.04%;
+          top: 30.32%;
+          bottom: 69.04%;
+          height: 68px;
+          width: 705px;
+          //left: 373px;
+          //top: 249px;
 
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 500;
           font-size: 48px;
           line-height: 142.6%;
+          letter-spacing: 3px;
           /* or 68px */
           
           //display: flex;
@@ -73,7 +87,7 @@
      width: 1240px;
      height: 829px;
      //height: 780px;
-     height: 2830px;
+     //height: 2830px;
      left: -3px;
      top: 278px;
     
@@ -90,18 +104,19 @@
    
           position: absolute;
           width: 336px;
-          height: 938px;
+          //height: 938px;
+          height:805px;
           left: 20px;
           top: 83px;
              
      }    
      
      .kasa-home-body-section1 { 
-          //position: absolute;
+          position: absolute;
           width: 335px;
           height: 111px;
-          left: 20px;
-          top: 83px;
+          //left: 20px;
+          //top: 83px;
           border-radius: 10px;
           
           .sectionimage{
@@ -115,14 +130,13 @@
                display: none;
           }
           .kasa-home-body-section1-mobile{
-               
             
                h1{
                     position: absolute;
-                    left: 5%;
+                    left: 5.6%;
                     right: 32.53%;
-                    top: 9.04%;
-                    bottom: 91.05%;
+                    top: 14.04%;
+                    bottom: 26.05%;
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 500;
