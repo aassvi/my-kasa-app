@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { dataCollapse } from './dataCollapse';
 
+
 const Collapsable = () => {
 const [isOpen, setIsOpen] = useState(Array(4).fill(false));
 
@@ -15,7 +16,7 @@ const [isOpen, setIsOpen] = useState(Array(4).fill(false));
 const allOpen = isOpen.every((open) => open);
 
   return (
-    <div className={`root ${allOpen ? 'all-open' : ''}`}>
+    <div className={`page ${allOpen ? 'all-open' : ''}`}>
       {dataCollapse.map((collapse, index) => (
         <div className={`apropos-collapsable${index + 1}`} key={index}>
           <div className='RectangleTitre' onClick={() => handleClick(index)}>

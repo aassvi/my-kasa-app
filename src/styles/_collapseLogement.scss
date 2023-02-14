@@ -40,14 +40,12 @@
                margin-left: 8px;
                transition: transform 0.3s ease;
                position: absolute;
-               
-             
-               left: 91.25%;
-               right: -39.88%;
-               top: 15.33%;
-               bottom: -6.83%;
-               height: 33px;
-                         
+               left: 92.75%;
+               right: 18.63%;
+               top: -7.33%;
+               bottom: -58.17%;
+               height: 55px;
+               font-size: 33px;
                color: #FFFFFF;
              }
              
@@ -58,7 +56,8 @@
              }
      }
      .RectangleTexte{ 
-          height: 300px;
+          //height: 300px;
+          height: 249px;
           width: 582px;
           //Top: 42px;
           position: absolute;
@@ -75,6 +74,7 @@
                height: 156px;
                width: 550px;
                //Top: 82px;
+               top: 20px;
                
                background-color: #f7f7f7;
 
@@ -157,7 +157,8 @@
              }
      }
      .RectangleTexte{  
-          height: 300px;
+          //height: 300px;
+          height: 249px;
           width: 582px;
           position: absolute;
           left: 0%;
@@ -172,6 +173,7 @@
                height: 182px;
                width: 550px;
                //Top: 82px;
+               top: 20px;
                left:20px;
                //border-radius: 5px;
                background-color: #f7f7f7;

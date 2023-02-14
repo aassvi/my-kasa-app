@@ -10,7 +10,7 @@
           .logement-rectangle3-texte{
                p{
                     position: absolute;
-                    left: 34.78%;
+                    left: 23.78%;
                     right: 35.65%;
                     top: 12%;
                     bottom: 8%;
@@ -40,9 +40,11 @@
      border-radius: 10px;
     
      .logement-rectangle3-texte{
+         display: flex;
+         align-items: center;
           p{
                position: absolute;
-               left: 32.17%;
+               left: 23.78%;
                right: 32.17%;
                top: 12%;
                bottom: 8%;
@@ -76,7 +78,7 @@
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 26.09%;
+               left: 23.78%;
                right: 26.96%;
                top: 12%;
                bottom: 8%;
@@ -94,5 +96,76 @@
      
           }
      }
+     
+
+}
+.logement-rectangle34{
+     position: absolute;
+     width: 115px;
+     height: 25px;
+     //left: 350px;
+     left: 389px;
+
+     //top: 670px;
+     background-color: #FF6060;
+     border-radius: 10px;
+    
+     .logement-rectangle3-texte{
+          p{
+               position: absolute;
+               left: 23.78%;
+               right: 26.96%;
+               top: 12%;
+               bottom: 8%;
+               
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 142.6%;
+               /* identical to box height, or 20px */
+               
+               text-align: center;
+               
+               color: #FFFFFF;
+     
+          }
+     }
+     
+
+}
+.logement-rectangle35{
+     position: absolute;
+     width: 115px;
+     height: 25px;
+     //left: 350px;
+     left: 518px;
+
+     //top: 670px;
+     background-color: #FF6060;
+     border-radius: 10px;
+    
+     .logement-rectangle3-texte{
+          p{
+               position: absolute;
+               left: 23.78%;
+               right: 26.96%;
+               top: 12%;
+               bottom: 8%;
+               
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 142.6%;
+               /* identical to box height, or 20px */
+               
+               text-align: center;
+               
+               color: #FFFFFF;
+     
+          }
+     }
+     
 
 }

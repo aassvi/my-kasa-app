@@ -1,326 +1,102 @@
-.root {
-     @include collapse-apropos();
-     .apropos-collapsable1 {
-          //@include collapse-apropos();
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 20px;
-          position: relative;
-          top:406px;
-       
-        
-        
-          .RectangleTitre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #FF6060;
-            border-radius: 5px;
-            cursor: pointer;
-            Width:1023px;
-            Height:47px;
-            
-            h3 {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-     
-               display: flex;
-               align-items: center;
-     
-               color: #FFFFFF;font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-     
-               display: flex;
-               align-items: center;
-     
-               color: #FFFFFF;
-            }
-            svg {
-              width: 25px;
-              height: 25px;
-              display: inline-block;
-          margin-left: 8px;
-          transition: transform 0.3s ease;
-          position: absolute;
-         
-        
-          left: 92.75%;
-          right: 18.63%;
-          top: -3.33%;
-          bottom: -58.17%;
-          height: 50px;
-          font-size: 50px;
-        
-          color: #FFFFFF;
-            }
-          }
-        
-          .RectangleTexte {
-            overflow: hidden;
-            height: 0;
-            transition: height 0.3s ease-out;
-          }
-        
-          .RectangleTexte.open {
-            height: auto;
-            transition: height 0.3s ease-out;
-          }
-        
-          .bis {
-            padding: 20px;
-            background: #F7F7F7;
-            border-radius: 5px;
-            //width: 71%;
-            p {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 400;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-
-               //width: 71%;
-     
-     
-               color: #FF6060;
-     
-            }
-          }
-        }
-        .apropos-collapsable2 {
-          //@include collapse-apropos();
+.page {
+  @include collapse-apropos();
+  .apropos-collapsable1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        top:406px;
+  }
+  .RectangleTitre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #FF6060;
+    border-radius: 5px;
+    cursor: pointer;
+    Width:1023px;
+    Height:47px;
+          
+    h3 {
+      margin: 0;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 142.6%;
+      /* or 34px */
+      display: flex;
+      align-items: center;
+      color: #FFFFFF; 
+    }
+    svg {
+      display: inline-block;
+      position: absolute;         
+      left: 93.75%;
+      right: 18.63%;
+      width: 66px;
+      height: 36px;
+      color: #FFFFFF;
+      transition: transform 0.3s ease;
+    }
+  }
       
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 20px;
-          position: relative;
-          //top:484px;
-          top: 422px;
-        
-          .RectangleTitre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #FF6060;
-            border-radius: 5px;
-            cursor: pointer;
-            Width:1023px;
-            Height:47px;
-            
-            h3 {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-     
-               display: flex;
-               align-items: center;
-     
-               color: #FFFFFF;
-            }
-            svg {
-              width: 25px;
-              height: 25px;
-            }
-          }
-        
-          .RectangleTexte {
-            overflow: hidden;
-            height: 0;
-            transition: height 0.3s ease-out;
-          }
-        
-          .RectangleTexte.open {
-            height: auto;
-            transition: height 0.3s ease-out;
-          }
-        
-          .bis {
-            padding: 20px;
-            background: #F7F7F7;
-            border-radius: 5px;
-            //width: 71%;
-            p {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 400;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-               //width: 71%;
-     
-     
-               color: #FF6060;
-     
-            }
-          }
-        }
-        .apropos-collapsable3 {
-         // @include collapse-apropos();
+  .RectangleTexte {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease-out;
+  }
       
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 20px;
-          position: relative;
-          //top:699px;
-          top: 439px;
-        
-          .RectangleTitre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #FF6060;
-            border-radius: 5px;
-            cursor: pointer;
-            Width:1023px;
-            Height:47px;
-            
-            h3 {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-     
-               display: flex;
-               align-items: center;
-     
-               color: #FFFFFF;
-            }
-            svg {
-              width: 25px;
-              height: 25px;
-            }
-          }
-        
-          .RectangleTexte {
-            overflow: hidden;
-            height: 0;
-            transition: height 0.3s ease-out;
-          }
-        
-          .RectangleTexte.open {
-            height: auto;
-            transition: height 0.3s ease-out;
-          }
-        
-          .bis {
-            padding: 20px;
-            background: #F7F7F7;
-            border-radius: 5px;
-            //width: 71%;
-            p {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 400;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-               //width: 71%;
-     
-     
-               color: #FF6060;
-     
-            }
-          }
-        }
-        .apropos-collapsable4 {
-          //@include collapse-apropos();
+  .RectangleTexte.open {
+    height: auto;
+    transition: height 0.3s ease-out;
+  }
       
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 20px;
-          position: relative;
-          //top:776px;
-          top: 454px;
-        
-          .RectangleTitre {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: #FF6060;
-            border-radius: 5px;
-            cursor: pointer;
-            Width:1023px;
-            Height:47px;
-            
-            h3 {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-     
-               display: flex;
-               align-items: center;
-     
-               color: #FFFFFF;
-            }
-            svg {
-              width: 25px;
-              height: 25px;
-            }
-          }
-        
-          .RectangleTexte {
-            overflow: hidden;
-            height: 0;
-            transition: height 0.3s ease-out;
-          }
-        
-          .RectangleTexte.open {
-            height: auto;
-            transition: height 0.3s ease-out;
-          }
-        
-          .bis {
-            padding: 20px;
-            background: #F7F7F7;
-            border-radius: 5px;
-            //width: 71%;
-            p {
-              margin: 0;
-              font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 400;
-               font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
-              // width: 71%;
-     
-     
-               color: #FF6060;
-     
-            }
-          }
-        }
-     
+  .bis {
+    padding: 20px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    //width: 71%;
+      p {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 142.6%;
+        /* or 34px */
+        //width: 71%;
+        color: #FF6060;
+      }
+  }
+  .apropos-collapsable2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    //top:484px;
+    top: 422px;
+  }
+  .apropos-collapsable3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    //top:699px;
+    top: 439px;
+  }
+  .apropos-collapsable4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    //top:776px;
+    top: 454px;
+  }     
 }
 
-.root.all-open {
+.page.all-open {
      /* Styles pour la longueur de la page si tous les éléments sont ouverts */
      @include pageLengthDaproposOpen();
     
