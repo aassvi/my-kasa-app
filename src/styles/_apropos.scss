@@ -34,6 +34,7 @@
 @media screen and (max-width: 375px){
      .kasa-apropos{
           @include pageLengthmobile();
+          margin-bottom: 0%;
           .kasa-apropos-section1{
                position: absolute;
                width: 336px;
@@ -45,7 +46,7 @@
                overflow: hidden;
                background: #1e1c1c3d;
                mix-blend-mode: darken;
-               border-radius: 25px;
+               border-radius: 10px;
         
                .sectionimagekalen{
                     display: none;
@@ -59,7 +60,7 @@
                     //top: 84px;
                     width: 100%;
                     mix-blend-mode: darken;
-                    border-radius: 25px;                  
+                    border-radius: 10px;                  
                }
                
           }

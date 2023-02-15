@@ -1,3 +1,25 @@
+.logement-rectangle3-texte{
+     p{
+          position: absolute;
+          left: 23.78%;
+          right: 35.65%;
+          top: 12%;
+          bottom: 8%;
+
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 142.6%;
+          /* identical to box height, or 20px */
+
+          text-align: center;
+
+          color: #FFFFFF;
+
+     }
+}
+
 .logement-rectangle31{
      position: absolute;
      width: 115px;
@@ -7,27 +29,7 @@
      background: #FF6060;
      border-radius: 10px;
           
-          .logement-rectangle3-texte{
-               p{
-                    position: absolute;
-                    left: 23.78%;
-                    right: 35.65%;
-                    top: 12%;
-                    bottom: 8%;
-
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 142.6%;
-                    /* identical to box height, or 20px */
-
-                    text-align: center;
-
-                    color: #FFFFFF;
-
-               }
-          }
+          
 }
 .logement-rectangle32{
      position: absolute;
@@ -39,30 +41,7 @@
      background-color: #FF6060;
      border-radius: 10px;
     
-     .logement-rectangle3-texte{
-         display: flex;
-         align-items: center;
-          p{
-               position: absolute;
-               left: 23.78%;
-               right: 32.17%;
-               top: 12%;
-               bottom: 8%;
-
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 14px;
-               line-height: 142.6%;
-               /* identical to box height, or 20px */
-
-               text-align: center;
-
-               color: #FFFFFF;
-
-          }
-     }
-
+    
 }
 .logement-rectangle33{
      position: absolute;
@@ -74,29 +53,6 @@
      //top: 670px;
      background-color: #FF6060;
      border-radius: 10px;
-    
-     .logement-rectangle3-texte{
-          p{
-               position: absolute;
-               left: 23.78%;
-               right: 26.96%;
-               top: 12%;
-               bottom: 8%;
-               
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 14px;
-               line-height: 142.6%;
-               /* identical to box height, or 20px */
-               
-               text-align: center;
-               
-               color: #FFFFFF;
-     
-          }
-     }
-     
 
 }
 .logement-rectangle34{
@@ -109,30 +65,7 @@
      //top: 670px;
      background-color: #FF6060;
      border-radius: 10px;
-    
-     .logement-rectangle3-texte{
-          p{
-               position: absolute;
-               left: 23.78%;
-               right: 26.96%;
-               top: 12%;
-               bottom: 8%;
-               
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 14px;
-               line-height: 142.6%;
-               /* identical to box height, or 20px */
-               
-               text-align: center;
-               
-               color: #FFFFFF;
-     
-          }
-     }
-     
-
+   
 }
 .logement-rectangle35{
      position: absolute;
@@ -144,28 +77,94 @@
      //top: 670px;
      background-color: #FF6060;
      border-radius: 10px;
-    
+ 
+}
+
+@media screen and (max-width: 375px){
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 23.78%;
-               right: 26.96%;
+               left: 25%;
+               right: 36.82%;
                top: 12%;
-               bottom: 8%;
-               
+               bottom: 10.22%;
+
                font-family: 'Montserrat';
                font-style: normal;
                font-weight: 500;
-               font-size: 14px;
+               font-size: 10px;
                line-height: 142.6%;
-               /* identical to box height, or 20px */
-               
+     
                text-align: center;
-               
+     
                color: #FFFFFF;
      
           }
      }
      
+     .logement-rectangle31{
+          position: absolute;
+          width: 84px;
+          height: 18px;
+          left: 0px;
+          //top: 670px;
+          top: -214px;
+          background: #FF6060;
+          border-radius: 5px;
+         
+               
+     }
+     .logement-rectangle32{
+          position: absolute;
+          width: 84px;
+          height: 18px;
+          //left: 225px;
+          left: 94px;
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+         
+         
+     }
+     .logement-rectangle33{
+          position: absolute;
+          width: 84px;
+          height: 18px;
+          //left: 350px;
+          left: 187px;
+     
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+     
+     }
+     .logement-rectangle34{
+          position: absolute;
+          width: 84px;
+          height: 18px;
+          //left: 350px;
+          left: 389px;
+     
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+        
+     }
+     .logement-rectangle35{
+          position: absolute;
+          width: 84px;
+          height: 18px;
+          //left: 350px;
+          left: 518px;
+     
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+      
+     }    
 
 }

@@ -8,21 +8,13 @@
      //top: 652px;
      top: 518px;
      z-index: auto;
-   
-    
-  
-     
 
 }
 .HostRate-rate-etoile img{
-     
-           //position: absolute;
           width: 36px;
           height: 36px;
           left: 1144px;
           top: 652px;
-          
-     
 }
 .HostRate-host{
      
@@ -68,4 +60,69 @@
      }
 }
 
+@media screen and (max-width: 375px){
+     .HostRate-rate{
+          position: absolute;
+          width: 180px;
+          height: 18px;
+          left: 0%;
+          
+          //left: 1144px;
+          //left: 1053px;
+          //top: 652px;
+          top: 352px;
+          //z-index: auto;
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 15px;
+               height: 15px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+          
+          .HostRate-host-name {
+               position: absolute;
+               width: 93px;
+               height: 33px;
+               //left: 1170px;
+               left: 235px;
+               //top: 573px;
+               top: 334px;
+          
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 12px;
+               line-height: 142.6%;
+               /* or 26px */
+          
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 32px;
+               height: 32px;
+               //left: 1273px;
+               left: 300px;
+               //top: 567px;
+               top: 349px;
+              
+               //background: #C4C4C4;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+     
 
+}

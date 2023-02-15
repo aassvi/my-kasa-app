@@ -19,6 +19,7 @@ function Apropos(){
                <Collapsable/>
           </div>
           <Footer/>
+         
           </>
      )
 }
