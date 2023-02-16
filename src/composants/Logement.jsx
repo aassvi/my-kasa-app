@@ -5,7 +5,7 @@ import Header from './Header';
 import HostRate from './HostRate';
 import { data } from './data';
 import Error from './Error';
-import Collapsable from './CollapseLogement';
+import Collapse from './testcollapse';
 import Tag from './Tag';
 import Footer from './Footer';
 
@@ -32,7 +32,8 @@ function Logement() {
                          <HostRate />
                          <div className="kasa-logement-body-content">
                               <Tag/>                              
-                              <Collapsable/>
+                              <Collapse data={data} id={id} type="data1" />
+                              
                          </div>
                     </div>
                </div>
@@ -42,7 +43,7 @@ function Logement() {
 }
 
 export default Logement;
-
+//<Collapse data={data1} id={id} type="data1" />
 /*
 import React from 'react';
 import Carousel from './Carousel';
