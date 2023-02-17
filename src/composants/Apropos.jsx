@@ -21,7 +21,7 @@ function Apropos(){
                </div>  
                <Collapse data={dataCollapse}  type="data2" />
           </div>
-          <Footer/>
+          <Footer footerTop='240px'/>
          
           </>
      )

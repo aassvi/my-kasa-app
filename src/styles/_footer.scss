@@ -2,6 +2,8 @@
 .kasa-footer{
     
      position: relative;
+     //position: fixed;
+     //bottom: 0;
      width: 1440px;
      height: 209px;
      background: #000000;
@@ -57,7 +59,7 @@
      background: #000000;
     
      //top: 4333px;
-     top: 2269px;
+     //top: 2269px;
      
      
      .kasa-footer-elements{
@@ -127,7 +129,7 @@
                     font-size: 12px;
                     line-height: 142.6%;
                     /* or 17px */
-
+                    width: 74%;
                     display: flex;
                     align-items: flex-end;
                     text-align: center;
