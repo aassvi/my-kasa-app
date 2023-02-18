@@ -1,10 +1,177 @@
 import React, { useState } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { dataCollapse } from './dataCollapse';
 
 
-const Collapsable = () => {
-const [isOpen, setIsOpen] = useState(Array(4).fill(false));
+const Collapse = ({ title, content }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className="collapse-container ">
+      <div className="collapse-wrapper">
+        <div className="collapse-header  ">
+          <h3>{title}</h3>
+          <KeyboardArrowDownIcon
+            className={`collapse-icon ${isOpen ? 'open' : 'closed'}`}
+            onClick={handleToggle}
+          />
+        </div>
+        {isOpen ? (
+          <div className="collapse-content">
+            {Array.isArray(content) ? (
+              <ul>
+                {content.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>{content}</p>
+            )}
+          </div>
+        ) : (
+          <div className="collapse-content-closed">
+            {Array.isArray(content) ? (
+              <ul>
+                {content.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>{content}</p>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Collapse;
+
+/*
+.collapse-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.collapse-wrapper {
+  background-color: #eee;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.collapse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.collapse-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.collapse-content {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.collapse-content-closed {
+  height: 0;
+  overflow: hidden;
+}
+
+
+/*.collapse-container {
+  margin-bottom: 1rem;
+  background-color: #eee;
+  padding: 1rem;
+
+  .collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .collapse-title {
+      margin: 0;
+    }
+
+    .collapse-icon {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .collapse-icon.open {
+      transform: rotate(180deg);
+    }
+  }
+
+  .collapse-content {
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .collapse-content ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .collapse-content li {
+    list-style: none;
+  }
+
+  .collapse-content div:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+
+
+
+/*****************************************
+import React, { useState } from 'react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+
+const Collapse = ({ data, id, type }) => {
+  const [isOpen, setIsOpen] = useState([false, false]);
+
+  const filteredData = data.filter((item) => item.id === id);
+
+  if (!filteredData.length) {
+    return null;
+  }
+
+  const item = filteredData[0];
 
   const handleClick = (index) => {
     const newIsOpen = [...isOpen];
@@ -12,12 +179,49 @@ const [isOpen, setIsOpen] = useState(Array(4).fill(false));
     setIsOpen(newIsOpen);
   };
 
-
-const allOpen = isOpen.every((open) => open);
+  if (type === 'data1') {
+    return (
+      <div className="collapsable">
+        <div className={`collapsable-item ${isOpen[0] ? 'open' : ''}`}>
+          <div className="RectangleTitre" onClick={() => handleClick(0)}>
+            <h3>Description</h3>
+            <KeyboardArrowDownIcon
+              style={{ transform: isOpen[0] ? 'rotate(180deg)' : 'rotate(0deg)' }}
+            />
+          </div>
+          {isOpen[0] && (
+            <div className="RectangleTexte">
+              {item.description && <p>{item.description}</p>}
+            </div>
+          )}
+        </div>
+        <div className={`collapsable-item ${isOpen[1] ? 'open' : ''}`}>
+          <div className="RectangleTitre" onClick={() => handleClick(1)}>
+            <h3>Equipements</h3>
+            <KeyboardArrowDownIcon
+              style={{ transform: isOpen[1] ? 'rotate(180deg)' : 'rotate(0deg)' }}
+            />
+          </div>
+          {isOpen[1] && (
+            <div className="RectangleTexte">
+              {item.equipments && (
+                <ul>
+                  {item.equipments.map((equipment, index) => (
+                    <li key={index}>{equipment}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  } else if (type === 'data2') {
+     const allOpen = isOpen.every((open) => open);
 
   return (
     <div className={`page ${allOpen ? 'all-open' : ''}`}>
-      {dataCollapse.map((collapse, index) => (
+      {data.map((collapse, index) => (
         <div className={`apropos-collapsable${index + 1}`} key={index}>
           <div className='RectangleTitre' onClick={() => handleClick(index)}>
             <h3>{collapse.titre}</h3>
@@ -34,184 +238,18 @@ const allOpen = isOpen.every((open) => open);
       ))}
     </div>
   );
-};
-
-export default Collapsable;
-/*
-const Collapsable = () => {
-  const [isOpen, setIsOpen] = useState(Array(4).fill(false));
-
-  const handleClick = (index) => {
-    const newIsOpen = [...isOpen];
-    newIsOpen[index] = !newIsOpen[index];
-    setIsOpen(newIsOpen);
-  };
-
-  return (
-    <>
-      {dataCollapse.map((collapse, index) => (
-        <div className={`apropos-collapsable${index + 1}`} key={index}>
-          <div className='RectangleTitre' onClick={() => handleClick(index)}>
-            <h3>{collapse.titre}</h3>
-            <KeyboardArrowDownIcon style={{ transform: isOpen[index] ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-          </div>
-          {isOpen[index] && (
-            <div className={`RectangleTexte ${isOpen[index] ? 'open' : ''}`}>
-              <div className='bis'>
-                <p>{collapse.texte}</p>
-              </div>
-            </div>
-          )}
-        </div>
-      ))}
-    </>
-  );
-};
-
-
-
-export default Collapsable;
-/*
-import React, { useState } from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
-const Collapsable = () => {
-  const [isOpen1, setIsOpen1] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
-  const [isOpen4, setIsOpen4] = useState(false);
-
-  return (
-    <>
-      <div className="apropos-collapsable1">
-          <div className='RectangleTitre' onClick={() => setIsOpen1(!isOpen1)}>
-            <h3>Fiabilité</h3>
-            <KeyboardArrowDownIcon style={{ transform: isOpen1 ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-          </div>
-          {isOpen1 && (
-            <div  className='RectangleTexte'>
-              <div className='bis'>
-              <p >Contenu La fiabilité  vient de la map dataCollapse</p>
-            </div>
-            </div>
-          )}
-        </div>
-        <div className="apropos-collapsable2">
-          <div className='RectangleTitre' onClick={() => setIsOpen2(!isOpen2)}>
-            <h3>Respect</h3>
-            <KeyboardArrowDownIcon style={{ transform: isOpen2 ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-          </div>
-          {isOpen2 && (
-            <div  className='RectangleTexte'>
-              <div className='bis'>
-              <p >Contenu La bienveillance vient de la map dataCollapse</p>
-            </div>
-            </div>
-          )}
-        </div>
-        <div className="apropos-collapsable3">
-          <div className='RectangleTitre' onClick={() => setIsOpen3(!isOpen3)}>
-            <h3>Service</h3>
-            <KeyboardArrowDownIcon style={{ transform: isOpen3 ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-          </div>
-          {isOpen3 && (
-            <div  className='RectangleTexte'>
-              <div className='bis'>
-              <p >Contenu La bienveillance vient de la map dataCollapse</p>
-            </div>
-            </div>
-          )}
-        </div>
-        
-        <div className="apropos-collapsable4">
-          <div className='RectangleTitre' onClick={() => setIsOpen4(!isOpen4)}>
-            <h3>Securité</h3>
-            <KeyboardArrowDownIcon style={{ transform: isOpen4 ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-          </div>
-          {isOpen4 && (
-            <div  className='RectangleTexte'>
-              <div className='bis'>
-              <p >Contenu La bienveillance vient de la map dataCollapse</p>
-            </div>
-            </div>
-          )}
-        </div>
-      
-    </>
-  );
-};
-
-export default Collapsable;
-
-
-/*
-import React, { useState } from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
-const Collapsable = ({ title, children }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <div className="apropos-collapsable">
-      <div className='RectangleTitre' onClick={() => setIsOpen(!isOpen)}>
-        <h3>{title}</h3>
-        <KeyboardArrowDownIcon style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }} />
-      </div>
-      {isOpen && (
-        <div  className='RectangleTexte'>
-          <div className='bis'>
-            {children}
-          </div>
-        </div>
-      )}
-      
-    </div>
-  );
-};
-
-export default Collapsable;
-
-
-
-
-
-
-const dataCollapse = [
-  {
-    title: 'Respect',
-    children: <p>Contenu La respect vient de la map dataCollapse</p>
-  },
-  {
-    title: 'Tolérance',
-    children: <p>Contenu La tolérance vient de la map dataCollapse</p>
+  } else {
+    return null;
   }
-];
+};
+
+export default Collapse;
 
 
-function Apropos(){
-  return (
-       <>
-       <Header/>
-       <div className='kasa-apropos'>
-            <div className='kasa-apropos-section1'>  
-            <img src={kalen2} className= 'sectionimagekalen'alt="paysage kalen" />       
-            <img src={gustavo} className= 'sectionimagegustavo'alt="paysage gustavo" />  
-            </div>   
-       
-            <div>
-            <div className="collapse-container">
-                 {dataCollapse.map((item, index) => (
-                 <Collapsable key={index} title={item.title}>
-                 {item.children}
-                 </Collapsable>
-                 ))}
-            </div>
-       </div>
 
-       </div>
-       </>
-  )
-}
+// <Collapse data={data1} id={id} type="data1" />
+//import { dataCollapse as data2 } from './dataCollapse';
+// <Collapse data={data2}  type="data2" />
 
-export default Apropos;
 */
+

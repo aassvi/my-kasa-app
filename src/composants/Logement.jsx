@@ -5,7 +5,7 @@ import Header from './Header';
 import HostRate from './HostRate';
 import { data } from './data';
 import Error from './Error';
-import Collapse from './testcollapse';
+import Collapse from './Collapse';
 import Tag from './Tag';
 import Footer from './Footer';
 
@@ -19,7 +19,7 @@ function Logement() {
     if(!appart){
         return <Error/>
     }
-
+    const { description, equipments } = appart;
      return (
                
                <>
@@ -31,13 +31,15 @@ function Logement() {
                          </div>
                          <HostRate />
                          <div className="kasa-logement-body-content">
-                              <Tag/>                              
-                              <Collapse data={data} id={id} type="data1" />
-                              
+                              <Tag/> 
+                              <div className="logement-collapse">                             
+                              <Collapse title="Description" content={description} className="collapse-custom1"/>
+                              <Collapse title="Equipements" content={equipments} className="collapse-custom2" />
+                              </div>
                          </div>
                     </div>
                </div>
-               <Footer/>
+               <Footer />
                </>
      );
 }

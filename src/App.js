@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/_home.scss';
 import {Routes , Route} from 'react-router-dom';
 import Home from './composants/Home';
 import Apropos from './composants/Apropos';
