@@ -4,11 +4,11 @@
      height: 1024px;
 
      background: #FFFFFF;
-     #error{
+     .error{
           position: absolute;
-          left: 0%;
+          left: 30%;
           right: 0%;
-          top: 0%;
+          top: -30%;
           bottom: 0%;
      
           font-family: 'Montserrat';
@@ -26,29 +26,32 @@
      
      }
      
-     h1{
+     h2{
           position: absolute;
           left: 20.49%;
           right: 18.96%;
           top: 59.18%;
           bottom: 35.84%;
-          
+
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 500;
           font-size: 36px;
           line-height: 142.6%;
           /* or 51px */
-          
+
           display: flex;
           align-items: flex-end;
-          
+
           color: #FF6060;
-          
+
+     }
+     h3{
+          display: none;
      }
      p{
           position: absolute;
-          left: 40.14%;
+          left: 38.14%;
           right: 40.14%;
           top: 81.93%;
           bottom: 15.53%;
@@ -67,3 +70,83 @@
           color: #FF6060;
      }
 }
+@media screen and (max-width: 375px){
+     .kasa-error{
+          position: relative;
+          width: 375px;
+        
+     
+          background: #FFFFFF;
+          .error{
+               position: absolute;
+               left: 29%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 96px;
+               line-height: 142.6%;
+               /* or 137px */
+
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+         h2{
+          display: none;
+         }
+          h3{
+               position: absolute;
+               left: 23.27%;
+               right: 20.8%;
+               top: 49.6%;
+               bottom: 49.94%;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 142.6%;
+               /* or 26px */
+
+               display: flex;
+               align-items: flex-end;
+               text-align: center;
+
+               color: #FF6060;
+
+               }
+
+               
+          p{
+               position: absolute;
+               left: 27.27%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 142.6%;
+               /* identical to box height, or 20px */
+
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+
+               color: #FF6060;
+
+          }
+     }
+}
+    
+
+     

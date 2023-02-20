@@ -35,6 +35,18 @@
      }
 }
 
+@media screen and  (min-width: 1600px) and (max-width: 2000px){
+     .kasa-logement { 
+     margin-left: 10%;
+     }
+     
+ }
+ @media screen and  (min-width: 2001px){
+     .kasa-logement { 
+     margin-left: 15%;
+     }
+     
+ } 
 @media screen and (max-width: 375px){
      .kasa-logement{
           @include pageLengthmobile();

@@ -26,7 +26,7 @@ function Apropos(){
                 ))}
                      </div>   
           </div>
-          <Footer footerTop='240px'/>
+          <Footer footerTop='15%'/>
          
           </>
      )

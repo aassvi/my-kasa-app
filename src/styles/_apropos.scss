@@ -31,6 +31,24 @@
      
         
 }
+@media screen and (min-width: 375px) and (max-width: 1439px){
+     .kasa-apropos{
+          margin-bottom: 220px;
+     }
+}
+     
+
+@media screen and  (min-width: 1600px) and (max-width: 2000px){
+     .kasa-apropos { 
+     margin-left: 10%;
+     }
+}
+
+@media screen and  (min-width: 2001px) {
+     .kasa-apropos { 
+     margin-left: 15%;
+     }
+}
 @media screen and (max-width: 375px){
      .kasa-apropos{
           @include pageLengthmobile();

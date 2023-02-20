@@ -29,6 +29,7 @@ function Home(){
                      <Thumb/>
                     </div>                 
                </div>
+               
           </div>
           <Footer/>
           </>

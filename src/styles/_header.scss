@@ -77,6 +77,18 @@
     }
 }
 
+@media screen and  (min-width: 1600px) and (max-width: 2000px) {
+    .kasa-header { 
+    margin-left: 10%;
+    }
+    
+}
+@media screen and  (min-width: 2001px){
+    .kasa-header { 
+        margin-left: 15%;
+        }
+}
+
 //styles CSS pour les écrans de 375 pixels ou moins 
 @media screen and (max-width: 375px){
     .kasa-header {
