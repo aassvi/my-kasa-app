@@ -15,7 +15,7 @@ function Apropos(){
           <>
           <Header/>
           <div className='kasa-apropos'>
-               <div className='kasa-apropos-section1'>  
+               <div className='kasa-apropos_section1'>  
                     <img src={kalen2} className= 'sectionimagekalen'alt="paysage kalen" />       
                     <img src={gustavo} className= 'sectionimagegustavo'alt="paysage gustavo" />  
                </div> 
@@ -25,10 +25,12 @@ function Apropos(){
                 ))}
                      </div>   
           </div>
-          <Footer footerTop='15%'/>
+          <Footer/>
          
           </>
      )
 }
 
 export default Apropos;
+
+// <Footer footerTop='15%'/>

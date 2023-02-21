@@ -121,14 +121,9 @@
     //top:776px;
     top: 454px;
   }
-/*
-  @media screen and  (min-width: 1441px) {
 
-    .apropos-collapse{
-      margin-left: 10%;
-    }
-  }
-  */
+  
+
   @media screen and (max-width: 375px){
     @include collapse-aproposM();
     top: 340px;
@@ -251,7 +246,20 @@
     }
   }
 }
+@media screen and (min-width: 1600px) and (max-width: 2559px) {
+  .apropos-collapse {
+    left: 22%;
+    
+  }
+  
+}
+@media screen and  (min-width: 2560px) {
 
+  .apropos-collapse {
+    left: 27%;
+    
+  }
+}
 
 /* Scss logement collapse ***********************************************************************/
 .logement-collapse {
@@ -298,13 +306,12 @@
 
         .collapse-icon {
           transition: transform 0.3s ease-in-out;
-          width: 24px;
-          height: 24px;
+          width: 90px;
+          height: 35px;
           color: #FFFFFF;
-      
-      
-        
-
+          position: absolute;
+          left: 89%;
+    
           &.open {
             transform: rotate(180deg);
           }
@@ -421,9 +428,12 @@
       }
       .collapse-icon {
         transition: transform 0.3s ease-in-out;
-        width: 20px;
-        height: 20px;
+        width: 60px;
+        height: 26px;
         color: #FFFFFF;
+        position: absolute;
+        left: 86%;
+
   
         &.open {
           transform: rotate(180deg);

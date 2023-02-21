@@ -143,31 +143,41 @@
           border-radius: 5px;
      
      }
-     .logement-rectangle34{
-          position: absolute;
-          width: 84px;
-          height: 18px;
-          //left: 350px;
-          left: 389px;
      
-          //top: 670px;
-          top: -214px;
-          background-color: #FF6060;
-          border-radius: 5px;
+     .logement-rectangle34{
+          display:none
         
      }
      .logement-rectangle35{
-          position: absolute;
-          width: 84px;
-          height: 18px;
-          //left: 350px;
-          left: 518px;
-     
-          //top: 670px;
-          top: -214px;
-          background-color: #FF6060;
-          border-radius: 5px;
-      
+          display: none;
      }    
 
 }
+/*
+.logement-rectangle34{
+     position: absolute;
+     width: 84px;
+     height: 18px;
+     //left: 350px;
+     left: 389px;
+
+     //top: 670px;
+     top: -214px;
+     background-color: #FF6060;
+     border-radius: 5px;
+   
+}
+.logement-rectangle35{
+     position: absolute;
+     width: 84px;
+     height: 18px;
+     //left: 350px;
+     left: 518px;
+
+     //top: 670px;
+     top: -214px;
+     background-color: #FF6060;
+     border-radius: 5px;
+ 
+}    
+*/

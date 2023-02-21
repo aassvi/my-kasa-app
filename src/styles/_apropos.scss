@@ -1,7 +1,8 @@
 .kasa-apropos{
      @include pageLengthdesktop();
-     margin-bottom: 150px;
-     .kasa-apropos-section1{
+     //margin-bottom: 150px;
+     margin-bottom: 220px;
+     .kasa-apropos_section1{
           position: absolute;
           width: 1240px;
           height: 223px;
@@ -38,23 +39,29 @@
 }
      
 
-@media screen and  (min-width: 1600px) and (max-width: 2000px){
-     .kasa-apropos { 
-     margin-left: 10%;
+@media screen and  (min-width: 1600px) and (max-width: 2559px){
+     .kasa-apropos{
+          
+          .kasa-apropos_section1{
+              left: 17%;
      }
 }
+}
 
-@media screen and  (min-width: 2001px) {
-     .kasa-apropos { 
-     margin-left: 15%;
+@media screen and  (min-width: 2560px) {
+     .kasa-apropos{
+          
+          .kasa-apropos_section1{
+              left: 23%;
      }
+}
 }
 @media screen and (max-width: 375px){
      .kasa-apropos{
           @include pageLengthmobile();
           margin-bottom: 0%;
          
-          .kasa-apropos-section1{
+          .kasa-apropos_section1{
                position: absolute;
                width: 336px;
                height: 223px;
