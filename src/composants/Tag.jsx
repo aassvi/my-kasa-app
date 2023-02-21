@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import { data } from './data';
+import { data } from '../services/data';
 
 function Tag() {
      const { id } = useParams();

@@ -1,12 +1,11 @@
 import React from 'react';
-//import Collapsable from './Collapse';
 import Collapse from './Collapse';
 import Header from './Header';
 import kalen2 from '../assets/kalen2.png';
 import gustavo from '../assets/gustavo.png';
 import Footer from './Footer';
 
-import { dataCollapse  } from './dataCollapse';
+import { dataCollapse  } from '../services/dataCollapse';
 
 
 
@@ -33,4 +32,3 @@ function Apropos(){
 }
 
 export default Apropos;
-//<Collapse data={dataCollapse}  type="data2" />

@@ -1,7 +1,6 @@
-
 import React, { useState} from 'react';
 import { useParams } from 'react-router-dom';
-import { data } from './data';
+import { data } from '../services/data';
 
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
-import { data } from './data';
+import { data } from '../services/data';
 import etoile from '../assets/etoile.png';
 import etoilegrise from '../assets/etoilegrise.png';
 
