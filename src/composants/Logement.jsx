@@ -24,6 +24,7 @@ function Logement() {
                
                <>
                <Header />
+               <div className='kasa-page'>
                <div className="kasa-logement">
                     <div className="kasa-logement-body">
                          <div className="kasa-logement-body-carousel">
@@ -38,6 +39,7 @@ function Logement() {
                               </div>
                          </div>
                     </div>
+               </div>
                </div>
                <Footer />
                </>

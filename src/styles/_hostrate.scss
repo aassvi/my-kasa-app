@@ -27,13 +27,9 @@
           //top: 573px;
           top: 442px;
      
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 500;
+          @include  policeStyle1();
           font-size: 18px;
-          line-height: 142.6%;
-          /* or 26px */
-     
+      
           display: flex;
           align-items: flex-end;
           text-align: right;
@@ -66,10 +62,6 @@
           width: 180px;
           height: 18px;
           left: 0%;
-          
-          //left: 1144px;
-          //left: 1053px;
-          //top: 652px;
           top: 352px;
           //z-index: auto;
      
@@ -84,24 +76,15 @@
           
           .HostRate-host-name {
                position: absolute;
-               //width: 93px;
-               //height: 33px;
-               //left: 1170px;
-               //left: 235px;
-               //top: 573px;
-               //top: 334px;
+             
                width: 62px;
                height: 33px;
                left: 230px;
                top: 348px;
           
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
+               @include  policeStyle1();
                font-size: 12px;
-               line-height: 142.6%;
-               /* or 26px */
-          
+             
                display: flex;
                align-items: flex-end;
                text-align: right;

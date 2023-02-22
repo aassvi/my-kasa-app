@@ -32,20 +32,25 @@
      
         
 }
-@media screen and (min-width: 375px) and (max-width: 1439px){
-     .kasa-apropos{
-          margin-bottom: 220px;
-     }
-}
+
      
 
-@media screen and  (min-width: 1600px) and (max-width: 2559px){
+@media screen and  (min-width: 1600px) and (max-width: 2000px){
+     .kasa-apropos{
+          
+          .kasa-apropos_section1{
+              left: 13%;
+          }
+     }
+}
+@media screen and  (min-width: 2001px) and (max-width: 2559px){
      .kasa-apropos{
           
           .kasa-apropos_section1{
               left: 17%;
+           }
      }
-}
+
 }
 
 @media screen and  (min-width: 2560px) {
@@ -53,13 +58,13 @@
           
           .kasa-apropos_section1{
               left: 23%;
+          }
      }
-}
 }
 @media screen and (max-width: 375px){
      .kasa-apropos{
           @include pageLengthmobile();
-          margin-bottom: 0%;
+          margin-bottom: 10%;
          
           .kasa-apropos_section1{
                position: absolute;

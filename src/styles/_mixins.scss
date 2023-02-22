@@ -12,9 +12,7 @@
 @mixin pageLengthmobile{
      position: relative;
      width: 375px;
-     //height: 812px;
-
-     //background: #FFFFFF;
+    
 }
 
 // mixin composant collapse
@@ -22,19 +20,9 @@
 @mixin collapse-apropos{
      position: absolute;
      width: 1023px;
-     //height: 184px;
      left: 208px;
 }
-@mixin pageLengthDaproposOpen{
-     position: absolute;
-     //width: 1440px;
-     height: 1333px;
-        
-     //height: 1400px;
-     //flex-grow: 1;
-     
-    
-}
+
 @mixin collapse-aproposM{
      position: absolute;
      width: 335px;
@@ -42,3 +30,11 @@
      left: 20px;
 }
 
+// mixin style police 
+@mixin policeStyle1{
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     line-height: 142.6%;
+     
+}

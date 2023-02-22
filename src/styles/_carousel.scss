@@ -59,11 +59,9 @@
     top: 63.96%;
     bottom: 24.06%;
      
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
+    @include  policeStyle1();
     font-size: 36px;
-    line-height: 142.6%;
+   
     /* or 51px */
         
     display: flex;
@@ -83,11 +81,9 @@
     top: 57.94%;
     bottom: 19.52%;
  
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
+    @include  policeStyle1();
     font-size: 18px;
-    line-height: 142.6%;
+    
     /* identical to box height, or 26px */
   
     display: flex;
@@ -168,12 +164,8 @@
       //text-overflow: ellipsis;
       
         
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
+      @include  policeStyle1();
       font-size: 18px;
-      line-height: 142.6%;
-      /* or 51px */
           
       display: flex;
       align-items: flex-end;
@@ -188,19 +180,13 @@
         top: 60%;
         bottom: 46.18%;
 
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
+        @include  policeStyle1();
         font-size: 14px;
-        line-height: 142.6%;
-        /* identical to box height, or 26px */
-    
-      display: flex;
-      align-items: flex-end;
-     
-    
-      color:  #FF6060;
-    }
+
+        display: flex;
+        align-items: flex-end;  
+        color:  #FF6060;
+      }
   }  
 
 

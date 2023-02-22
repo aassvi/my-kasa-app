@@ -1,7 +1,3 @@
-//footer{
-//     flex-shrink: 0;
-//     bottom: 0;
-//}
 .kasa-footer{
     
      position: relative;
@@ -38,12 +34,9 @@
                top: 64.11%;
                bottom: 13.88%;
 
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
+               @include  policeStyle1();
                font-size: 24px;
-               line-height: 142.6%;
-               /* or 34px */
+               
 
                display: flex;
                align-items:center;
@@ -96,13 +89,10 @@
                     right: -18.4%;
                     top: 48.33%;
                     bottom: 29.67%;
-
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
+                    @include  policeStyle1();
+                    
                     font-size: 12px;
-                    line-height: 142.6%;
-                    /* or 17px */
+                   
                     width: 74%;
                     display: flex;
                     align-items: flex-end;

@@ -38,12 +38,9 @@
             top: 25%;
             bottom: 25%;
 
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
+            @include  policeStyle1();
             font-size: 24px;
-            line-height: 142.6%;
-            /* or 34px */
+            @include  policeStyle1();
 
             display: flex;
             align-items: flex-end;
@@ -59,13 +56,8 @@
             top: 25%;
             bottom: 25%;
 
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
+            @include  policeStyle1();
             font-size: 24px;
-            line-height: 142.6%;
-            /* or 34px */
-
             display: flex;
             align-items: flex-end;
             text-align: right;
@@ -140,12 +132,9 @@
                 top: 38.3%;
                 bottom: 25.53%;
 
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 500;
+                @include  policeStyle1();
                 font-size: 12px;
-                line-height: 142.6%;
-                //or 17px 
+                
 
                 display: flex;
                 align-items: flex-end;
@@ -162,13 +151,9 @@
                 top: 38.3%;
                 bottom: 25.53%;
                 
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 500;
+                @include  policeStyle1();
                 font-size: 12px;
-                line-height: 142.6%;
-                // or 17px 
-                
+            
                 display: flex;
                 align-items: flex-end;
                 text-align: right;

@@ -41,13 +41,9 @@
                width: 300px;
                //left: 20px;
                //top: 268px;
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
+               @include  policeStyle1();
                font-size: 18px;
-               line-height: 142.6%;
-               /* or 26px */
-              
+            
                //margin-top: 60px;
                margin-top: -62px;
                margin-left: 20px;
@@ -110,13 +106,9 @@
               width: 300px;
               //left: 20px;
               //top: 268px;
-              font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 500;
+              @include  policeStyle1();
               font-size: 18px;
-              line-height: 142.6%;
-              /* or 26px */
-             
+              
               //margin-top: 60px;
               margin-top: -62px;
               margin-left: 20px;

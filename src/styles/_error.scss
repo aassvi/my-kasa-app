@@ -11,13 +11,10 @@
           top: -30%;
           bottom: 0%;
      
-          font-family: 'Montserrat';
-          font-style: normal;
+          @include  policeStyle1();
           font-weight: 700;
           font-size: 288px;
-          line-height: 142.6%;
-          /* or 411px */
-     
+          
           display: flex;
           align-items: center;
           text-align: center;
@@ -33,13 +30,9 @@
           top: 59.18%;
           bottom: 35.84%;
 
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 500;
+          @include  policeStyle1();
           font-size: 36px;
-          line-height: 142.6%;
-          /* or 51px */
-
+         
           display: flex;
           align-items: flex-end;
 
@@ -56,13 +49,9 @@
           top: 81.93%;
           bottom: 15.53%;
 
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 500;
+          @include  policeStyle1();
           font-size: 18px;
-          line-height: 142.6%;
-          /* identical to box height, or 26px */
-
+         
           display: flex;
           align-items: flex-end;
           text-decoration-line: underline;
@@ -84,13 +73,10 @@
                top: -30%;
                bottom: 0%;
 
-               font-family: 'Montserrat';
-               font-style: normal;
+               @include  policeStyle1();
                font-weight: 700;
                font-size: 96px;
-               line-height: 142.6%;
-               /* or 137px */
-
+              
                display: flex;
                align-items: center;
                text-align: center;
@@ -108,12 +94,9 @@
                top: 49.6%;
                bottom: 49.94%;
 
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
+               @include  policeStyle1();
                font-size: 18px;
-               line-height: 142.6%;
-               /* or 26px */
+              
 
                display: flex;
                align-items: flex-end;
@@ -131,13 +114,9 @@
                top: 68.6%;
                bottom: 28.94%;
 
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
+               @include  policeStyle1();
                font-size: 14px;
-               line-height: 142.6%;
-               /* identical to box height, or 20px */
-
+              
                display: flex;
                align-items: flex-end;
                text-decoration-line: underline;

@@ -4,13 +4,11 @@
 .kasa-home {
      @include pageLengthdesktop();
      margin-bottom: 2250px;
-   //  display:flex ;
-   //  flex-direction: column;
-  //min-height: 100%;
+   
 }
 
 .kasa-home-body {
-  // flex:1;
+  
      position: absolute;
      width: 1240px;
      height: 1095px;
@@ -41,8 +39,7 @@
           mix-blend-mode: darken;
           border-radius: 25px;
           transform: translate(1px, -310px);
-          //transform: scale(1.5) translate(100px, -50px);
-
+          
      }
      
      .kasa-home-body-section1-desk{
@@ -58,21 +55,12 @@
           bottom: 69.04%;
           height: 68px;
           width: 705px;
-          //left: 373px;
-          //top: 249px;
-
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 500;
+         
+          @include  policeStyle1();
           font-size: 48px;
-          line-height: 142.6%;
           letter-spacing: 3px;
-          /* or 68px */
-          
-          //display: flex;
-          //align-items: flex-end;
-
           color: #FFFFFF;
+                             
           z-index: 1;
      }
      .kasa-home-body-section1-mobile{
@@ -118,7 +106,7 @@
      }
      
 }
-@media screen and (min-width: 2001px) {
+@media screen and (min-width: 2001px) and (max-width: 2559px){
      .kasa-home-body-section1 { 
           left: 20%;
      }
@@ -178,17 +166,14 @@
                     right: 32.53%;
                     top: 14.04%;
                     bottom: 26.05%;
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
+
+                    @include  policeStyle1();
                     font-size: 24px;
                     line-height: 100%;
                     //or 24px 
                     //height: 48px;
                     //width: 217px;
-                  
-      
-     
+          
                     display: flex;
                     align-items: flex-end;
      

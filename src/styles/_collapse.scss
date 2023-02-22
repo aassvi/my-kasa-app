@@ -32,12 +32,10 @@
 
     h3 {
       margin: 0;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
+      @include  policeStyle1();
       font-size: 24px;
-      line-height: 142.6%;
-      /* or 34px */
+     
+      
       display: flex;
       align-items: center;
       color: #FFFFFF; 
@@ -75,13 +73,9 @@
     //width: 71%;
      & p{
         margin: 0;
-        font-family: 'Montserrat';
-        font-style: normal;
+        @include  policeStyle1();
         font-weight: 400;
         font-size: 24px;
-        line-height: 142.6%;
-        /* or 34px */
-        //width: 71%;
         color: #FF6060;
       }
     
@@ -150,15 +144,13 @@
   
       h3 {
         margin: 0;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 13px;
-      line-height: 142.6%;
-      /* or 34px */
-      display: flex;
-      align-items: center;
-      color: #FFFFFF; 
+        @include  policeStyle1();
+        font-size: 13px;
+      
+    
+        display: flex;
+        align-items: center;
+        color: #FFFFFF; 
       }
   
       & .collapse-icon {
@@ -188,17 +180,15 @@
       transition: height 0.3s ease-in-out;
       padding: 20px;
       Width:335px;
-    background: #F7F7F7;
-    border-radius: 5px;
-    //width: 71%;
+      background: #F7F7F7;
+      border-radius: 5px;
+     //width: 71%;
       p {
         margin: 0;
-        font-family: 'Montserrat';
-        font-style: normal;
+        @include  policeStyle1();
         font-weight: 400;
         font-size: 12px;
-        line-height: 142.6%;
-        /* or 34px */
+      
         //width: 71%;
         color: #FF6060;
       }
@@ -215,25 +205,25 @@
   
     & .collapse-1 {
       display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    position: relative;
-    //top:484px;
-    top: 335px;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:484px;
+      top: 335px;
     }
   
     & .collapse-2 {
       display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    position: relative;
-    //top:699px;
-    top: 340px;display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    position: relative;
-    //top:699px;
-    top: 340px;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;
     }
   
     & .collapse-3 {
@@ -246,9 +236,16 @@
     }
   }
 }
-@media screen and (min-width: 1600px) and (max-width: 2559px) {
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
   .apropos-collapse {
-    left: 22%;
+    left: 20%;
+    
+  }
+  
+}
+@media screen and (min-width: 2001px) and (max-width: 2559px) {
+  .apropos-collapse {
+    left: 23%;
     
   }
   
@@ -280,24 +277,22 @@
         align-items: center;
         padding: 10px 20px;
         
-      padding: 16px;
-      background: #FF6060;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-top: 58px;
-      width: 582px;
-      height: 52px;
-      position: absolute;
-      z-index: 1;
+        padding: 16px;
+        background: #FF6060;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 58px;
+        width: 582px;
+        height: 52px;
+        position: absolute;
+        z-index: 1;
 
       h3 {
         margin: 0;
         font-size: 18px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
+        @include  policeStyle1();
         font-size: 18px;
-        line-height: 142.6%;
+     
         display: flex;
         align-items: center;
    
@@ -345,15 +340,11 @@
   
         p {
           margin: 0;
-          font-family: 'Montserrat';
-          font-style: normal;
+          @include  policeStyle1();
           font-weight: 400;
-          font-size: 18px;
-          line-height: 142.6%;
-          /* or 26px */
-          line-height: 142.6%;
-          margin-top: 18px;
           color: #FF6060;
+          margin-top: 18px;
+          
         }
   
         ul {
@@ -364,13 +355,9 @@
           margin-top: 18px;
           li {
             margin-bottom: 8px;
-            font-family: 'Montserrat';
-            font-style: normal;
+            @include  policeStyle1();
             font-weight: 400;
             font-size: 18px;
-            line-height: 142.6%;
-            /* or 26px */
-    
             color: #FF6060;
           }
         }
@@ -414,13 +401,9 @@
   
       h3 {
         margin: 0;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
+        @include  policeStyle1();
         font-size: 13px;
-        line-height: 142.6%;
-        // identical to box height, or 19px //
-  
+       
         display: flex;
         align-items: center;
   
@@ -466,28 +449,20 @@
   
       p {
         margin: 0;
-        font-family: 'Montserrat';
-        font-style: normal;
+        @include  policeStyle1();
         font-weight: 400;
         font-size: 12px;
-        line-height: 142.6%;
-        // or 17px //
-        
-  
-  
         color: #FF6060;
+        margin-top: 6px;
+
       }
   
       ul {
+        margin-top: 6px;
         li {
-          font-family: 'Montserrat';
-          font-style: normal;
+          @include  policeStyle1();
           font-weight: 400;
           font-size: 12px;
-          line-height: 142.6%;
-          // or 17px //
-  
-  
           color: #FF6060;
         }
       }

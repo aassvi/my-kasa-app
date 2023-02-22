@@ -60,6 +60,9 @@
      
  } 
 @media screen and (max-width: 375px){
+     .kasa-page{
+          height: 900px
+     }
      .kasa-logement{
           @include pageLengthmobile();
           .kasa-logement-body{
