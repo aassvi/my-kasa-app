@@ -19,7 +19,7 @@ function Apropos(){
                     <img src={kalen2} className= 'sectionimagekalen'alt="paysage kalen" />       
                     <img src={gustavo} className= 'sectionimagegustavo'alt="paysage gustavo" />  
                </div> 
-               <div className="apropos-collapse">   
+               <div className="kasa-apropos_collapse">   
                {dataCollapse.map((item, index) => (
                     <Collapse key={index} title={item.titre} content={item.texte} className={`collapse-${index}`}/>
                 ))}

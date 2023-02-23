@@ -26,16 +26,16 @@ function Logement() {
                <Header />
                <div className='kasa-page'>
                <div className="kasa-logement">
-                    <div className="kasa-logement-body">
-                         <div className="kasa-logement-body-carousel">
+                    <div className="kasa-logement_body">
+                         <div className="kasa-logement-body_carousel">
                          <Carousel data={data} />
                          </div>
                          <HostRate />
-                         <div className="kasa-logement-body-content">
+                         <div className="kasa-logement-body_content">
                               <Tag/> 
                               <div className="logement-collapse">                             
-                              <Collapse title="Description" content={description} className="collapse-custom1"/>
-                              <Collapse title="Equipements" content={equipments} className="collapse-custom2" />
+                              <Collapse title="Description" content={description} />
+                              <Collapse title="Equipements" content={equipments}  />
                               </div>
                          </div>
                     </div>

@@ -1,7 +1,7 @@
 @import "../styles/mixins.scss";
 .kasa-logement {
      @include pageLengthdesktop();
-     .kasa-logement-body{
+     .kasa-logement_body{
           position: absolute;
           width: 1240px;
           height: 643px;
@@ -10,7 +10,7 @@
 
      }
      
-     .kasa-logement-body-carousel{
+     .kasa-logement-body_carousel{
           position: absolute;
           left: 0%;
           right: 0%;
@@ -23,7 +23,7 @@
      
      }
     
-     .kasa-logement-body-content{
+     .kasa-logement-body_content{
           position: absolute;
           width: 1240px;
           height: 101px;
@@ -37,7 +37,7 @@
 
 @media screen and  (min-width: 1600px) and (max-width: 2000px){
      .kasa-logement { 
-          .kasa-logement-body{
+          .kasa-logement_body{
           left: 13%;
           }
      }
@@ -45,7 +45,7 @@
  }
  @media screen and  (min-width: 2001px){
      .kasa-logement { 
-          .kasa-logement-body{
+          .kasa-logement_body{
           left: 15%;
           }
      }
@@ -53,7 +53,7 @@
  } 
  @media screen and  (min-width: 2560px){
      .kasa-logement { 
-          .kasa-logement-body{
+          .kasa-logement_body{
           left: 23%;
           }
      }
@@ -65,7 +65,7 @@
      }
      .kasa-logement{
           @include pageLengthmobile();
-          .kasa-logement-body{
+          .kasa-logement_body{
                position: absolute;
                width: 335px;
                height: 515.93px;
@@ -74,7 +74,7 @@
      
           }
           
-          .kasa-logement-body-carousel{
+          .kasa-logement-body_carousel{
                position: absolute;
                left: 0%;
                right: 0%;
@@ -87,7 +87,7 @@
           
           }
          
-          .kasa-logement-body-content{
+          .kasa-logement-body_content{
                position: absolute;
                width: 335px;
                height: 101px;
