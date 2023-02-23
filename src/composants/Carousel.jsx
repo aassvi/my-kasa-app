@@ -1,15 +1,13 @@
 import React, { useState} from 'react';
 import { useParams } from 'react-router-dom';
-import { data } from '../services/data';
-
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
-function Carousel() {
+function Carousel(props) {
     const { id } = useParams();
     const [currentIndex, setCurrentIndex] = useState(0);
-    const logement = data.find(item => item.id === id);
+    const logement = props.data.find(item => item.id === id);
     const { title,location, pictures } = logement;
 
     if (pictures.length === 1){

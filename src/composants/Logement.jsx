@@ -15,11 +15,11 @@ function Logement() {
 
 
   
-  const appart = data.find(p=>p.id === id)
-    if(!appart){
+  const logement = data.find(p=>p.id === id)
+    if(!logement){
         return <Error/>
     }
-    const { description, equipments } = appart;
+    const { description, equipments } = logement;
      return (
                
                <>
@@ -28,7 +28,7 @@ function Logement() {
                <div className="kasa-logement">
                     <div className="kasa-logement-body">
                          <div className="kasa-logement-body-carousel">
-                         <Carousel />
+                         <Carousel data={data} />
                          </div>
                          <HostRate />
                          <div className="kasa-logement-body-content">

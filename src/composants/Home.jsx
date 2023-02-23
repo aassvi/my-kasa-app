@@ -4,6 +4,7 @@ import paysagemobile from '../assets/paysagemobile.png';
 import Thumb from './Thumb';
 import Header from './Header';
 import Footer from './Footer';
+import { data } from '../services/data';
 
 
 
@@ -26,7 +27,7 @@ function Home(){
                          <img src={paysagemobile} className= 'sectionimage'alt="paysage" />  
                      </div>
                     <div className='kasa-home-body_gallery'>
-                     <Thumb/>
+                     <Thumb data={data}/>
                     </div>                 
                </div>
                
