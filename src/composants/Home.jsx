@@ -18,12 +18,10 @@ function Home(){
                          <div className='kasa-home-body-section1_desk'>
                               <h1>Chez vous, partout et ailleurs</h1>
                          </div>
-                         <img src={paysage2} alt="paysage" />    
-                         <img src={paysagemobile} className= 'sectionimage'alt="paysage" />  
+                         <img src={paysage2} alt="paysage" />  
                          <div className='kasa-home-body-section1_mobile'>
                               <h1>Chez vous,<br></br>partout et ailleurs</h1>
                          </div>
-                         <img src={paysage2} alt="paysage" />    
                          <img src={paysagemobile} className= 'sectionimage'alt="paysage" />  
                      </div>
                     <div className='kasa-home-body_gallery'>

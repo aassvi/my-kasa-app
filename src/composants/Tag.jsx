@@ -10,16 +10,20 @@ function Tag() {
 
      return (
           <>
+          <div className='logement-container'>
                {currentData.tags.map((tag, index) => (
-                    
+                         
                          <div className={`logement-rectangle3${index + 1}`} key={index}>
                               <div className='logement-rectangle3-texte'>
                               <p key={index}>{tag}</p>
                               </div>
                          </div>
+                 
                     
                ))}
+          </div>
           </>
+
      );
 };
      

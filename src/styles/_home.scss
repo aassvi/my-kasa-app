@@ -118,9 +118,175 @@
           }
      }
 }
+@media screen and (min-width: 426px) and (max-width:768px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 2250px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 82%;
+               height: 1095px;
+               left: 100px;
+               left: 11%;
+               top: 104px;
+               //width: 90%;
+             // height: 98%;
+     
+               .kasa-home-body_section1{
+                    position: absolute;
+                    //width: 1240px;
+                    width: 100%;
+                    height: 223px;
+                    //left: 100px;
+                    //top: 171px;
+               
+                    background: #1e1c1c3d;
+                    background-size: cover;
+                    overflow: hidden;
+                    mix-blend-mode: darken;
+               
+                    border-radius: 25px;
+                    img{
+                    
+                         width: 100%;
+                         mix-blend-mode: darken;
+                         border-radius: 25px;
+                         transform: translate(1px, -195px);
+                         
+                    }
+                    
+                    .kasa-home-body-section1_desk{
+                         h1{
+                              
+                              position: absolute;
+                              left: 17.9%;
+                              right: 25.14%;
+                              top: 26.32%;
+                              bottom: 69.04%;
+                              height: 68px;
+                              width: 705px;
+                              width: 82%;
+                         
+                              @include  policeStyle1();
+                              font-size: 33px;
+                              letter-spacing: 3px;
+                              color: #FFFFFF;
+                                             
+                              z-index: 1;
+                         }
+                   
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: none;
+                    }
+               }
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    //height: 829px;
+                    //height: 780px;
+                    //height: 2830px;
+                    left: -3px;
+                    top: 251px;
+                    height: 2817px;
+                    background: #F7F7F7;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}     
+@media screen and (min-width: 376px) and (max-width:425px){
+     .kasa-home {
+          @include pageLengthmobile();
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 100%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 111px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    
+                    .sectionimage{
+                    margin-top: 56px;
+                    // mix-blend-mode: darken;
+                         //transform: translate(1px, -310px);
+                         border-radius:10px;
+                         margin-top: 54px;
+
+                         transform: translate(1px, -322px);
+                    
+                    }
+                    .kasa-home-body-section1_desk{
+                         display: none;
+                    }
+                    .kasa-home-body-section1_mobile{
+                    
+                         h1{
+                              position: absolute;
+                              left: 5.6%;
+                              right: 32.53%;
+                              top: 14.04%;
+                              bottom: 26.05%;
+
+                              @include  policeStyle1();
+                              font-size: 24px;
+                              line-height: 100%;
+                              //or 24px 
+                              //height: 48px;
+                              //width: 217px;
+                    
+                              display: flex;
+                              align-items: flex-end;
+               
+                              color: #FFFFFF;
+                              z-index: 1;
+                         }
+
+                    }          
+                    
+                    
+               
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    left: 0;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }       
+}
 @media screen and (max-width: 375px){
      .kasa-home {
           @include pageLengthmobile();
+          width: 100%;
           margin-bottom: 4800px;
    
           &_body {
@@ -151,7 +317,7 @@
                          display: none;
                     }
                     .kasa-home-body-section1_mobile{
-                    
+                   
                          h1{
                               position: absolute;
                               left: 5.6%;

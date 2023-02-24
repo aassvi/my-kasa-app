@@ -61,6 +61,86 @@
           }
      }
 }
+@media screen and (min-width: 426px) and (max-width:768px){
+     .kasa-apropos{
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 10%;
+         
+          .kasa-apropos_section1{
+               position: absolute;
+               width: 336px;
+               width: 75%;
+               height: 223px;
+               left: 11%;
+               top: 98px;
+
+               background-size: cover;
+               overflow: hidden;
+               background: #1e1c1c3d;
+               mix-blend-mode: darken;
+               border-radius: 10px;
+        
+               .sectionimagekalen{
+                    display: none;
+               }
+               .sectionimagegustavo{
+                    display: unset;
+                    position: absolute;
+                    //width: 336px;
+                    height: 223px;
+                    //left: 20px;
+                    //top: 84px;
+                    width: 100%;
+                    mix-blend-mode: darken;
+                    border-radius: 10px;                  
+               }
+               
+          }
+          
+             
+     }     
+}     
+@media screen and (min-width: 376px) and (max-width:425px){
+     .kasa-apropos{
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 10%;
+         
+          .kasa-apropos_section1{
+               position: absolute;
+               width: 336px;
+               width: 88%;
+               height: 223px;
+               left: 20px;
+               top: 84px;
+
+               background-size: cover;
+               overflow: hidden;
+               background: #1e1c1c3d;
+               mix-blend-mode: darken;
+               border-radius: 10px;
+        
+               .sectionimagekalen{
+                    display: none;
+               }
+               .sectionimagegustavo{
+                    display: unset;
+                    position: absolute;
+                    //width: 336px;
+                    height: 223px;
+                    //left: 20px;
+                    //top: 84px;
+                    width: 100%;
+                    mix-blend-mode: darken;
+                    border-radius: 10px;                  
+               }
+               
+          }
+          
+             
+     }     
+}
 @media screen and (max-width: 375px){
      .kasa-apropos{
           @include pageLengthmobile();
