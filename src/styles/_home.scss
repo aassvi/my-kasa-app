@@ -158,7 +158,7 @@
                               width: 100%;
                               mix-blend-mode: darken;
                               border-radius: 25px;
-                              transform: translate(1px, -310px);
+                              transform: translate(1px, -29%);
                               
                          }
                          h1{
@@ -213,7 +213,7 @@
                width: 90%;
                height: 1095px;
                left: 100px;
-               left: 7%;
+               left: 6%;
                top: 104px;
                //width: 90%;
              // height: 98%;
@@ -237,20 +237,21 @@
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
+                         object-fit: cover;
                          img{
                     
                               width: 100%;
                               mix-blend-mode: darken;
                               border-radius: 25px;
-                              transform: translate(1px, -30%);
-                              
+                              transform: translate(1px, -23%);
+                              object-fit: cover;
                          }
                          h1{
                               
                               position: absolute;
                               left: 17.9%;
                               right: 25.14%;
-                              top: 26.32%;
+                              top: 50%;
                               bottom: 69.04%;
                               height: 68px;
                               width: 705px;
@@ -288,10 +289,97 @@
           }    
      }
 }
-@media screen and (min-width: 426px) and (max-width:715px){
+@media screen and (min-width: 526px) and (max-width:715px){
      .kasa-home {
-          @include pageLengthmobileL();
-      
+          @include pageLengthdesktop();
+          margin-bottom: 2250px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 100px;
+               left: 6%;
+               top: 104px;
+               //width: 90%;
+             // height: 98%;
+     
+               .kasa-home-body_section1{
+                    position: absolute;
+                    //width: 1240px;
+                    width: 100%;
+                    height: 223px;
+                    //left: 100px;
+                    //top: 171px;
+               
+                    background: #1e1c1c3d;
+                    background-size: cover;
+                    overflow: hidden;
+                    mix-blend-mode: darken;
+               
+                    border-radius: 25px;
+                   
+                      
+                    
+                    .kasa-home-body-section1_desk{
+                         opacity: 1;
+                         object-fit: cover;
+                         img{
+                    
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -23%);
+                              object-fit: cover;
+                         }
+                         h1{
+                              
+                              position: absolute;
+                              left: 17.9%;
+                              right: 25.14%;
+                              top: 50%;
+                              bottom: 69.04%;
+                              height: 68px;
+                              width: 705px;
+                              width: 82%;
+                         
+                              @include  policeStyle1();
+                              font-size: 33px;
+                              letter-spacing: 3px;
+                              color: #FFFFFF;
+                                             
+                              z-index: 1;
+                         }
+                   
+                    }
+                    .kasa-home-body-section1_mobile{
+                        
+                         opacity: 0;
+                        
+                    }
+               }
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    //height: 829px;
+                    //height: 780px;
+                    //height: 2830px;
+                    left: -3px;
+                    top: 251px;
+                    height: 2817px;
+                    background: #F7F7F7;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}     
+@media screen and (min-width: 426px) and (max-width:525px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
           margin-bottom: 4800px;
    
           &_body {
@@ -321,6 +409,7 @@
                     .kasa-home-body-section1_mobile{
                          display: unset;
                          opacity: 1;
+                         object-fit: cover;
                          h1{
                               position: absolute;
                               left: 5.6%;
@@ -331,9 +420,7 @@
                               @include  policeStyle1();
                               font-size: 24px;
                               line-height: 100%;
-                              //or 24px 
-                              //height: 48px;
-                              //width: 217px;
+                             
                     
                               display: flex;
                               align-items: flex-end;
@@ -343,18 +430,16 @@
                          }
                          .sectionimage{
                               margin-top: 84px;
-                              // mix-blend-mode: darken;
-                                   //transform: translate(1px, -310px);
-                                   border-radius:10px;
-                              
+                              border-radius:10px;
+                              object-fit: cover;
                               }
                               img{
                
                                    width: 100%;
                                    mix-blend-mode: darken;
                                    border-radius: 25px;
-                                   transform: translate(1px, -351px);
-                                   
+                                   transform: translate(1px, -263%);
+                                 
                               }
                     }          
                     
@@ -412,6 +497,7 @@
                     .kasa-home-body-section1_mobile{
                          display: unset;
                          opacity: 1;
+                         object-fit: cover;
                          h1{
                               position: absolute;
                               left: 5.6%;
@@ -422,9 +508,7 @@
                               @include  policeStyle1();
                               font-size: 24px;
                               line-height: 100%;
-                              //or 24px 
-                              //height: 48px;
-                              //width: 217px;
+                             
                     
                               display: flex;
                               align-items: flex-end;
@@ -434,10 +518,8 @@
                          }
                          .sectionimage{
                               margin-top: 84px;
-                              // mix-blend-mode: darken;
-                                   //transform: translate(1px, -310px);
-                                   border-radius:10px;
-                              
+                              border-radius:10px;
+                              object-fit: cover;
                               }
                               img{
                
@@ -445,7 +527,7 @@
                                    mix-blend-mode: darken;
                                    border-radius: 25px;
                                    transform: translate(1px, -351px);
-                                   
+                                 
                               }
                     }          
                     
@@ -503,6 +585,8 @@
                     .kasa-home-body-section1_mobile{
                          display: unset;
                          opacity: 1;
+                         object-fit: cover;
+                         
                          h1{
                               position: absolute;
                               left: 5.6%;
@@ -528,6 +612,7 @@
                               // mix-blend-mode: darken;
                                    //transform: translate(1px, -310px);
                                    border-radius:10px;
+                                   object-fit: cover;
                               
                               }
                               img{
@@ -536,6 +621,7 @@
                                    mix-blend-mode: darken;
                                    border-radius: 25px;
                                    transform: translate(1px, -310px);
+                                   object-fit: cover;
                                    
                               }
                     }          

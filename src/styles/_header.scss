@@ -87,6 +87,89 @@
 }
 
 //styles CSS pour les écrans de 375 pixels ou moins 
+@media screen and (min-width: 300px)and (max-width:320px){
+    .kasa-header {
+        position: absolute;
+        //Mwidth: 335px;
+        width: 86%;
+        height: 47px;
+        left: 20px;
+        top: 20px;
+
+        .kasa-header-logo{
+            opacity: 0;
+        }
+               
+        .kasa-header-logomobile{
+            opacity: 1;
+            height: 47px;
+            width: 145px;
+        
+            position: absolute;
+            left: 0%;
+            right: 56.72%;
+            top: 0%;
+            bottom: 0%;
+            z-index: 1;
+        }
+        
+        .kasa-header-nav nav{          
+            position: absolute;
+            left: 58.21%;
+            //left: 137.21%;
+            right: 0%;
+            //top: 38.3%;
+            top: 52%;
+            bottom: 25.53%;
+            height: 17px;
+            width: 140px;
+            width: 46%;
+            //left: 195px;
+            //top: 18px;        
+           
+            .Accueil{
+                position: absolute;
+                //left: 58.21%;
+                left: 30%;
+                //right: 24.18%;
+                top: 38.3%;
+                bottom: 25.53%;
+
+                @include  policeStyle1();
+                font-size: 12px;
+                
+
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                text-decoration-line: underline;
+
+                color: #FF6060;
+
+            }
+            .Apropos{
+                position: absolute;
+                //left: 78.81%;
+                right: 0%;
+                top: 38.3%;
+                bottom: 25.53%;
+                
+                @include  policeStyle1();
+                font-size: 12px;
+            
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                
+                color: #FF6060;
+                
+    
+    
+            }
+        }
+    }
+}
+    
 @media screen and (max-width: 375px){
     .kasa-header {
         position: absolute;
@@ -171,6 +254,7 @@
 
 
   }
+  
   @media screen and (min-width: 769px) and (max-width:1024px){
     .kasa-header {
     
