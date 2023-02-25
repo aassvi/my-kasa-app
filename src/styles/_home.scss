@@ -27,16 +27,17 @@
                mix-blend-mode: darken;
           
                border-radius: 25px;
-               img{
-               
-                    width: 100%;
-                    mix-blend-mode: darken;
-                    border-radius: 25px;
-                    transform: translate(1px, -310px);
-                    
-               }
                
                .kasa-home-body-section1_desk{
+                    opacity: 1;
+                    img{
+               
+                         width: 100%;
+                         mix-blend-mode: darken;
+                         border-radius: 25px;
+                         transform: translate(1px, -310px);
+                         
+                    }
                     h1{
                          
                          position: absolute;
@@ -57,6 +58,7 @@
               
                }
                .kasa-home-body-section1_mobile{
+                    opacity: 0;
                     display: none;
                }
           }
@@ -118,7 +120,89 @@
           }
      }
 }
-@media screen and (min-width: 426px) and (max-width:768px){
+@media screen and (min-width: 769px) and (max-width:1024px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 3452px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 100px;
+               left: 6%;
+               top: 171px;
+               //width: 90%;
+             // height: 98%;
+     
+               .kasa-home-body_section1{
+                    position: absolute;
+                    //width: 1240px;
+                    width: 100%;
+                    height: 223px;
+                    //left: 100px;
+                    //top: 171px;
+               
+                    background: #1e1c1c3d;
+                    background-size: cover;
+                    overflow: hidden;
+                    mix-blend-mode: darken;
+               
+                    border-radius: 25px;
+                    
+                    .kasa-home-body-section1_desk{
+                         opacity: 1;
+                         img{
+                    
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -310px);
+                              
+                         }
+                         h1{
+                              
+                              position: absolute;
+                              left: 22.9%;
+                              right: 25.14%;
+                              top: 30.32%;
+                              bottom: 69.04%;
+                              height: 68px;
+                              width: 705px;
+                         
+                              @include  policeStyle1();
+                              font-size: 48px;
+                              letter-spacing: 3px;
+                              color: #FFFFFF;
+                                             
+                              z-index: 1;
+                         }
+                   
+                    }
+                    .kasa-home-body-section1_mobile{
+                         opacity: 0;
+                         display: none;
+                    }
+               }
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    //height: 829px;
+                    //height: 780px;
+                    //height: 2830px;
+                    left: -3px;
+                    top: 278px;
+                    height: 2817px;
+                    background: #F7F7F7;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}
+@media screen and (min-width: 716px) and (max-width:768px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 2250px;
@@ -126,10 +210,10 @@
        
                position: absolute;
                width: 1240px;
-               width: 82%;
+               width: 90%;
                height: 1095px;
                left: 100px;
-               left: 11%;
+               left: 7%;
                top: 104px;
                //width: 90%;
              // height: 98%;
@@ -148,16 +232,19 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
-                    img{
-                    
-                         width: 100%;
-                         mix-blend-mode: darken;
-                         border-radius: 25px;
-                         transform: translate(1px, -195px);
-                         
-                    }
+                   
+                      
                     
                     .kasa-home-body-section1_desk{
+                         opacity: 1;
+                         img{
+                    
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -30%);
+                              
+                         }
                          h1{
                               
                               position: absolute;
@@ -179,7 +266,9 @@
                    
                     }
                     .kasa-home-body-section1_mobile{
-                         display: none;
+                        
+                         opacity: 0;
+                        
                     }
                }
      
@@ -198,17 +287,18 @@
                }
           }    
      }
-}     
-@media screen and (min-width: 376px) and (max-width:425px){
+}
+@media screen and (min-width: 426px) and (max-width:715px){
      .kasa-home {
-          @include pageLengthmobile();
+          @include pageLengthmobileL();
+      
           margin-bottom: 4800px;
    
           &_body {
      
                position: absolute;
                width: 336px;
-               width: 100%;
+               width: 88%;
                //height: 938px;
                height:805px;
                left: 20px;
@@ -223,22 +313,14 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
-                    
-                    .sectionimage{
-                    margin-top: 56px;
-                    // mix-blend-mode: darken;
-                         //transform: translate(1px, -310px);
-                         border-radius:10px;
-                         margin-top: 54px;
-
-                         transform: translate(1px, -322px);
-                    
-                    }
+                                            
                     .kasa-home-body-section1_desk{
-                         display: none;
+                         opacity: 0;
+          
                     }
                     .kasa-home-body-section1_mobile{
-                    
+                         display: unset;
+                         opacity: 1;
                          h1{
                               position: absolute;
                               left: 5.6%;
@@ -259,7 +341,112 @@
                               color: #FFFFFF;
                               z-index: 1;
                          }
+                         .sectionimage{
+                              margin-top: 84px;
+                              // mix-blend-mode: darken;
+                                   //transform: translate(1px, -310px);
+                                   border-radius:10px;
+                              
+                              }
+                              img{
+               
+                                   width: 100%;
+                                   mix-blend-mode: darken;
+                                   border-radius: 25px;
+                                   transform: translate(1px, -351px);
+                                   
+                              }
+                    }          
+                    
+                    
+               
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    left: 0;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }       
+}          
+@media screen and (min-width: 376px) and (max-width:425px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 88%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 111px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         h1{
+                              position: absolute;
+                              left: 5.6%;
+                              right: 32.53%;
+                              top: 14.04%;
+                              bottom: 26.05%;
 
+                              @include  policeStyle1();
+                              font-size: 24px;
+                              line-height: 100%;
+                              //or 24px 
+                              //height: 48px;
+                              //width: 217px;
+                    
+                              display: flex;
+                              align-items: flex-end;
+               
+                              color: #FFFFFF;
+                              z-index: 1;
+                         }
+                         .sectionimage{
+                              margin-top: 84px;
+                              // mix-blend-mode: darken;
+                                   //transform: translate(1px, -310px);
+                                   border-radius:10px;
+                              
+                              }
+                              img{
+               
+                                   width: 100%;
+                                   mix-blend-mode: darken;
+                                   border-radius: 25px;
+                                   transform: translate(1px, -351px);
+                                   
+                              }
                     }          
                     
                     
@@ -293,6 +480,7 @@
      
                position: absolute;
                width: 336px;
+               width: 88%;
                //height: 938px;
                height:805px;
                left: 20px;
@@ -301,23 +489,20 @@
                .kasa-home-body_section1 { 
                     position: absolute;
                     width: 335px;
+                   // width: 100%;
                     height: 111px;
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
-                    
-                    .sectionimage{
-                    margin-top: 84px;
-                    // mix-blend-mode: darken;
-                         //transform: translate(1px, -310px);
-                         border-radius:10px;
-                    
-                    }
+                                            
                     .kasa-home-body-section1_desk{
-                         display: none;
+                        opacity: 0;
+
+                         
                     }
                     .kasa-home-body-section1_mobile{
-                   
+                         display: unset;
+                         opacity: 1;
                          h1{
                               position: absolute;
                               left: 5.6%;
@@ -338,7 +523,21 @@
                               color: #FFFFFF;
                               z-index: 1;
                          }
-
+                         .sectionimage{
+                              margin-top: 84px;
+                              // mix-blend-mode: darken;
+                                   //transform: translate(1px, -310px);
+                                   border-radius:10px;
+                              
+                              }
+                              img{
+                                   opacity: 1;
+                                   width: 100%;
+                                   mix-blend-mode: darken;
+                                   border-radius: 25px;
+                                   transform: translate(1px, -310px);
+                                   
+                              }
                     }          
                     
                     
@@ -349,6 +548,7 @@
                //section 2 = gallery
                     position: absolute;
                     width: 335px;
+                   // width: 100%;
                     height: 805px;
                
                     //left: 21px;

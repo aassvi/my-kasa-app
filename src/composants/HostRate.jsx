@@ -27,7 +27,8 @@ function HostRate() {
   
 
   return (
-     <>
+     <>   
+ 
           <div className=" HostRate-rate">
                <div className=" HostRate-rate-etoile">
                     {stars}
@@ -43,6 +44,7 @@ function HostRate() {
                
                </div>
           </div>
+     
      </>
   );
 }
