@@ -479,8 +479,9 @@
       //top: 348px;
     }
   }  
-  @media screen and (max-width: 375px){
+  @media screen and (min-width: 321px)and (max-width:375px){
     @include collapse-aproposM();
+    width: 90%;
     top: 340px;
  
     .collapse-container {
@@ -596,6 +597,127 @@
       //top: 348px;
     }
   }
+  @media screen and (max-width: 320px){
+    @include collapse-aproposM();
+    width: 88%;
+    left: 5%;
+    top: 340px;
+ 
+    .collapse-container {
+      margin-bottom: 20px;
+     
+  
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  
+    .collapse-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #FF6060;
+      border-radius: 5px;
+      cursor: pointer;
+      Width:335px;
+      width: 100%;
+      Height:30px;
+  
+      h3 {
+        margin: 0;
+        @include  policeStyle1();
+        font-size: 13px;
+      
+    
+        display: flex;
+        align-items: center;
+        color: #FFFFFF; 
+      }
+  
+      & .collapse-icon {
+        display: inline-block;
+        position: absolute;         
+        left: 85%;
+        right: 18.63%;
+        width: 48px;
+        height: 30px;
+        color: #FFFFFF;
+        transition: transform 0.3s ease;
+        
+        &.open {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  
+    .collapse-content-closed {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+    }
+  
+    .collapse-content {
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+      padding: 20px;
+      Width:335px;
+      width: 100%;
+      background: #F7F7F7;
+      border-radius: 5px;
+     //width: 71%;
+      p {
+        margin: 0;
+        @include  policeStyle1();
+        font-weight: 400;
+        font-size: 12px;
+      
+        //width: 71%;
+        color: #FF6060;
+      }
+      
+    }
+  
+    .collapse-0 {
+      display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    top:330px;
+    }
+  
+    .collapse-1 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:484px;
+      top: 335px;
+    }
+  
+    .collapse-2 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;
+    }
+  
+    .collapse-3 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:776px;
+      //top: 348px;
+    }
+  }  
 }
 @media screen and (min-width: 1600px) and (max-width: 2000px) {
   .kasa-apropos_collapse {

@@ -1,5 +1,6 @@
 .kasa-apropos{
      @include pageLengthdesktop();
+     width: 100%;
      margin-bottom: 220px;
      
      .kasa-apropos_section1{
@@ -180,14 +181,16 @@
              
      }     
 }
-@media screen and (max-width: 375px){
+@media screen and (min-width: 321px)and (max-width:375px){
      .kasa-apropos{
           @include pageLengthmobile();
+          width: 100%;
           margin-bottom: 10%;
          
           .kasa-apropos_section1{
                position: absolute;
                width: 336px;
+               width: 90%;
                height: 223px;
                left: 20px;
                top: 84px;
@@ -220,3 +223,44 @@
      
         
 }
+@media screen and (max-width: 320px){
+     .kasa-apropos{
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 10%;
+         
+          .kasa-apropos_section1{
+               position: absolute;
+               max-width: 300px;
+               width: 88%;
+               height: 223px;
+               left: 20px;
+               left: 5%;
+               top: 84px;
+
+               background-size: cover;
+               overflow: hidden;
+               background: #1e1c1c3d;
+               mix-blend-mode: darken;
+               border-radius: 10px;
+        
+               .sectionimagekalen{
+                    display: none;
+               }
+               .sectionimagegustavo{
+                    display: unset;
+                    position: absolute;
+                    //width: 336px;
+                    height: 223px;
+                    //left: 20px;
+                    //top: 84px;
+                    width: 100%;
+                    mix-blend-mode: darken;
+                    border-radius: 10px;                  
+               }
+               
+          }
+          
+             
+     }     
+}     

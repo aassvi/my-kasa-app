@@ -292,7 +292,7 @@
 @media screen and (min-width: 526px) and (max-width:715px){
      .kasa-home {
           @include pageLengthdesktop();
-          margin-bottom: 2250px;
+          margin-bottom: 4880px;
           &_body {
        
                position: absolute;
@@ -458,7 +458,7 @@
                     top: 133px;
                     left: 1px;
                     left: 0;
-                    background-color: #FFFFFF;
+                    //background-color: #FFFFFF;
                     
                }
           }

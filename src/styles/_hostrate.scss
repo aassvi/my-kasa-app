@@ -55,8 +55,7 @@
           
      }
 }
-
-@media screen and (max-width: 375px){
+@media screen and (max-width: 320px){
      .HostRate-rate{
           position: absolute;
           width: 180px;
@@ -79,7 +78,63 @@
              
                width: 52px;
                height: 33px;
-               left: 72%;
+               left: 68%;
+               top: 348px;
+          
+               @include  policeStyle1();
+               font-size: 12px;
+             
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 32px;
+               height: 32px;
+               //left: 1273px;
+               //left: 300px;
+               left: 88%;
+               //top: 567px;
+               top: 349px;
+              
+               //background: #C4C4C4;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+}     
+@media screen and (min-width: 321px)and (max-width:375px){
+     .HostRate-rate{
+          position: absolute;
+          width: 180px;
+          height: 18px;
+          left: 0%;
+          top: 352px;
+          //z-index: auto;
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 15px;
+               height: 15px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+          
+          .HostRate-host-name {
+               position: absolute;
+             
+               width: 52px;
+               height: 33px;
+               left: 73%;
                top: 348px;
           
                @include  policeStyle1();
@@ -137,7 +192,7 @@
              
                width: 52px;
                height: 33px;
-               left: 73%;
+               left: 75%;
                top: 348px;
           
                @include  policeStyle1();
@@ -201,7 +256,7 @@
                position: absolute;
                width: 61px;
                height: 52px;
-               left: -56%;
+               left: -34%;
                top: 364px;
                          
                @include  policeStyle1();
@@ -232,7 +287,8 @@
           }
      }
 }
-@media screen and (min-width: 551px) and (max-width:768px){
+    
+@media screen and (min-width: 551px) and (max-width:668px){
      
      .HostRate-rate{
           position: absolute;
@@ -263,7 +319,7 @@
                position: absolute;
                width: 61px;
                height: 52px;
-               left: -9%;
+               left: -38%;
                top: 364px;
                          
                @include  policeStyle1();
@@ -281,7 +337,7 @@
                width: 42px;
                height: 42px;
                left: 289px;
-               left: 44%;
+               left: 32%;
                top: 374px;
               
                //background: #C4C4C4;
@@ -295,7 +351,7 @@
      }
      
 }
-@media screen and (min-width: 469px) and (max-width:900px){
+@media screen and (min-width: 669px) and (max-width:768px){
      .HostRate-rate{
           position: absolute;
           width: 196px;
@@ -325,7 +381,66 @@
                position: absolute;
                width: 61px;
                height: 52px;
-               left: -9%;
+               left: -6%;
+               top: 364px;
+                         
+               @include  policeStyle1();
+               font-size: 16px;
+           
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 46px;
+               height: 46px;
+               left: 289px;
+               left: 47%;
+               top: 369px;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+} 
+@media screen and (min-width: 769px) and (max-width:900px){
+     .HostRate-rate{
+          position: absolute;
+          width: 196px;
+          height: 36px;
+          //left: 1144px;
+          left: 0%;
+          //top: 652px;
+          top: 375px;
+        
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 30px;
+               height: 30px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+         
+          position: absolute;
+          width: 135.5px;
+          width: 19%;
+          height: 33px;
+          left: 84%;
+   
+          .HostRate-host-name {
+               position: absolute;
+               width: 61px;
+               height: 52px;
+               left: -58%;
                top: 364px;
                          
                @include  policeStyle1();
@@ -343,7 +458,7 @@
                width: 42px;
                height: 42px;
                left: 289px;
-               left: 44%;
+               left: 28%;
                top: 374px;
               
                //background: #C4C4C4;
