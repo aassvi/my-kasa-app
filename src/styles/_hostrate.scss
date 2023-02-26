@@ -295,7 +295,69 @@
      }
      
 }
-@media screen and (min-width: 769px) and (max-width:1024px){ 
+@media screen and (min-width: 469px) and (max-width:900px){
+     .HostRate-rate{
+          position: absolute;
+          width: 196px;
+          height: 36px;
+          //left: 1144px;
+          left: 0%;
+          //top: 652px;
+          top: 375px;
+        
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 30px;
+               height: 30px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+         
+          position: absolute;
+          width: 135.5px;
+          width: 19%;
+          height: 33px;
+          left: 84%;
+   
+          .HostRate-host-name {
+               position: absolute;
+               width: 61px;
+               height: 52px;
+               left: -9%;
+               top: 364px;
+                         
+               @include  policeStyle1();
+               font-size: 14px;
+           
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 42px;
+               height: 42px;
+               left: 289px;
+               left: 44%;
+               top: 374px;
+              
+               //background: #C4C4C4;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+     
+}     
+@media screen and (min-width: 901px) and (max-width:1024px){ 
      .HostRate-rate{
           position: absolute;
           width: 196px;
