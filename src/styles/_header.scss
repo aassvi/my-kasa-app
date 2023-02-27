@@ -5,7 +5,7 @@
     
     position: absolute;
     width: 1240px;
-    //width: 86%;
+    width: 86%;
 
     height: 68px;
     left: 100px;
@@ -70,20 +70,10 @@
     }
 }
 
-@media screen and  (min-width: 1600px) and (max-width: 2000px) {
+@media screen and  (min-width: 1441px) and (max-width: 2560px) {
     .kasa-header { 
-    left: 13%;
-    }
-    
-}
-@media screen and  (min-width: 2001px){
-    .kasa-header { 
-        left: 17%;
-        }
-}
-@media screen and  (min-width: 2560px){
-    .kasa-header { 
-        left: 23%;
+        left: 6%;
+        width: 80%;
         }
 }
 

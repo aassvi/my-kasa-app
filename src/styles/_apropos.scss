@@ -6,6 +6,7 @@
      .kasa-apropos_section1{
           position: absolute;
           width: 1240px;
+          width: 86%;
           height: 223px;
           left: 100px;
           top: 152px;
@@ -34,31 +35,13 @@
         
 }
 
-     
 
-@media screen and  (min-width: 1600px) and (max-width: 2000px){
+@media screen and  (min-width: 1441px) and (max-width: 2560px) {
      .kasa-apropos{
           
           .kasa-apropos_section1{
-              left: 13%;
-          }
-     }
-}
-@media screen and  (min-width: 2001px) and (max-width: 2559px){
-     .kasa-apropos{
-          
-          .kasa-apropos_section1{
-              left: 17%;
-           }
-     }
-
-}
-
-@media screen and  (min-width: 2560px) {
-     .kasa-apropos{
-          
-          .kasa-apropos_section1{
-              left: 23%;
+              left: 6%;
+              width: 80%;
           }
      }
 }
