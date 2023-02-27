@@ -538,14 +538,14 @@
      }
      
 }
-@media screen and (min-width:2560px){
+@media screen and  (min-width: 1441px) and (max-width: 2560px) {
      .HostRate-rate{
           position: absolute;
           width: 196px;
           height: 36px;
           //left: 1144px;
           left: 1053px;
-          left:85%;
+          left:84%;
           //top: 652px;
           top: 518px;
           z-index: auto;
