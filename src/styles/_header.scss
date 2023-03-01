@@ -26,11 +26,28 @@
      .kasa-header-nav nav{
        
         position: absolute;
-        left: 75.08%;
+        left:66%;
         right: 0%;
         top: 25%;
         bottom: 25%;
         z-index: 1;
+        display: flex;
+        justify-content: center;
+      
+        a {
+          
+          text-decoration: none;
+          margin: 0 1rem;
+          position: relative;
+      
+          &:hover {
+            text-decoration: underline;
+          }
+      
+          &.active {
+            text-decoration: underline;
+          }
+        }
        
         .Accueil{
             position: absolute;
@@ -46,7 +63,7 @@
             display: flex;
             align-items: flex-end;
             text-align: right;
-            text-decoration-line: underline;
+            //text-decoration-line: underline;
 
             color: #FF6060;
         }

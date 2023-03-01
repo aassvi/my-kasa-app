@@ -1,13 +1,12 @@
 import React  from 'react';
 import { useParams} from 'react-router-dom';
 import Carousel from './Carousel';
-import Header from './Header';
 import HostRate from './HostRate';
 import { data } from '../services/data';
 import Error from './Error';
 import Collapse from './Collapse';
 import Tag from './Tag';
-import Footer from './Footer';
+
 
 
 function Logement() { 
@@ -23,8 +22,7 @@ function Logement() {
      return (
                
                <>
-               <Header />
-               <div className='kasa-page'>
+                    <div className='kasa-page'>
                <div className="kasa-logement">
                     <div className="kasa-logement_body">
                          <div className="kasa-logement-body_carousel">
@@ -41,7 +39,7 @@ function Logement() {
                     </div>
                </div>
                </div>
-               <Footer />
+
                </>
      );
 }

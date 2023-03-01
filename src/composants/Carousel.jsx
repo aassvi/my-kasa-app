@@ -42,7 +42,8 @@ function Carousel(props) {
             }
       };
 
-    
+      const currentImageNumber = currentIndex + 1;
+      const totalImages = pictures.length;
       return (
         <>
           <div className="carousel-container">
@@ -50,6 +51,9 @@ function Carousel(props) {
                 <ArrowBackIosIcon onClick={prevImage} />
                 <img src={pictures[currentIndex]} alt={title} />
                 <ArrowForwardIosIcon onClick={nextImage} />
+                <div className="image-counter">
+                {`${currentImageNumber}/${totalImages}`}
+            </div>
             </div>
             
           </div>

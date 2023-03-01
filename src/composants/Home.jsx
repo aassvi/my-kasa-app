@@ -2,8 +2,6 @@ import React from 'react';
 import paysage2 from '../assets/paysage2.png';
 import paysagemobile from '../assets/paysagemobile.png';
 import Thumb from './Thumb';
-import Header from './Header';
-import Footer from './Footer';
 import { data } from '../services/data';
 
 
@@ -11,7 +9,7 @@ import { data } from '../services/data';
 function Home(){
      return (
           <>
-          <Header/>
+
           <div className='kasa-home'>  
                <div className='kasa-home_body'>  
                     <div className='kasa-home-body_section1'>  
@@ -32,7 +30,7 @@ function Home(){
                </div>
                
           </div>
-          <Footer/>
+    
           </>
          
      )

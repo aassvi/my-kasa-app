@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
@@ -11,14 +10,11 @@ const Collapse = ({ title, content }) => {
   };
 
   return (
-    <div className="collapse-container ">
+    <div className="collapse-container">
       <div className="collapse-wrapper">
-        <div className="collapse-header  ">
+        <div className="collapse-header" onClick={handleToggle}>
           <h3>{title}</h3>
-          <KeyboardArrowDownIcon
-            className={`collapse-icon ${isOpen ? 'open' : 'closed'}`}
-            onClick={handleToggle}
-          />
+          <KeyboardArrowDownIcon className={`collapse-icon ${isOpen ? 'open' : 'closed'}`} />
         </div>
         {isOpen ? (
           <div className="collapse-content">
@@ -51,5 +47,4 @@ const Collapse = ({ title, content }) => {
 };
 
 export default Collapse;
-
 

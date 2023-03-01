@@ -9,10 +9,10 @@ function HostRate() {
   const { id } = useParams();
   const infoshostrate = data.find(item => item.id === id);
   const { rating, host } = infoshostrate;
-  console.log(host.name);
+
   const maxrating =5;  
   const  grey = maxrating - rating ;
-  console.log(grey);
+ 
 
   let stars = [];
   for (let i = 0; i < rating; i++) {
