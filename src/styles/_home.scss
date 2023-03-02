@@ -76,13 +76,32 @@
      }    
 }
 
-
-@media screen and  (min-width: 2001px) and (max-width: 2560px) {
+@media screen and  (min-width: 2201px) and (max-width: 2560px) {
      .kasa-home{
       width: 95%;
+      margin-bottom: 2550px;
            &_body {
                left: 9%;
+               
+               .kasa-home-body_gallery{
+                    height: 3095px;
+               
+               }
+          }
       }
+ }
+
+@media screen and  (min-width: 2001px) and (max-width: 2200px) {
+     .kasa-home{
+      width: 95%;
+      margin-bottom: 2550px;
+           &_body {
+               left: 9%;
+               .kasa-home-body_gallery{
+                    height: 3095px;
+               
+               }
+          }
       }
  }
 @media screen and  (min-width: 1500px) and (max-width: 2000px) {

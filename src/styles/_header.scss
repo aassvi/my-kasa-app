@@ -83,6 +83,37 @@
     .kasa-header { 
         left: 9%;
         width: 80%;
+        .kasa-header-nav nav{
+            .Accueil{
+                position: absolute;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 33px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                color: #FF6060;
+            }
+            .Apropos{
+                position: absolute;
+               // left: 90.65%;
+                right: 0%;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 33px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+    
+                color: #FF6060;
+    
+    
+            }
+        }
         
         }
        
@@ -91,6 +122,37 @@
     .kasa-header { 
         left: 9%;
         width: 81%;
+        .kasa-header-nav nav{
+            .Accueil{
+                position: absolute;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 33px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                color: #FF6060;
+            }
+            .Apropos{
+                position: absolute;
+               // left: 90.65%;
+                right: 0%;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 33px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+    
+                color: #FF6060;
+    
+    
+            }
+        }
         
         }
        
