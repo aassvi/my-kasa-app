@@ -10,19 +10,16 @@
           width: 1240px;
           width: 86%;
           height: 1095px;
-          left: 100px;
+          left: 7%;
           top: 171px;
-          //width: 90%;
-        // height: 98%;
+     
 
           .kasa-home-body_section1{
                position: absolute;
                //width: 1240px;
                width: 100%;
                height: 223px;
-               //left: 100px;
-               //top: 171px;
-          
+             
                background: #1e1c1c3d;
                background-size: cover;
                overflow: hidden;
@@ -69,9 +66,7 @@
                position: absolute;
                width: 1240px;
                width: 100%;
-               //height: 829px;
-               //height: 780px;
-               //height: 2830px;
+            
                left: -3px;
                top: 278px;
                height: 2817px;
@@ -82,31 +77,27 @@
 }
 
 
-
-@media screen and  (min-width: 1441px) and (max-width: 2560px) {
+@media screen and  (min-width: 2001px) and (max-width: 2560px) {
+     .kasa-home{
+      width: 95%;
+           &_body {
+               left: 9%;
+      }
+      }
+ }
+@media screen and  (min-width: 1500px) and (max-width: 2000px) {
     .kasa-home{
-     width: 94%;
-    
-          .kasa-home-body_section1 { 
-               left: 2%;
-               
-          }
-          .kasa-home-body_gallery{
-               left: 2%;
-          }
-     }
+     width: 100%;
+          &_body {
+               left: 9%;         
+     
+               }     }
 }
-@media screen and (min-width: 1025px) and (max-width:1405px){
-     .kasa-home {
-         
 
-          margin-bottom: 3500px;
-     }
-}
 @media screen and (min-width:1025px) and (max-width:1400px){
      .kasa-home {
           @include pageLengthdesktop();
-          margin-bottom: 3452px;
+          margin-bottom: 1550px;
           &_body {
        
                position: absolute;
@@ -172,7 +163,7 @@
                     
                     left: -3px;
                     top: 220px;
-                    height: 2817px;
+                    height: 2211px;
                     background: #F7F7F7;
                     border-radius: 25px; 
                }
@@ -182,14 +173,14 @@
 @media screen and (min-width: 993px) and (max-width:1024px){
      .kasa-home {
           @include pageLengthdesktop();
-          margin-bottom: 3452px;
+          margin-bottom: 1500px;
           &_body {
        
                position: absolute;
                width: 90%;
                height: 1095px;
                left: 6%;
-               top: 111px;
+               top: 130px;
      
                .kasa-home-body_section1{
                     position: absolute;
@@ -248,7 +239,7 @@
                     
                     left: -3px;
                     top: 220px;
-                    height: 2817px;
+                    height: 1500px;
                     background: #F7F7F7;
                     border-radius: 25px; 
                }
@@ -258,7 +249,7 @@
 @media screen and (min-width: 768px) and (max-width:992px){
      .kasa-home {
           @include pageLengthdesktop();
-          margin-bottom: 3452px;
+          margin-bottom: 2700px;
           &_body {
        
                position: absolute;
@@ -334,27 +325,21 @@
 @media screen and (min-width: 426px) and (max-width:767px){
      .kasa-home {
           @include pageLengthdesktop();
-          margin-bottom: 2250px;
+          margin-bottom: 6876px;
           &_body {
        
                position: absolute;
                width: 1240px;
                width: 90%;
                height: 1095px;
-               left: 100px;
                left: 6%;
-               top: 104px;
-               //width: 90%;
-             // height: 98%;
+               top: 99px;
      
                .kasa-home-body_section1{
                     position: absolute;
-                    //width: 1240px;
+                    
                     width: 100%;
-                    height: 223px;
-                    //left: 100px;
-                    //top: 171px;
-               
+                    height: 130px;
                     background: #1e1c1c3d;
                     background-size: cover;
                     overflow: hidden;
@@ -372,7 +357,7 @@
                               width: 100%;
                               mix-blend-mode: darken;
                               border-radius: 25px;
-                              transform: translate(1px, -23%);
+                              transform: translate(1px, -36%);
                               object-fit: cover;
                          }
                          h1{
@@ -380,14 +365,14 @@
                               position: absolute;
                               left: 17.9%;
                               right: 25.14%;
-                              top: 50%;
+                              top: 32%;
                               bottom: 69.04%;
                               height: 68px;
                               width: 705px;
                               width: 82%;
                          
                               @include  policeStyle1();
-                              font-size: 33px;
+                              font-size: 30px;
                               letter-spacing: 3px;
                               color: #FFFFFF;
                                              
@@ -406,13 +391,10 @@
                     position: absolute;
                     width: 1240px;
                     width: 100%;
-                    //height: 829px;
-                    //height: 780px;
-                    //height: 2830px;
                     left: -3px;
-                    top: 251px;
-                    height: 2817px;
-                   // background: #F7F7F7;
+                    top: 156px;
+                    height: 7560px;
+                    background: #F7F7F7;
                     border-radius: 25px; 
                }
           }    
@@ -564,7 +546,7 @@
                               z-index: 1;
                          }
                          .sectionimage{
-                              margin-top: 84px;
+                              margin-top: 82px;
                               // mix-blend-mode: darken;
                                    //transform: translate(1px, -310px);
                                    border-radius:10px;
@@ -606,7 +588,7 @@
      .kasa-home {
           @include pageLengthmobile();
           width: 100%;
-          margin-bottom: 4000px;
+          margin-bottom: 4767px;
    
           &_body {
      

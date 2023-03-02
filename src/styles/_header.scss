@@ -1,6 +1,4 @@
 @import './variables';
-
-
 .kasa-header {
     
     position: absolute;
@@ -28,20 +26,21 @@
         position: absolute;
         left:66%;
         right: 0%;
-        top: 25%;
+        top: 84%;
         bottom: 25%;
         z-index: 1;
         display: flex;
         justify-content: center;
-      
+        
         a {
           
           text-decoration: none;
-          margin: 0 1rem;
+          margin: 0 1px;
           position: relative;
       
           &:hover {
             text-decoration: underline;
+            
           }
       
           &.active {
@@ -51,20 +50,14 @@
        
         .Accueil{
             position: absolute;
-           // left: 75.08%;
-           // right: 13.95%;
             top: 25%;
             bottom: 25%;
 
             @include  policeStyle1();
             font-size: 24px;
-           
-
             display: flex;
             align-items: flex-end;
             text-align: right;
-            //text-decoration-line: underline;
-
             color: #FF6060;
         }
         .Apropos{
@@ -86,12 +79,21 @@
         }
     }
 }
-
-@media screen and  (min-width: 1441px) and (max-width: 2560px) {
+@media screen and  (min-width: 2561px)  {
     .kasa-header { 
-        left: 6%;
+        left: 9%;
         width: 80%;
+        
         }
+       
+}
+@media screen and  (min-width: 1500px) and (max-width: 2560px) {
+    .kasa-header { 
+        left: 9%;
+        width: 81%;
+        
+        }
+       
 }
 
 //styles CSS pour les écrans de 375 pixels ou moins 
@@ -101,7 +103,7 @@
         //Mwidth: 335px;
         width: 86%;
         height: 47px;
-        left: 20px;
+        left: 6%;
         top: 20px;
 
         .kasa-header-logo{
@@ -123,7 +125,7 @@
         
         .kasa-header-nav nav{          
             position: absolute;
-            left: 58.21%;
+            left: 63%;
             //left: 137.21%;
             right: 0%;
             //top: 38.3%;
@@ -134,24 +136,33 @@
             width: 46%;
             //left: 195px;
             //top: 18px;        
-           
+            a {
+          
+                text-decoration: none;
+                margin: 0 1rem;
+                position: relative;
+            
+                &:hover {
+                  text-decoration: underline;
+                }
+            
+                &.active {
+                  text-decoration: underline;
+                }
+              }
             .Accueil{
                 position: absolute;
-                //left: 58.21%;
-                left: 30%;
+                left: 7%;
                 //right: 24.18%;
                 top: 38.3%;
                 bottom: 25.53%;
 
                 @include  policeStyle1();
                 font-size: 12px;
-                
-
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                text-decoration-line: underline;
-
+    
                 color: #FF6060;
 
             }
@@ -170,9 +181,7 @@
                 text-align: right;
                 
                 color: #FF6060;
-                
-    
-    
+ 
             }
         }
     }
@@ -207,7 +216,7 @@
         
         .kasa-header-nav nav{          
             position: absolute;
-            left: 58.21%;
+            left: 60%;
             //left: 137.21%;
             right: 0%;
             //top: 38.3%;
@@ -216,26 +225,21 @@
             height: 17px;
             width: 140px;
             width: 46%;
-            //left: 195px;
-            //top: 18px;        
+                 
            
             .Accueil{
                 position: absolute;
-                //left: 58.21%;
-                left: 30%;
-                left: 25%;
+                left: 5%;
                 //right: 24.18%;
                 top: 38.3%;
                 bottom: 25.53%;
 
                 @include  policeStyle1();
                 font-size: 12px;
-                
-
+            
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                text-decoration-line: underline;
 
                 color: #FF6060;
 
@@ -246,34 +250,26 @@
                 right: 0%;
                 top: 38.3%;
                 bottom: 25.53%;
-                
+        
                 @include  policeStyle1();
-                font-size: 12px;
-            
+                font-size: 12px;    
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                
+        
                 color: #FF6060;
-                
-    
-    
             }
         }
     }
 
 
   }
-  
-  @media screen and (min-width: 769px) and (max-width:1024px){
+  @media screen and (min-width:1025px) and (max-width:1400px){
     .kasa-header {
     
         position: absolute;
-        width: 1240px;
         width: 90%;
-        //width: 86%;
         height: 68px;
-        left: 100px;
         left: 6%;
         top: 40px;
         
@@ -292,7 +288,71 @@
          .kasa-header-nav nav{
            
             position: absolute;
-            left: 75.08%;
+            left: 64%;
+            right: 0%;
+            top: 29%;
+            bottom: 6%;
+            z-index: 1;
+           
+            .Accueil{
+                position: absolute;
+                top: 25%;
+                bottom: 25%;
+                left: 30%;
+                @include  policeStyle1();
+                font-size: 24px;
+        
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+    
+                color: #FF6060;
+            }
+            .Apropos{
+                position: absolute;
+               // left: 90.65%;
+                right: 0%;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 24px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+    
+                color: #FF6060;
+    
+    
+            }
+        }
+    }
+  } 
+  @media screen and (min-width: 769px) and (max-width:1024px){
+    .kasa-header {
+    
+        position: absolute;
+        width: 90%;
+        height: 68px;
+        left: 6%;
+        top: 40px;
+        
+       .kasa-header-logo{
+            position: absolute;
+            left: 0%;
+            right: 83.04%;
+            top: 0%;
+            bottom: 0%;
+            z-index: 1;
+            opacity: 1;
+        }
+        .kasa-header-logomobile{
+            opacity: 0;
+        }
+         .kasa-header-nav nav{
+           
+            position: absolute;
+            left: 48%;
             right: 0%;
             top: 25%;
             bottom: 25%;
@@ -300,11 +360,9 @@
            
             .Accueil{
                 position: absolute;
-               // left: 75.08%;
-               // right: 13.95%;
                 top: 25%;
                 bottom: 25%;
-    
+                left: 30%;
                 @include  policeStyle1();
                 font-size: 24px;
              
@@ -312,8 +370,7 @@
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                text-decoration-line: underline;
-    
+               
                 color: #FF6060;
             }
             .Apropos{
@@ -341,7 +398,6 @@
         position: absolute;
         width:90%;
         height: 47px;
-        left: 20px;
         left: 6%;
         top: 20px;
  
@@ -364,49 +420,38 @@
         
         .kasa-header-nav nav{          
             position: absolute;
-            left: 67%;
             left: 55%;
-            //left: 137.21%;
             right: 0%;
-            //top: 38.3%;
-            top: 52%;
+            top: 85%;
             bottom: 25.53%;
             height: 17px;
             width: 140px;
             width: 44%;
-            //width: 25%;
-            //left: 195px;
-            //top: 18px;        
-           
+               
             .Accueil{
                 position: absolute;
-                //left: 58.21%;
                 left: 30%;
-                //right: 24.18%;
                 top: 38.3%;
                 bottom: 25.53%;
  
                 @include  policeStyle1();
-                font-size: 12px;
-                
- 
+                font-size: 18px;
+            
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                text-decoration-line: underline;
- 
+               
                 color: #FF6060;
  
             }
             .Apropos{
                 position: absolute;
-                //left: 78.81%;
                 right: 0%;
                 top: 38.3%;
                 bottom: 25.53%;
                 
                 @include  policeStyle1();
-                font-size: 12px;
+                font-size: 18px;
             
                 display: flex;
                 align-items: flex-end;
@@ -425,7 +470,7 @@
         position: absolute;
         width:96%;
         height: 47px;
-        left: 20px;
+        left: 6%;
         top: 20px;
         width: 88%;
         height: 47px;
@@ -477,8 +522,7 @@
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
-                text-decoration-line: underline;
- 
+               
                 color: #FF6060;
  
             }
@@ -511,7 +555,7 @@
        position: absolute;
        width:96%;
        height: 47px;
-       left: 20px;
+       left: 6%;
        top: 20px;
        width: 88%;
        height: 47px;
@@ -536,7 +580,7 @@
        
        .kasa-header-nav nav{          
            position: absolute;
-           left: 58.21%;
+           left: 62%;
            //left: 137.21%;
            right: 0%;
            //top: 38.3%;
@@ -551,7 +595,7 @@
            .Accueil{
                position: absolute;
                //left: 58.21%;
-               left: 30%;
+               left: 8%;
                //right: 24.18%;
                top: 38.3%;
                bottom: 25.53%;
@@ -563,8 +607,7 @@
                display: flex;
                align-items: flex-end;
                text-align: right;
-               text-decoration-line: underline;
-
+              
                color: #FF6060;
 
            }

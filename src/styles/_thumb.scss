@@ -21,68 +21,173 @@
           position: relative;
           height: 340px;
           max-width: 340px;
-          //width: 100%;
-          left: 0px;
-          top: 0px;
+                 
           border-radius: 10px;
           background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
           text-align:left; 
           overflow: hidden;
-          
+         
           img{
-              display: block;
+             display: block;
               border-radius: 10px;
               width: 100%;
               height: 100%;
+              // height: auto;
      
           }     
           
           h2{
                position: absolute;
-
                height: 52px;
                width: 300px;
                width: 100%;
-               //left: 20px;
-               //top: 268px;
                @include  policeStyle1();
                font-size: 18px;
-            
-               //margin-top: 60px;
                margin-top: -62px;
-               margin-left: 20px;
+               margin-left: 5%;
                margin-bottom: 20px;
                margin-right: 20px;
                display: flex;
                align-items: flex-end;
-              
-
                color: #FFFFFF;
-
-          }
-           
+          }     
      }
-    
 }
+@media screen and (min-width:2561px){
+     .kasa-home-thumb{
+    
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          height: 780px;
+          max-width: 1400px;
+          width: 100%;
+          border-radius: 25px;
+          padding-top: 56px;
+          padding-left: 11%;
+          margin-left: 10%;
+     }
+}     
+@media screen and (min-width: 2001px) and (max-width:2560px){
+     .kasa-home-thumb{
+    
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          height: 780px;
+          max-width: 1400px;
+          width: 100%;
+          border-radius: 25px;
+          padding-top: 56px;
+          padding-left: 11%;
+          margin-left: 10%;
+          
+          
+          .rectangle2{ 
+               position: relative;
+               height: 340px;
+               max-width: 340px;
+                      
+               border-radius: 10px;
+               background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+               text-align:left; 
+               overflow: hidden;
+              
+               img{
+                  display: block;
+                   border-radius: 10px;
+                   width: 100%;
+                   height: 100%;
+                   // height: auto;
+          
+               }     
+               
+               h2{
+                    position: absolute;
+                    height: 52px;
+                    width: 300px;
+                    width: 100%;
+                    @include  policeStyle1();
+                    font-size: 18px;
+                    margin-top: -62px;
+                    margin-left: 5%;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FFFFFF;
+               }     
+          }
+     }
+}     
+@media screen and (min-width: 1500px) and (max-width:2000px){
+     .kasa-home-thumb{
+    
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          height: 780px;
+          max-width: 1400px;
+          width: 100%;
+          border-radius: 25px;
+          padding-top: 56px;
+          padding-left: 11%;
+          
+          .rectangle2{ 
+               position: relative;
+               height: 340px;
+               max-width: 340px;
+                      
+               border-radius: 10px;
+               background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+               text-align:left; 
+               overflow: hidden;
+              
+               img{
+                  display: block;
+                   border-radius: 10px;
+                   width: 100%;
+                   height: 100%;
+                   // height: auto;
+          
+               }     
+               
+               h2{
+                    position: absolute;
+                    height: 52px;
+                    width: 300px;
+                    width: 100%;
+                    @include  policeStyle1();
+                    font-size: 18px;
+                    margin-top: -62px;
+                    margin-left: 5%;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FFFFFF;
+               }     
+          }
+     }
+}     
 @media screen and (min-width: 1025px) and (max-width:1400px){
      .kasa-home-thumb{
           display: flex;
           flex-wrap: wrap;
-          justify-content: center;
+          justify-content:space-evenly;
           height: 780px;
         
           width: 100%;
-          gap: 2%;
+          gap: 4%;
           padding: 0%;
            
           border-radius: 25px;
           padding-top:36px ;
-          //padding-left: 4%;
-       
+
           .rectangle2{ 
      
-               width: 340px;
-               height: 340px;
+               width: 280px;
+               height: 280px;
                border-radius: 10px;
                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
                text-align:left; 
@@ -99,7 +204,7 @@
                  
                     //margin-top: 60px;
                     margin-top: -62px;
-                    margin-left: 20px;
+                    margin-left: 5%;
                     margin-bottom: 20px;
                     margin-right: 20px;
                     display: flex;
@@ -150,14 +255,14 @@
                h2{
                     height: 52px;
                     width: 300px;
-                    width: 100%;
+                    width: 96%;
                    
                     @include  policeStyle1();
                     font-size: 18px;
                  
                     //margin-top: 60px;
                     margin-top: -62px;
-                    margin-left: 20px;
+                    margin-left: 5%;
                     margin-bottom: 20px;
                     margin-right: 20px;
                     display: flex;
@@ -167,14 +272,9 @@
      
                }
                img{
-                   
                     border-radius: 10px;
                     width: 100%;
                     height: 100%;
-                    
-                   
-                 
-     
                }     
           }
          
@@ -196,26 +296,19 @@
           padding-left: 4%;
        
           .rectangle2{ 
-     
                width: 300px;
                height: 300px;
                border-radius: 10px;
                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
                text-align:left; 
-               //margin-left: 10%;
-              
-               
                h2{
                     height: 52px;
                     width: 300px;
                     width: 100%;
-                   
                     @include  policeStyle1();
                     font-size: 18px;
-                 
-                    //margin-top: 60px;
                     margin-top: -62px;
-                    margin-left: 20px;
+                    margin-left: 5%;
                     margin-bottom: 20px;
                     margin-right: 20px;
                     display: flex;
@@ -225,14 +318,9 @@
      
                }
                img{
-                   
                     border-radius: 10px;
                     width: 100%;
                     height: 100%;
-                    
-                   
-                 
-     
                }     
           }
          
@@ -244,48 +332,32 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-         
-        
           height: 255px;
           left: -21px;
-      
-         
-      
           border-radius: 10px;
           align-items: center;
           padding: 0%;
          
           .rectangle2{ 
                position: relative;
-               max-width: calc(100%);
-              // margin-bottom: 24px;
-               height: 255px;
-               left: 0px;
-               top: 0px;
+               width: 100%;
+               height: 340px;
+               margin-top: 7%;
                border-radius: 10px;
                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
                border-radius: 10px;
-              // width: 100%;
                text-align:left; 
-              
+
                h2{
                     position: absolute;
-      
                     height: 52px;
-                    //width: 300px;
                     width: 100%;
-                    //left: 20px;
-                    //top: 268px;
                     @include  policeStyle1();
                     font-size: 18px;
-                    
-                    //margin-top: 60px;
                     margin-top: -62px;
-                    margin-left: 20px;
+                    margin-left: 5%;
                     margin-bottom: 20px;
                     margin-right: 20px;
-                   
-      
                     color: #FFFFFF;
       
                }
@@ -294,32 +366,20 @@
                     border-radius: 10px;
                     width: 100%;
                     height: 100%;
-                    
-                   
-                 
-      
-               }    
-               
+               }             
           }
-          
-         
-      }
-
+     }
 }
 
 @media screen and (min-width: 376px) and (max-width:425px){
      .kasa-home-thumb{
-    
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
-        
           height: 255px;
           left: -21px;
-      
           gap: 24px;
-      
           border-radius: 10px;
           align-items: center;
           padding: 0%;
@@ -339,18 +399,15 @@
               
                h2{
                     position: absolute;
-      
                     height: 52px;
                     //width: 300px;
-                    width: 100%;
-                    //left: 20px;
-                    //top: 268px;
+                    width: 99%;
+       
                     @include  policeStyle1();
                     font-size: 18px;
-                    
-                    //margin-top: 60px;
+   
                     margin-top: -62px;
-                    margin-left: 20px;
+                    margin-left: 5%;
                     margin-bottom: 20px;
                     margin-right: 20px;
                    
@@ -359,21 +416,13 @@
       
                }
                img{
-                   display: block;
+                    display: block;
                     border-radius: 10px;
                     width: 100%;
                     height: 100%;
-                    
-                   
-                 
-      
                }    
-               
           }
-          
-         
-      }
-
+     }
 }     
 
 @media screen and (min-width: 321px)and (max-width:375px){
@@ -387,66 +436,47 @@
           //width: 100%;
           height: 255px;
           left: -21px;
-          //top: 0px;
-          //top: 680px;
+       
           gap: 24px;
           padding: 0%;
           border-radius: 10px;
           align-items: center;
      
-     .rectangle2{ 
-          position: relative;
-          max-width: calc(100%);
-          // margin-bottom: 24px;
-          //max-width: 335px;
-          //width: 100%;
-          height: 255px;
-          left: 0px;
-          top: 0px;
-          border-radius: 10px;
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-          border-radius: 10px;
-          // width: 100%;
-          text-align:left; 
+          .rectangle2{ 
+               position: relative;
+               max-width: calc(100%);
           
-          
-          h2{
-               
-               position:absolute;
-               height: 52px;
-               width: 300px;
-               width: 100%;
-               //left: 20px;
-               //top: 268px;
-               @include  policeStyle1();
-               font-size: 18px;
-               
-               //margin-top: 60px;
-               margin-top: -62px;
-               margin-left: 20px;
-               margin-bottom: 20px;
-               margin-right: 20px;
-               
-
-               color: #FFFFFF;
-
-          }
-          img{
-               display: block;
+               height: 255px;
+               left: 0px;
+               top: 0px;
                border-radius: 10px;
-               width: 100%;
-             
-               
-               
-               
-
-          }    
+               background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+               border-radius: 10px;
+               text-align:left; 
           
-     }
-     
-     
-     }
+               h2{
+                    
+                    position:absolute;
+                    height: 52px;
+                    width: 300px;
+                    width: 99%;
 
+                    @include  policeStyle1();
+                    font-size: 18px;
+               
+                    margin-top: -62px;
+                    margin-left: 5%;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                    color: #FFFFFF;
+               }
+               img{
+                    display: block;
+                    border-radius: 10px;
+                    width: 100%;
+               }     
+          }
+     }
 }
 @media screen and (max-width: 320px){
      .kasa-home-thumb{
@@ -466,57 +496,46 @@
           border-radius: 10px;
           align-items: center;
      
-     .rectangle2{ 
-          position: relative;
-          max-width: calc(100%);
-          // margin-bottom: 24px;
-          //max-width: 335px;
-          //width: 100%;
-          height: 255px;
-          left: 0px;
-          top: 0px;
-          border-radius: 10px;
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-          border-radius: 10px;
-          // width: 100%;
-          text-align:left; 
-          
-          
-          h2{
-               
-               position:absolute;
-               height: 52px;
-               width: 300px;
-               width: 100%;
-               //left: 20px;
-               //top: 268px;
-               @include  policeStyle1();
-               font-size: 18px;
-               
-               //margin-top: 60px;
-               margin-top: -62px;
-               margin-left: 6px;
-               margin-bottom: 20px;
-               margin-right: 20px;
-               
-
-               color: #FFFFFF;
-
-          }
-          img{
-               display: block;
+          .rectangle2{ 
+               position: relative;
+               max-width: calc(100%);
+               // margin-bottom: 24px;
+               //max-width: 335px;
+               //width: 100%;
+               height: 255px;
+               left: 0px;
+               top: 0px;
                border-radius: 10px;
-               width: 100%;
-               height: 100%;
+               background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+               border-radius: 10px;
+               // width: 100%;
+               text-align:left; 
                
                
+               h2{
+                    
+                    position:absolute;
+                    height: 52px;
+                    width: 300px;
+                    width: 100%;
                
-
-          }    
-          
-     }
-     
-     
+                    @include  policeStyle1();
+                    font-size: 18px;
+               
+                    margin-top: -62px;
+                    margin-left: 6px;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+               
+                    color: #FFFFFF;
+               }
+               img{
+                    display: block;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+               }    
+          }
      }
 }     
    
