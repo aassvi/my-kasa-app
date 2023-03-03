@@ -196,8 +196,7 @@
             height: 17px;
             width: 140px;
             width: 46%;
-            //left: 195px;
-            //top: 18px;        
+                   
             a {
           
                 text-decoration: none;
@@ -415,16 +414,16 @@
            
             position: absolute;
             left: 48%;
-            right: 0%;
-            top: 25%;
-            bottom: 25%;
+            right: 1%;
+            top: 24%;
+            bottom: 10%;
             z-index: 1;
            
             .Accueil{
                 position: absolute;
                 top: 25%;
                 bottom: 25%;
-                left: 30%;
+                left: 45%;
                 @include  policeStyle1();
                 font-size: 24px;
              
@@ -492,7 +491,7 @@
                
             .Accueil{
                 position: absolute;
-                left: 30%;
+                left: 37%;
                 top: 38.3%;
                 bottom: 25.53%;
  
@@ -557,7 +556,7 @@
         
         .kasa-header-nav nav{          
             position: absolute;
-            left: 58.21%;
+            left: 56.21%;
             //left: 137.21%;
             right: 0%;
             //top: 38.3%;
@@ -566,19 +565,18 @@
             height: 17px;
             width: 140px;
             width: 44%;
-            //left: 195px;
-            //top: 18px;        
+                   
            
             .Accueil{
                 position: absolute;
                 //left: 58.21%;
-                left: 30%;
+                left: 16%;
                 //right: 24.18%;
                 top: 38.3%;
                 bottom: 25.53%;
  
                 @include  policeStyle1();
-                font-size: 12px;
+                font-size: 16px;
                 
  
                 display: flex;
@@ -596,7 +594,7 @@
                 bottom: 25.53%;
                 
                 @include  policeStyle1();
-                font-size: 12px;
+                font-size: 16px;
             
                 display: flex;
                 align-items: flex-end;
@@ -651,8 +649,7 @@
            height: 17px;
            width: 140px;
            width: 40%;
-           //left: 195px;
-           //top: 18px;        
+                
           
            .Accueil{
                position: absolute;
@@ -663,7 +660,7 @@
                bottom: 25.53%;
 
                @include  policeStyle1();
-               font-size: 12px;
+               font-size: 14px;
                
 
                display: flex;
@@ -681,7 +678,7 @@
                bottom: 25.53%;
                
                @include  policeStyle1();
-               font-size: 12px;
+               font-size: 14px;
            
                display: flex;
                align-items: flex-end;
