@@ -5,10 +5,17 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
 function Carousel(props) {
+
+    // Utilise le hook useParams pour extraire l'ID du logement
     const { id } = useParams();
-    const [currentIndex, setCurrentIndex] = useState(0);
+
+    // Recherche l'objet de données correspondant à l'ID fourni dans les propriétés 'props' passées au composant
     const logement = props.data.find(item => item.id === id);
     const { title,location, pictures } = logement;
+
+    // Utilise le hook useState pour stocker l'index de l'image courante dans un carrousel, initialise à 0
+    const [currentIndex, setCurrentIndex] = useState(0);
+   
 
     if (pictures.length === 1){
       return (
