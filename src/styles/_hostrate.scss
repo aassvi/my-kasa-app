@@ -848,15 +848,15 @@
                
           }
      }
-}     
-@media screen and  (min-width: 1441px) and (max-width: 2000px) {
+}
+@media screen and  (min-width: 1801px) and (max-width: 2000px) {
      .HostRate-rate{
           position: absolute;
           width: 196px;
           height: 36px;
           //left: 1144px;
           left: 1053px;
-          left:78%;
+          left:81%;
           //top: 652px;
           top: 518px;
           z-index: auto;
@@ -876,7 +876,7 @@
                height: 52px;
                //left: 1170px;
                left: 1066px;
-               left: 78%;
+               left: 83%;
                //top: 573px;
                top: 442px;
           
@@ -896,7 +896,129 @@
                height: 64px;
                //left: 1273px;
                left: 1166px;
-               left: 86%;
+               left: 88%;
+               //top: 567px;
+               top: 440px;
+              
+               //background: #C4C4C4;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+}      
+@media screen and  (min-width: 1601px) and (max-width: 1800px) {
+     .HostRate-rate{
+          position: absolute;
+          width: 196px;
+          height: 36px;
+          //left: 1144px;
+          left: 1053px;
+          left:81%;
+          //top: 652px;
+          top: 518px;
+          z-index: auto;
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 36px;
+               height: 36px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+          
+          .HostRate-host-name {
+               position: absolute;
+               width: 78px;
+               height: 52px;
+               //left: 1170px;
+               left: 1066px;
+               left: 81%;
+               //top: 573px;
+               top: 442px;
+          
+               @include  policeStyle1();
+               font-size: 18px;
+           
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 64px;
+               height: 64px;
+               //left: 1273px;
+               left: 1166px;
+               left: 87%;
+               //top: 567px;
+               top: 440px;
+              
+               //background: #C4C4C4;
+               img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+               }
+               
+          }
+     }
+}      
+@media screen and  (min-width: 1441px) and (max-width: 1600px) {
+     .HostRate-rate{
+          position: absolute;
+          width: 196px;
+          height: 36px;
+          //left: 1144px;
+          left: 1053px;
+          left:79%;
+          //top: 652px;
+          top: 518px;
+          z-index: auto;
+     
+     }
+     .HostRate-rate-etoile img{
+               width: 36px;
+               height: 36px;
+               left: 1144px;
+               top: 652px;
+     }
+     .HostRate-host{
+          
+          .HostRate-host-name {
+               position: absolute;
+               width: 78px;
+               height: 52px;
+               //left: 1170px;
+               left: 1066px;
+               left: 80%;
+               //top: 573px;
+               top: 442px;
+          
+               @include  policeStyle1();
+               font-size: 18px;
+           
+               display: flex;
+               align-items: flex-end;
+               text-align: right;
+          
+               color: #FF6060;
+          
+          }
+          .HostRate-host-picture{
+               position: absolute;
+               width: 64px;
+               height: 64px;
+               //left: 1273px;
+               left: 1166px;
+               left: 87%;
                //top: 567px;
                top: 440px;
               

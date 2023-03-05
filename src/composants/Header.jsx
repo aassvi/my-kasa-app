@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import logom from '../assets/logom.png';
 
- 
 function Header() {
+    /* utilisation de la méthode useLocation de react-router-dom pour obtenir l'emplacement de l'utilisateur actuel. 
+    puis teste avec path si bonne url et ajoute classe active */
+    const location = useLocation();
+
     return (
         <div className='kasa-header'>
             <div className='kasa-header-logo'>
@@ -14,8 +18,8 @@ function Header() {
             </div>
             <div className='kasa-header-nav'>
             <nav>
-               <Link className="Accueil" to="/" >Accueil</Link>
-               <Link className="Apropos" to="/Apropos">A propos</Link>
+               <Link className={location.pathname === "/" ? "Accueil active" : "Accueil"} to="/" >Accueil</Link>
+               <Link className={location.pathname === "/Apropos" ? "Apropos active" : "Apropos"} to="/Apropos">A propos</Link>
             </nav>
             </div>
         </div>

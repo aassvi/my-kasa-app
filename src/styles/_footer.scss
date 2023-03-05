@@ -37,7 +37,41 @@
     }
     
 }
-
+@media screen and (min-width: 2000px) and (max-width: 2561px) {
+     .kasa-footer {
+   
+          width: 100%;
+          .kasa-footer_elements{
+               
+               img{
+                    position: absolute;
+                    left: 45.76%;
+                    right: 45.76%;
+                    top: 31.58%;
+                    bottom: 49.55%;  
+                    //align-items: center;
+               }
+               p{
+                    position: absolute;
+                    left: 35.15%;
+                    right: 32.22%;
+                    top: 64.11%;
+                    bottom: 13.88%;
+     
+                    @include  policeStyle1();
+                    font-size: 24px;
+                    
+     
+                    display: flex;
+                    align-items:center;
+                    text-align: center;
+                    padding-left: 7%;
+                    color: #FFFFFF;
+               }
+         }
+          
+           }
+}
 @media screen and (min-width: 1460px) and (max-width: 1599px) {
      .kasa-footer {
    
@@ -75,19 +109,19 @@
                }
                p{
                     position: absolute;
-                    left: 32.15%;
-                    right: 32.22%;
+                    left: 36.15%;
+                    right: 28.22%;
                     top: 64.11%;
                     bottom: 13.88%;
      
                     @include  policeStyle1();
                     font-size: 24px;
-                    
+                   
      
                     display: flex;
                     align-items:center;
                     text-align: center;
-                    padding-left: 7%;
+                    padding:unset;
                     color: #FFFFFF;
                }
          }
@@ -107,14 +141,14 @@
                
                img{
                     position: absolute;
-                    left: 33.87%;
+                    left: 42.87%;
                     right: 33.6%;
                     top: 29.67%;
                     bottom: 51.46%;
                }
                p{
                     position: absolute;
-                    left:  22%;
+                    left:  33%;
                     right: -18.4%;
                     top: 48.33%;
                     bottom: 29.67%;
@@ -122,7 +156,7 @@
                     
                     font-size: 12px;
                    
-                    width: 74%;
+                    width: fit-content;
                     display: flex;
                     align-items: flex-end;
                     text-align: center;

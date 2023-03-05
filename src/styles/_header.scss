@@ -7,6 +7,7 @@
 
     height: 68px;
     left: 100px;
+    left: 7%;
     top: 40px;
     
    .kasa-header-logo{
@@ -32,20 +33,18 @@
         display: flex;
         justify-content: center;
         
-        a {
-          
-          text-decoration: none;
-          margin: 0 1px;
-          position: relative;
-      
-          &:hover {
+       a {
+            text-decoration: none;
+            margin: 0 1px;
+            position: relative;
+
+            &:hover {
             text-decoration: underline;
-            
-          }
-      
-          &.active {
+            }
+
+            &.active{           
             text-decoration: underline;
-          }
+            }
         }
        
         .Accueil{
@@ -82,7 +81,7 @@
 @media screen and  (min-width: 2561px)  {
     .kasa-header { 
         left: 9%;
-        width: 80%;
+        width: 85%;
         .kasa-header-nav nav{
             .Accueil{
                 position: absolute;
@@ -90,7 +89,7 @@
                 bottom: 25%;
     
                 @include  policeStyle1();
-                font-size: 33px;
+                font-size: 43px;
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
@@ -104,7 +103,7 @@
                 bottom: 25%;
     
                 @include  policeStyle1();
-                font-size: 33px;
+                font-size: 43px;
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
@@ -118,10 +117,10 @@
         }
        
 }
-@media screen and  (min-width: 1500px) and (max-width: 2560px) {
+@media screen and  (min-width: 2001px) and (max-width: 2560px) {
     .kasa-header { 
         left: 9%;
-        width: 81%;
+        width: 84%;
         .kasa-header-nav nav{
             .Accueil{
                 position: absolute;
@@ -129,7 +128,7 @@
                 bottom: 25%;
     
                 @include  policeStyle1();
-                font-size: 33px;
+                font-size: 43px;
                 display: flex;
                 align-items: flex-end;
                 text-align: right;
@@ -143,7 +142,47 @@
                 bottom: 25%;
     
                 @include  policeStyle1();
-                font-size: 33px;
+                font-size: 43px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+    
+                color: #FF6060;
+    
+    
+            }
+        }
+        
+        }
+       
+}
+@media screen and  (min-width: 1500px) and (max-width: 2000px) {
+    .kasa-header { 
+        left: 7%;
+        width: 88%;
+        .kasa-header-nav nav{
+            .Accueil{
+                position: absolute;
+                top: 25%;
+                bottom: 25%;
+                left: 15%;
+    
+                @include  policeStyle1();
+                font-size: 38px;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                color: #FF6060;
+            }
+            .Apropos{
+                position: absolute;
+               // left: 90.65%;
+                right: 0%;
+                top: 25%;
+                bottom: 25%;
+    
+                @include  policeStyle1();
+                font-size: 38px;
                 display: flex;
                 align-items: flex-end;
                 text-align: right;

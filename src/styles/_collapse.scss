@@ -118,6 +118,129 @@
     //top:776px;
     top: 454px;
   }
+  @media screen and  (min-width: 1500px) and (max-width: 2600px) {
+
+    
+      left: 14%;
+      
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 1023px;
+      width: 71%;
+      height: 47px;
+      left: 208px;
+      left:15%;
+      top: 406px;
+    
+    
+     .collapse-container {
+        margin-bottom: 20px;
+       
+    
+        &:not(:last-child) {
+          margin-bottom: 40px;
+        }
+      }
+    
+      .collapse-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: #FF6060;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 1023px;
+        width: 100%;
+        height: 47px;
+    
+        h3 {
+          margin: 0;
+          @include  policeStyle1();
+          font-size: 30px;
+         
+          
+          display: flex;
+          align-items: center;
+          color: #FFFFFF; 
+        }
+    
+        & .collapse-icon {
+          transition: transform 0.3s ease-in-out;
+          color: #FFFFFF;
+          display: inline-block;
+          position: absolute;         
+          left: 95.75%;
+          right: 18.63%;
+          width: 66px;
+          height: 36px;
+    
+          &.open {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    
+      .collapse-content-closed {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease-in-out;
+      }
+    
+      .collapse-content {
+        overflow: hidden;
+        transition: height 0.3s ease-in-out;
+        padding: 20px;
+        background: #F7F7F7;
+        border-radius: 5px;
+        width: 1023px;
+        width: 100%;
+         & p{
+            margin: 0;
+            @include  policeStyle1();
+            font-weight: 400;
+            font-size: 30px;
+            color: #FF6060;
+          }
+        
+      }
+    
+      .collapse-0 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        top:406px;
+      }
+    
+      .collapse-1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        //top:484px;
+        top: 422px;
+      }
+    
+      .collapse-2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        //top:699px;
+        top: 439px;
+      }
+    
+      .collapse-3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        //top:776px;
+        top: 454px;
+      }
+  }  
   @media screen and (min-width:1025px) and (max-width:1400px){ 
     display: flex;
     flex-direction: column;
@@ -360,13 +483,7 @@
     }
     
   }
-  @media screen and  (min-width: 1500px) and (max-width: 2560px) {
-
-    .kasa-apropos_collapse {
-      left: 14%;
-      
-    }
-  }  
+ 
   @media screen and (min-width: 426px) and (max-width:768px){
     @include collapse-aproposM();
     width: 90%;
@@ -1512,17 +1629,14 @@
     }  
   }
 }
-@media screen and (min-width:2561px){ 
+@media screen and (min-width:2000px) and (max-width:2560px){ 
   .logement-collapse {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     /*******/
   
-    .collapse-container {
-      width: calc(50% - 11%);
-      margin-bottom: 20px;
-    }
+   
    
      
     .collapse-header {
@@ -1545,9 +1659,9 @@
   
         h3 {
           margin: 0;
-          font-size: 18px;
+         
           @include  policeStyle1();
-          font-size: 18px;
+          font-size: 24px;
        
           display: flex;
           align-items: center;
@@ -1557,11 +1671,11 @@
   
           .collapse-icon {
             transition: transform 0.3s ease-in-out;
-            width: 38px;
-            height: 35px;
+            width: 55px;
+            height: 50px;
             color: #FFFFFF;
             position: absolute;
-            left: 91%;
+            left: 93%;
       
             &.open {
               transform: rotate(180deg);
@@ -1602,7 +1716,117 @@
             font-weight: 400;
             color: #FF6060;
             margin-top: 18px;
-            font-size: 18px;
+            font-size: 24px;
+          }
+    
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 142.6%;
+            margin-top: 18px;
+            li {
+              margin-bottom: 8px;
+              @include  policeStyle1();
+              font-weight: 400;
+              font-size: 18px;
+              color: #FF6060;
+            }
+          }
+    }  
+  }
+}
+@media screen and (min-width:2561px){ 
+  .logement-collapse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*******/
+  
+    .collapse-container {
+      width: calc(50% - 11%);
+      margin-bottom: 20px;
+    }
+   
+     
+    .collapse-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 20px;
+          
+          padding: 16px;
+          background: #FF6060;
+          border-radius: 10px;
+          cursor: pointer;
+          margin-top: 58px;
+          width: 582px;
+          width: 420px;
+          width: 47%;
+          height: 52px;
+          position: absolute;
+          z-index: 1;
+  
+        h3 {
+          margin: 0;
+         
+          @include  policeStyle1();
+          font-size: 24px;
+       
+          display: flex;
+          align-items: center;
+     
+          color: #FFFFFF;
+        }
+  
+          .collapse-icon {
+            transition: transform 0.3s ease-in-out;
+            width: 55px;
+            height: 50px;
+            color: #FFFFFF;
+            position: absolute;
+            left: 93%;
+      
+            &.open {
+              transform: rotate(180deg);
+            }
+          }
+    }
+  
+        
+  
+    .collapse-content-closed {
+          height: 0;
+          overflow: hidden;
+         // transition: height 0.3s ease-in-out;
+          color: #FF6060;
+          font-size: 18px;
+          
+    }
+  
+    .collapse-content {
+          overflow: hidden;
+          transition: height 0.3s ease-in-out;
+          
+          padding: 16px;
+          background: #F7F7F7;
+          line-height: 142.6%;
+          border-radius: 10px;
+          Width:582px;
+          width: 420px;
+          width: 47%;
+          Height:249px;
+          top: 95px;
+          position: absolute;
+          
+    
+          p {
+            margin: 0;
+            @include  policeStyle1();
+            font-weight: 400;
+            color: #FF6060;
+            margin-top: 18px;
+            font-size: 24px;
           }
     
           ul {
