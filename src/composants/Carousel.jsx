@@ -3,10 +3,9 @@ import { useParams } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-
 function Carousel(props) {
 
-  // Utilise le hook useParams pour extraire l'ID du logement
+  // Utilise le hook useParams pour extraire l'ID du logement dans URL
   const { id } = useParams();
 
   // Recherche l'objet de données correspondant à l'ID fourni dans les propriétés 'props' passées au composant
