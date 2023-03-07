@@ -1,11 +1,14 @@
+  /** 
+  *  Utilisation de Hook useLocation de react-router-dom pour obtenir l'emplacement de l'utilisateur actuel. 
+  *  puis teste avec path si bonne url et ajoute classe active 
+  */
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import logom from '../assets/logom.png';
 
 function Header() {
-    /* utilisation de la méthode useLocation de react-router-dom pour obtenir l'emplacement de l'utilisateur actuel. 
-    puis teste avec path si bonne url et ajoute classe active */
+  
     const location = useLocation();
 
     return (
