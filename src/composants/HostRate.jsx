@@ -1,3 +1,10 @@
+/**
+ * Fonction HostRate  utilise le hook useParams pour extraire l'ID du logement dans URL
+ * recherche l'objet de données rating et host correspondant à l'ID fourni dans le fichier data 
+ * le rating est représenté par des étoiles jaunes et grises en fonction du nombre de points de l'hôte. 
+ * Le composant utilise une boucle pour créer un tableau d'éléments img à partir des images étoiles et étoiles grises.
+ * itere sur le tableau stars pour ecrire les étoiles jaunes et ensuite complète avec des etoiles grises après calcul de difference
+ */
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { data } from '../services/data';
@@ -9,11 +16,10 @@ function HostRate() {
   const { id } = useParams();
   const infoshostrate = data.find(item => item.id === id);
   const { rating, host } = infoshostrate;
-
+ 
   const maxrating =5;  
   const  grey = maxrating - rating ;
  
-
   let stars = [];
   for (let i = 0; i < rating; i++) {
     stars.push(<img src={etoile} alt="star" key={i} />);
@@ -25,7 +31,6 @@ function HostRate() {
      }  
    }
   
-
   return (
      <>   
  

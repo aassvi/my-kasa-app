@@ -59,6 +59,132 @@
           color: #FF6060;
      }
 }
+@media screen and (min-width: 2501px) and (max-width:2561px){
+     .kasa-error{
+          position: relative;
+          width: 90%;
+          height: 1024px;
+     
+          background: #FFFFFF;
+          .error{
+               position: absolute;
+               left: 40%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+          
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 288px;
+               
+               display: flex;
+               align-items: center;
+               text-align: center;
+          
+               color: #FF6060;
+          
+          }
+          
+          h2{
+               position: absolute;
+               left: 35.49%;
+               right: 18.96%;
+               top: 59.18%;
+               bottom: 35.84%;
+     
+               @include  policeStyle1();
+               font-size: 36px;
+              
+               display: flex;
+               align-items: flex-end;
+     
+               color: #FF6060;
+     
+          }
+          h3{
+               display: none;
+          }
+          p{
+               position: absolute;
+               left: 44.14%;
+               right: 30.14%;
+               top: 81.93%;
+               bottom: 15.53%;
+     
+               @include  policeStyle1();
+               font-size: 24px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+     
+               color: #FF6060;
+          }
+     }
+}     
+@media screen and (min-width: 2000px) and (max-width:2500px){
+     .kasa-error{
+          position: relative;
+          width: 80%;
+          height: 1024px;
+     
+          background: #FFFFFF;
+          .error{
+               position: absolute;
+               left: 40%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+          
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 288px;
+               
+               display: flex;
+               align-items: center;
+               text-align: center;
+          
+               color: #FF6060;
+          
+          }
+          
+          h2{
+               position: absolute;
+               left: 32.49%;
+               right: 18.96%;
+               top: 59.18%;
+               bottom: 35.84%;
+     
+               @include  policeStyle1();
+               font-size: 36px;
+              
+               display: flex;
+               align-items: flex-end;
+     
+               color: #FF6060;
+     
+          }
+          h3{
+               display: none;
+          }
+          p{
+               position: absolute;
+               left: 46.14%;
+               right: 30.14%;
+               top: 81.93%;
+               bottom: 15.53%;
+     
+               @include  policeStyle1();
+               font-size: 24px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+     
+               color: #FF6060;
+          }
+     }
+}     
 @media screen and (min-width: 769px) and (max-width:1024px){
      .kasa-error{
           position: relative;

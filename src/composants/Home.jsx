@@ -1,10 +1,12 @@
+/**
+ * Fonction Home retourne l'affichage d'une section avec une image et une gallerie de photos 
+ * en utilisant le composant Thumb et en lui passant en props un tableau data
+ */
 import React from 'react';
 import paysage2 from '../assets/paysage2.png';
 import paysagemobile from '../assets/paysagemobile.png';
 import Thumb from './Thumb';
 import { data } from '../services/data';
-
-
 
 function Home(){
      return (
