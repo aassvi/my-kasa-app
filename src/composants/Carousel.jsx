@@ -2,11 +2,11 @@
  * Fonction Carousel affiche un caroussel d'images appartenant à l'Id du logement cliqué par l'utilisateur
  * Utilise la fonctionnalité Hook de React pour gérer l'état local du composant 
  * Utilise le hook useParams pour extraire l'ID du logement dans URL,
- *  recherche l'objet de données correspondant à l'ID fourni dans les propriétés 'props' passées au composant
- * Si le tableau contient une seule image l'affiche sans fléches sinon 
+ * recherche l'objet de données correspondant à l'ID fourni dans les propriétés 'props' passées au composant
+ * Si le tableau contient une seule image l'affiche sans flèches sinon 
  * Utilise le hook useState pour stocker l'index de l'image courante du carrousel dans la variable d'état currentIndex, initialise à 0
- * et le met à jour à dans la variable setCurrentIndex à chaque évenement onClick en utilisant deux fonctions 
- * pour savoir si l'on afficher l'image precedente ou suivante
+ * utilise la variable setCurrentIndex pour déplacer l'indice de cuurentIndex à chaque évenement onClick en utilisant deux fonctions 
+ * pour savoir si l'on affiche l'image précedente ou suivante
  */
 import React, { useState} from 'react';
 import { useParams } from 'react-router-dom';

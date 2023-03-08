@@ -1,7 +1,7 @@
-/** On importe les modules nécessaires images et données du fichier dataCollapse tableau javaScript
-*  fonction Apropos retourne le contenu de la page à afficher. Elle affiche une image et 
-*  boucle à travers les données et génère un element collapse pour chaque entrée du tableau 
-*  On exporte le composant pour pouvoir l'utiliser ailleurs dans l'application
+/** On importe les modules nécessaires images et données du fichier dataCollapse (tableau javaScript)
+*  Fonction Apropos retourne le contenu de la page à afficher. Elle affiche une image et 
+*  boucle à travers les données et génère un élément collapse pour chaque entrée du tableau 
+*  On exporte le composant pour pouvoir l'utiliser ailleurs dans l'application.
 */
 import React from 'react';
 import Collapse from './Collapse'; 

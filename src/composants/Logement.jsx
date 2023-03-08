@@ -3,7 +3,7 @@
  * Utilise le hook useParams pour extraire l'ID du logement dans URL
  * recherche l'objet de données description et equipments correspondant à l'ID fourni dans le fichier data 
  * Si ID pas trouvé affiche page Error
- * Sinon retourne l'affichage d'un carroussel d'images passant les props en parametre au composant Carousel,
+ * Sinon retourne l'affichage d'un carroussel d'images passant les props en paramétre au composant Carousel,
  * affiche les infos rating et host en appellant le composant HostRate
  * affiche Tag et crée deux elements collapse en passant des props au composant Collapse
  */

@@ -24,7 +24,7 @@ function HostRate() {
   for (let i = 0; i < rating; i++) {
     stars.push(<img src={etoile} alt="star" key={i} />);
   }
-  // prop clé unique j+rating
+  //  clé unique j+rating
   if (grey > 0){
      for (let j = 0; j < grey; j++) {
           stars.push(<img src={etoilegrise} alt="stargrey" key={j+rating} />);
