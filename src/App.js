@@ -16,7 +16,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Apropos" element={<Apropos />} />
           <Route path="/Logement/:id" element={<Logement />} />
-          <Route path="/Logement/*" element={<Error />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </React.StrictMode>
