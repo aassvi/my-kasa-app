@@ -2,7 +2,7 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 0%;
+  top: -1%;
   bottom: 0%;
   mix-blend-mode: normal;
   border-radius: 25px;
@@ -74,6 +74,7 @@
      
     @include  policeStyle1();
     font-size: 36px;
+    
    
     /* or 51px */
         

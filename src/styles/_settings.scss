@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
 *{
      box-sizing:border-box;
      list-style: none;
@@ -7,5 +11,6 @@
 }
 html,body{
      width: 100%;
-     //height: 100%;
+     font-family: 'Montserrat', sans-serif;
+    
 }
