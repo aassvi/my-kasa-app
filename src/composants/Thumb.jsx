@@ -6,6 +6,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+function Thumb(props) {
+  const { id, cover, title } = props.data;
+  return (
+    <Link to={`/logement/${id}`}>
+      <div className="rectangle2">
+        <img src={cover} alt={title} />
+        <h2>{title}</h2>
+      </div>
+    </Link>
+  );
+}
+
+export default Thumb;
+
+
+/*
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 function Gallery(props) {
   return (
     
@@ -26,5 +45,5 @@ function Gallery(props) {
 
 export default Gallery;
 
-
+*/
 

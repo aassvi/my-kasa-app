@@ -10,8 +10,8 @@
  */
 import React, { useState} from 'react';
 import { useParams } from 'react-router-dom';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import arrowBackwords from '../assets/arrowBackwords.png';
+import arrowFoward from '../assets/arrowFoward.png';
 
 function Carousel(props) {
   const { id } = useParams();
@@ -24,17 +24,14 @@ function Carousel(props) {
     return (
       <>
         <div className="carousel-container">
-          <div className="carousel-arrow-container">  
-            <img src={pictures} alt={title} />
-          </div>            
+          <img src={pictures} alt={title} className="carousel-image" />
         </div>
         <div className="Carousel-title-location">
-            <h1>{title}</h1>
-            <p>{location}</p>
+          <h1>{title}</h1>
+          <p>{location}</p>
         </div>    
       </>
-    );
-      
+    );  
   } else{
     const prevImage = () => {
       setCurrentIndex(currentIndex - 1);
@@ -52,27 +49,24 @@ function Carousel(props) {
 
     const currentImageNumber = currentIndex + 1;
     const totalImages = pictures.length;
+
     return (
       <>
         <div className="carousel-container">
-          <div className="carousel-arrow-container">
-            <ArrowBackIosIcon onClick={prevImage} />
-            <img src={pictures[currentIndex]} alt={title} />
-            <ArrowForwardIosIcon onClick={nextImage} />
-              <div className="image-counter">
-              {`${currentImageNumber}/${totalImages}`}
+          <img src={arrowBackwords} alt="previous" onClick={prevImage} className="arrow-backwards" />
+          <img src={pictures[currentIndex]} alt={title} className="carousel-image" />
+          <img src={arrowFoward} alt="next" onClick={nextImage} className="arrow-forward" />
+          <div className="image-counter">
+            {`${currentImageNumber}/${totalImages}`}
           </div>
         </div>
+        <div className="Carousel-title-location">
+          <h1>{title}</h1>
+          <p>{location}</p>
         </div>
-          <div className="Carousel-title-location">
-            <h1>{title}</h1>
-            <p>{location}</p>
-          </div>
       </>
     );
   }  
 }
-
 export default Carousel;
-
 

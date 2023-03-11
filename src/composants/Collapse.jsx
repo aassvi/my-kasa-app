@@ -6,7 +6,8 @@
 * définit la fonction handleToggle qui inverse la valeur d'isOpen lorsqu'on clique 
 */
 import React, { useState } from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+//import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import iconCollapse from '../assets/iconCollapse.png';
 
 const Collapse = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,11 @@ const Collapse = ({ title, content }) => {
       <div className="collapse-wrapper">
         <div className="collapse-header" onClick={handleToggle}>
           <h3>{title}</h3>
-          <KeyboardArrowDownIcon className={`collapse-icon ${isOpen ? 'open' : 'closed'}`} />
+          <img
+            className={`collapse-icon ${isOpen ? 'open' : 'closed'}`}
+            src={iconCollapse}
+            alt="Collapse icon"
+          />
         </div>
         {isOpen ? (
           <div className="collapse-content">

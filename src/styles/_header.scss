@@ -615,7 +615,7 @@
                 bottom: 25.53%;
  
                 @include  policeStyle1();
-                font-size: 16px;
+                font-size: 12px;
                 
  
                 display: flex;
@@ -633,7 +633,7 @@
                 bottom: 25.53%;
                 
                 @include  policeStyle1();
-                font-size: 16px;
+                font-size: 12px;
             
                 display: flex;
                 align-items: flex-end;
@@ -693,13 +693,13 @@
            .Accueil{
                position: absolute;
                //left: 58.21%;
-               left: 8%;
+               left:14%;
                //right: 24.18%;
                top: 38.3%;
                bottom: 25.53%;
 
                @include  policeStyle1();
-               font-size: 14px;
+               font-size: 12px;
                
 
                display: flex;
@@ -717,7 +717,7 @@
                bottom: 25.53%;
                
                @include  policeStyle1();
-               font-size: 14px;
+               font-size: 12px;
            
                display: flex;
                align-items: flex-end;

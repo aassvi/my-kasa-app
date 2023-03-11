@@ -1,10 +1,14 @@
 .kasa-error{
      position: relative;
-     width: 1440px;
+     max-width: 1440px;
      height: 1024px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 
      background: #FFFFFF;
-     .error{
+     h1{
           position: absolute;
           left: 30%;
           right: 0%;
@@ -18,7 +22,7 @@
           display: flex;
           align-items: center;
           text-align: center;
-     
+          text-decoration: none;
           color: #FF6060;
      
      }
@@ -29,7 +33,9 @@
           right: 18.96%;
           top: 59.18%;
           bottom: 35.84%;
-
+          width: 862px;
+          width: 48%;
+          height: 51px;
           @include  policeStyle1();
           font-size: 36px;
          
@@ -37,18 +43,16 @@
           align-items: flex-end;
 
           color: #FF6060;
-
+         
      }
-     h3{
-          display: none;
-     }
+     
      p{
           position: absolute;
           left: 38.14%;
           right: 40.14%;
           top: 81.93%;
           bottom: 15.53%;
-
+         
           @include  policeStyle1();
           font-size: 18px;
          
@@ -66,7 +70,11 @@
           height: 1024px;
      
           background: #FFFFFF;
-          .error{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          h1{
                position: absolute;
                left: 40%;
                right: 0%;
@@ -80,7 +88,7 @@
                display: flex;
                align-items: center;
                text-align: center;
-          
+               text-decoration: none;
                color: #FF6060;
           
           }
@@ -101,9 +109,7 @@
                color: #FF6060;
      
           }
-          h3{
-               display: none;
-          }
+        
           p{
                position: absolute;
                left: 44.14%;
@@ -129,7 +135,10 @@
           height: 1024px;
      
           background: #FFFFFF;
-          .error{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          h1{
                position: absolute;
                left: 40%;
                right: 0%;
@@ -164,9 +173,7 @@
                color: #FF6060;
      
           }
-          h3{
-               display: none;
-          }
+         
           p{
                position: absolute;
                left: 46.14%;
@@ -189,11 +196,13 @@
      .kasa-error{
           position: relative;
           width: 100%;
-     
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         
      
           background: #FFFFFF;
-          .error{
+          h1{
                position: absolute;
                left: 35%;
                right: 0%;
@@ -211,16 +220,15 @@
                color: #FF6060;
           
           }
-         h2{
-          display: none;
-         }
-          h3{
+         
+          h2{
                position: absolute;
-               left: 31.27%;
+               left: 24.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
-
+               width: 48%;
+               height: 51px;
                @include  policeStyle1();
                font-size: 22px;
               
@@ -257,11 +265,13 @@
      .kasa-error{
           position: relative;
           width: 100%;
-     
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         
      
           background: #FFFFFF;
-          .error{
+          h1{
                position: absolute;
                left: 35%;
                right: 0%;
@@ -279,16 +289,15 @@
                color: #FF6060;
           
           }
-         h2{
-          display: none;
-         }
-          h3{
+        
+          h2{
                position: absolute;
-               left: 31.27%;
+               left: 23.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
-
+               width: 56%;
+               height: 51px;
                @include  policeStyle1();
                font-size: 22px;
               
@@ -325,11 +334,13 @@
      .kasa-error{
           position: relative;
           width: 100%;
-     
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         
      
           background: #FFFFFF;
-          .error{
+          h1{
                position: absolute;
                left: 29%;
                right: 0%;
@@ -347,16 +358,15 @@
                color: #FF6060;
           
           }
-         h2{
-          display: none;
-         }
-          h3{
+        
+          h2{
                position: absolute;
                left: 23.27%;
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
-
+               width: 48%;
+               height: 51px;
                @include  policeStyle1();
                font-size: 18px;
               
@@ -366,9 +376,9 @@
                text-align: center;
 
                color: #FF6060;
-
-               }
-
+               overflow-wrap: break-word;
+               
+          }
                
           p{
                position: absolute;
@@ -393,16 +403,18 @@
      .kasa-error{
           position: relative;
           width: 100%;
-        
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
      
           background: #FFFFFF;
-          .error{
+          h1{
                position: absolute;
                left: 29%;
                right: 0%;
                top: -30%;
                bottom: 0%;
-
+              
                @include  policeStyle1();
                font-weight: 700;
                font-size: 96px;
@@ -414,26 +426,24 @@
                color: #FF6060;
           
           }
-         h2{
-          display: none;
-         }
-          h3{
+        
+          h2{
                position: absolute;
                left: 23.27%;
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
-
+               width: 48%;
+               height: 51px;
                @include  policeStyle1();
                font-size: 18px;
-              
-
+          
                display: flex;
                align-items: flex-end;
                text-align: center;
 
                color: #FF6060;
-
+               
                }
 
                
@@ -443,7 +453,7 @@
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
-
+              
                @include  policeStyle1();
                font-size: 14px;
               
