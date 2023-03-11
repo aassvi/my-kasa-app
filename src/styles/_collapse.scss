@@ -44,15 +44,16 @@
       color: #FFFFFF; 
     }
 
-    & .collapse-icon {
+    & img {
       transition: transform 0.3s ease-in-out;
       color: #FFFFFF;
       display: inline-block;
       position: absolute;         
-      left: 93.75%;
+      left: 96%;
       right: 18.63%;
-      width: 66px;
-      height: 36px;
+      width: 14.6px;
+      height: 23.86px;
+      object-fit: cover;
 
       &.open {
         transform: rotate(180deg);
@@ -166,15 +167,16 @@
           color: #FFFFFF; 
         }
     
-        & .collapse-icon {
+        & img {
           transition: transform 0.3s ease-in-out;
           color: #FFFFFF;
           display: inline-block;
           position: absolute;         
-          left: 95.75%;
+          left: 98%;
           right: 18.63%;
-          width: 66px;
-          height: 36px;
+          width: 14.6px;
+          height: 23.86px;
+          object-fit: cover;
     
           &.open {
             transform: rotate(180deg);
@@ -284,15 +286,16 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img {
         transition: transform 0.3s ease-in-out;
         color: #FFFFFF;
         display: inline-block;
         position: absolute;         
-        left: 91.75%;
+        left: 96%;
         right: 18.63%;
-        width: 66px;
-        height: 36px;
+        width: 14.6px;
+        height: 23.86px;
+        object-fit: cover;
   
         &.open {
           transform: rotate(180deg);
@@ -405,15 +408,16 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img {
         transition: transform 0.3s ease-in-out;
         color: #FFFFFF;
         display: inline-block;
         position: absolute;         
-        left: 91.75%;
+        left: 96%;
         right: 18.63%;
-        width: 66px;
-        height: 36px;
+        width: 14.6px;
+        height: 23.86px;
+        object-fit: cover;
   
         &.open {
           transform: rotate(180deg);
@@ -522,7 +526,7 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img{
         display: inline-block;
         position: absolute;         
         left: 92%;
@@ -531,6 +535,11 @@
         height: 30px;
         color: #FFFFFF;
         transition: transform 0.3s ease;
+        left: 96%;
+        right: 18.63%;
+        width: 14.6px;
+        height: 23.86px;
+        object-fit: cover;
         
         &.open {
           transform: rotate(180deg);
@@ -641,7 +650,7 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img {
         display: inline-block;
         position: absolute;         
         left: 83.75%;
@@ -650,6 +659,11 @@
         height: 30px;
         color: #FFFFFF;
         transition: transform 0.3s ease;
+        left: 93%;
+        right: 18.63%;
+        width: 14.6px;
+        height: 23.86px;
+        object-fit: cover;
         
         &.open {
           transform: rotate(180deg);
@@ -760,15 +774,16 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img {
         display: inline-block;
         position: absolute;         
-        left: 83.75%;
+        left: 85%;
         right: 18.63%;
-        width: 66px;
-        height: 30px;
+        width: 8.86px;
+        height: 15.2px;
         color: #FFFFFF;
         transition: transform 0.3s ease;
+        object-fit: cover;
         
         &.open {
           transform: rotate(180deg);
@@ -880,15 +895,16 @@
         color: #FFFFFF; 
       }
   
-      & .collapse-icon {
+      & img {
         display: inline-block;
         position: absolute;         
-        left: 85%;
+        left: 91%;
         right: 18.63%;
-        width: 48px;
-        height: 30px;
+        width: 8.86px;
+        height: 15.2px;
         color: #FFFFFF;
         transition: transform 0.3s ease;
+        object-fit: cover;
         
         &.open {
           transform: rotate(180deg);

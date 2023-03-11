@@ -2,7 +2,7 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: -1%;
+  top: 0%;
   bottom: 0%;
   mix-blend-mode: normal;
   border-radius: 25px;
@@ -64,6 +64,7 @@
     position: absolute;
     //position: absolute;
     width: 800px;
+    width: 80%;
     height: 77px;
   
     left: -0.06%;
@@ -330,7 +331,7 @@
       bottom: 24.06%;
        
       @include  policeStyle1();
-      font-size: 32px;
+      font-size: 29px;
      
       /* or 51px */
           
@@ -444,11 +445,7 @@
       
       top:34%;
 
-      white-space: nowrap;
-      overflow: hidden;
-      //text-overflow: ellipsis;
       
-        
       @include  policeStyle1();
       font-size: 18px;
           
@@ -553,15 +550,10 @@
       right: 5.33%;
 
       bottom: 49.51%;
-      width:400px;
+      width:93%;
       height: 73px;
       
-      top:34%;
-
-      white-space: nowrap;
-      overflow: hidden;
-      //text-overflow: ellipsis;
-      
+      top:34%; 
         
       @include  policeStyle1();
       font-size: 18px;
@@ -595,7 +587,7 @@
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: -2%;
     bottom: 0%;
     
 
@@ -603,9 +595,8 @@
     border-radius: 25px;
     height: 255px;
     //width: 335px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
+   
+    
     border-radius: 10px;
     width: 100%;
 
@@ -673,8 +664,8 @@
       
       top:42%;
 
-      white-space: nowrap;
-      overflow: hidden;
+      //white-space: nowrap;
+      //overflow: hidden;
       //text-overflow: ellipsis;
       
         
@@ -709,14 +700,13 @@
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: -2%;
     bottom: 0%;
   
     mix-blend-mode: normal;
     border-radius: 10px;
     width: 100%;
-    left: 0px;
-    top: 0px;
+   
     
 
     .carousel-image {
@@ -783,8 +773,8 @@
       
       top:42%;
 
-      white-space: nowrap;
-      overflow: hidden;
+      //white-space: nowrap;
+      //overflow: hidden;
       //text-overflow: ellipsis;
       
         
