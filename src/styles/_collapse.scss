@@ -487,8 +487,7 @@
     }
     
   }
- 
-  @media screen and (min-width: 426px) and (max-width:768px){
+  @media screen and (min-width: 601px) and (max-width:768px){
     @include collapse-aproposM();
     width: 90%;
     left: 6%;
@@ -536,6 +535,131 @@
         color: #FFFFFF;
         transition: transform 0.3s ease;
         left: 96%;
+        right: 18.63%;
+        width: 14.6px;
+        height: 23.86px;
+        object-fit: cover;
+        
+        &.open {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  
+    .collapse-content-closed {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+    }
+  
+    .collapse-content {
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+      padding: 20px;
+      Width:335px;
+      width: 100%;
+      background: #F7F7F7;
+      border-radius: 5px;
+     //width: 71%;
+      p {
+        margin: 0;
+        @include  policeStyle1();
+        font-weight: 400;
+        font-size: 15px;
+      
+        //width: 71%;
+        color: #FF6060;
+      }
+      
+    }
+  
+    .collapse-0 {
+      display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    top:330px;
+    }
+  
+    .collapse-1 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:484px;
+      top: 335px;
+    }
+  
+    .collapse-2 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      //top:699px;
+      top: 340px;
+    }
+  
+    .collapse-3 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      position: relative;
+      
+    }
+  }  
+  @media screen and (min-width: 426px) and (max-width:600px){
+    @include collapse-aproposM();
+    width: 90%;
+    left: 6%;
+    top: 362px;
+ 
+    .collapse-container {
+      margin-bottom: 20px;
+     
+  
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  
+    .collapse-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #FF6060;
+      border-radius: 5px;
+      cursor: pointer;
+      Width:335px;
+      width: 100%;
+      Height:30px;
+  
+      h3 {
+        margin: 0;
+        @include  policeStyle1();
+        font-size: 15px;
+      
+    
+        display: flex;
+        align-items: center;
+        color: #FFFFFF; 
+      }
+  
+      & img{
+        display: inline-block;
+        position: absolute;         
+        left: 93%;
+        right: 18.63%;
+        width: 7%;
+        height: 30px;
+        color: #FFFFFF;
+        transition: transform 0.3s ease;
+      
         right: 18.63%;
         width: 14.6px;
         height: 23.86px;
@@ -661,8 +785,8 @@
         transition: transform 0.3s ease;
         left: 93%;
         right: 18.63%;
-        width: 14.6px;
-        height: 23.86px;
+        width: 12.6px;
+        height: 19.86px;
         object-fit: cover;
         
         &.open {
@@ -777,9 +901,9 @@
       & img {
         display: inline-block;
         position: absolute;         
-        left: 85%;
+        left: 92%;
         right: 18.63%;
-        width: 8.86px;
+        width: 9.86px;
         height: 15.2px;
         color: #FFFFFF;
         transition: transform 0.3s ease;
