@@ -11,7 +11,7 @@
 import React, { useState} from 'react';
 import { useParams } from 'react-router-dom';
 import arrowBackwords from '../assets/arrowBackwords.png';
-import arrowFoward from '../assets/arrowFoward.png';
+import arrowFowards from '../assets/arrowFowards.png';
 
 function Carousel(props) {
   const { id } = useParams();
@@ -55,7 +55,7 @@ function Carousel(props) {
         <div className="carousel-container">
           <img src={arrowBackwords} alt="previous" onClick={prevImage} className="arrow-backwards" />
           <img src={pictures[currentIndex]} alt={title} className="carousel-image" />
-          <img src={arrowFoward} alt="next" onClick={nextImage} className="arrow-forward" />
+          <img src={arrowFowards} alt="next" onClick={nextImage} className="arrow-forward" />
           <div className="image-counter">
             {`${currentImageNumber}/${totalImages}`}
           </div>
