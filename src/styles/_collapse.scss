@@ -612,7 +612,7 @@
       
     }
   }  
-  @media screen and (min-width: 426px) and (max-width:600px){
+  @media screen and (min-width: 427px) and (max-width:600px){
     @include collapse-aproposM();
     width: 90%;
     left: 6%;
@@ -737,7 +737,7 @@
       
     }
   }  
-  @media screen and (min-width: 376px) and (max-width:425px){
+  @media screen and (min-width: 377px) and (max-width:426px){
     @include collapse-aproposM();
     width: 88%;
     top: 340px;
@@ -861,7 +861,7 @@
       
     }
   }  
-  @media screen and (min-width: 321px)and (max-width:375px){
+  @media screen and (min-width: 321px)and (max-width:376px){
     @include collapse-aproposM();
     width: 90%;
     top: 330px;
@@ -1217,7 +1217,7 @@
           }
         }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
   
     flex-direction: column;
     position: absolute;
@@ -1328,7 +1328,7 @@
       }
     }}
   }
-  @media screen and (min-width: 376px) and (max-width:425px){
+  @media screen and (min-width: 377px) and (max-width:426px){
         flex-direction: column;
         position: absolute;
         width: 100%; 
@@ -1438,7 +1438,7 @@
         }
       }}
   }
-  @media screen and (min-width: 426px) and (max-width:768px){
+  @media screen and (min-width: 427px) and (max-width:768px){
     flex-direction: column;
     position: absolute;
     

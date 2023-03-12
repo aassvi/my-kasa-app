@@ -324,7 +324,7 @@
           }
      }
 }          
-@media screen and (min-width: 426px) and (max-width:668px){
+@media screen and (min-width: 427px) and (max-width:668px){
      .kasa-logement {
           @include pageLengthdesktop();
           .kasa-logement_body{
@@ -364,7 +364,7 @@
      }
 }
       
-@media screen and (min-width: 376px) and (max-width:425px){
+@media screen and (min-width: 375px) and (max-width:426px){
      .kasa-page{
           height: 900px;
      }
@@ -406,7 +406,7 @@
           }
      }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 374px){
      .kasa-page{
           height: 900px;
      }
@@ -449,6 +449,3 @@
           }
      }
 }
-@media screen and (max-width: 320px){
-
-}     

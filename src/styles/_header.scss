@@ -198,10 +198,10 @@
 }
 
 //styles CSS pour les écrans de 375 pixels ou moins 
-@media screen and (min-width: 336px)and (max-width:375px){
+@media screen and (min-width: 335px) and (max-width:376px){
     .kasa-header {
         position: absolute;
-        //Mwidth: 335px;
+      
         width: 86%;
         height: 47px;
         left: 6%;
@@ -286,10 +286,10 @@
         }
     } 
 }    
-@media screen and (min-width: 321px)and (max-width:335px){
+@media screen and (min-width: 321px) and (max-width:334px){
     .kasa-header {
         position: absolute;
-        //Mwidth: 335px;
+        
         width: 86%;
         height: 47px;
         left: 6%;
@@ -718,7 +718,7 @@
         }
     }
   }
-  @media screen and (min-width: 426px) and (max-width:715px){
+  @media screen and (min-width: 427px) and (max-width:715px){
     .kasa-header {
         position: absolute;
         width:96%;
@@ -802,7 +802,7 @@
   }   
  
      
-  @media screen and (min-width: 376px) and (max-width:425px){
+  @media screen and (min-width: 377px) and (max-width:426px){
     .kasa-header {
        position: absolute;
        width:96%;
