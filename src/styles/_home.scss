@@ -26,6 +26,24 @@
                mix-blend-mode: darken;
           
                border-radius: 25px;
+               h1{
+                         
+                    position: absolute;
+                    left: 22.9%;
+                    right: 25.14%;
+                    top: 30.32%;
+                    bottom: 69.04%;
+                    height: 68px;
+                    width: 705px;
+                    width: 65%;
+               
+                    @include  policeStyle1();
+                    font-size: 48px;
+                    letter-spacing: 3px;
+                    color: #FFFFFF;
+                                   
+                    z-index: 1;
+               }
                
                .kasa-home-body-section1_desk{
                     opacity: 1;
@@ -37,23 +55,7 @@
                          transform: translate(1px, -310px);
                          
                     }
-                    h1{
-                         
-                         position: absolute;
-                         left: 22.9%;
-                         right: 25.14%;
-                         top: 30.32%;
-                         bottom: 69.04%;
-                         height: 68px;
-                         width: 705px;
-                    
-                         @include  policeStyle1();
-                         font-size: 48px;
-                         letter-spacing: 3px;
-                         color: #FFFFFF;
-                                        
-                         z-index: 1;
-                    }
+                   
               
                }
                .kasa-home-body-section1_mobile{
@@ -99,6 +101,25 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 33.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 58px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -110,24 +131,7 @@
                               transform: translate(1px, -38%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 33.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 58px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -175,6 +179,25 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 33.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 58px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -186,24 +209,7 @@
                               transform: translate(1px, -38%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 33.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 58px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -254,6 +260,24 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 33.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 52px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -265,24 +289,7 @@
                               transform: translate(1px, -38%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 33.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 52px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -330,6 +337,24 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 33.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 48px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -341,24 +366,7 @@
                               transform: translate(1px, -38%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 33.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 48px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -408,6 +416,25 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 33.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 38px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -419,24 +446,7 @@
                               transform: translate(1px, -41%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 33.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 38px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -484,6 +494,25 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 45.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 38px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -495,24 +524,7 @@
                               transform: translate(1px, -34%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 45.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 38px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -560,6 +572,25 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 38.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 38px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -571,24 +602,7 @@
                               transform: translate(1px, -34%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 38.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 38px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
+                        
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -636,6 +650,24 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 38.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 29px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -647,24 +679,7 @@
                               transform: translate(1px, -34%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 38.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
                          
-                              @include  policeStyle1();
-                              font-size: 29px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
                    
                     }
                     .kasa-home-body-section1_mobile{
@@ -712,6 +727,26 @@
                     mix-blend-mode: darken;
                
                     border-radius: 25px;
+
+                    h1{
+                              
+                         position: absolute;
+                         left: 17.9%;
+                         right: 25.14%;
+                         top: 50.32%;
+                         bottom: 69.04%;
+                         height: 68px;
+                         width: 705px;
+                         width: 78%;
+                    
+                         @include  policeStyle1();
+                         font-size: 29px;
+                         letter-spacing: 3px;
+                         color: #FFFFFF;
+                                        
+                         z-index: 1;
+                    }
+              
                     
                     .kasa-home-body-section1_desk{
                          opacity: 1;
@@ -723,25 +758,7 @@
                               transform: translate(1px, -26%);
                               
                          }
-                         h1{
-                              
-                              position: absolute;
-                              left: 17.9%;
-                              right: 25.14%;
-                              top: 50.32%;
-                              bottom: 69.04%;
-                              height: 68px;
-                              width: 705px;
-                              width: 78%;
-                         
-                              @include  policeStyle1();
-                              font-size: 29px;
-                              letter-spacing: 3px;
-                              color: #FFFFFF;
-                                             
-                              z-index: 1;
-                         }
-                   
+                        
                     }
                     .kasa-home-body-section1_mobile{
                          opacity: 0;
@@ -763,7 +780,7 @@
           }    
      }
 }
-@media screen and (min-width: 701px) and (max-width:767px){
+@media screen and (min-width: 728px) and (max-width:767px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 8740px;
@@ -784,6 +801,24 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                        
+                         width: 43%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -793,24 +828,85 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -237%);
+                                 
                          }
+                    }          
+               }    
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    left: -3px;
+                    top: 156px;
+                    //height: 7560px;
+                    background: #FFFFFF;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}     
+@media screen and (min-width: 701px) and (max-width:727px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 8740px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 6%;
+               top: 99px;
+     
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 140px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                        
+                         width: 44%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -840,7 +936,7 @@
           }    
      }
 }
-@media screen and (min-width: 628px) and (max-width:700px){
+@media screen and (min-width: 681px) and (max-width:700px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 7960px;
@@ -861,6 +957,24 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 45%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -870,24 +984,85 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -231%);
+                                 
                          }
+                    }          
+               }    
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    left: -3px;
+                    top: 156px;
+                    //height: 7560px;
+                    background: #FFFFFF;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}     
+@media screen and (min-width: 628px) and (max-width:680px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 7960px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 6%;
+               top: 99px;
+     
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 135px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 48%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -917,7 +1092,7 @@
           }    
      }
 }
-@media screen and (min-width: 527px) and (max-width:627px){
+@media screen and (min-width: 601px) and (max-width:627px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 7080px;
@@ -938,6 +1113,24 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                        
+                         width: 51%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -947,24 +1140,87 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
                              
-                    
-                              display: flex;
-                              align-items: flex-end;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -219%);
+                            
+                                 
                          }
+                    }          
+               }    
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    left: -3px;
+                    top: 156px;
+                    //height: 7560px;
+                    background: #FFFFFF;
+                    border-radius: 25px; 
+               }
+          }    
+     }   
+}     
+@media screen and (min-width: 527px) and (max-width:600px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 7080px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 6%;
+               top: 99px;
+     
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 135px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                        
+                         width: 58%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -996,7 +1252,7 @@
           }    
      }
 }
-@media screen and (min-width: 481px) and (max-width:526px){
+@media screen and (min-width: 501px) and (max-width:526px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 5858px;
@@ -1017,6 +1273,25 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 61%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -1026,24 +1301,86 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -214%);
+                                 
                          }
+                    }          
+               }    
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    left: -3px;
+                    top: 156px;
+                    //height: 7560px;
+                    background: #FFFFFF;
+                    border-radius: 25px; 
+               }
+          }    
+     }
+}     
+@media screen and (min-width: 481px) and (max-width:500px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 5858px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 6%;
+               top: 99px;
+     
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 130px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 64%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -1073,7 +1410,7 @@
           }    
      }
 }
-@media screen and (min-width: 426px) and (max-width:480px){
+@media screen and (min-width: 441px) and (max-width:480px){
      .kasa-home {
           @include pageLengthdesktop();
           margin-bottom: 5325px;
@@ -1094,6 +1431,25 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 23.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 70%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -1103,24 +1459,86 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -204%);
+                                 
                          }
+                    }          
+               }    
+     
+               .kasa-home-body_gallery{
+                    position: absolute;
+                    width: 1240px;
+                    width: 100%;
+                    left: -3px;
+                    top: 156px;
+                    //height: 7560px;
+                    background: #FFFFFF;
+                    border-radius: 25px; 
+               }
+          }    
+     }  
+}     
+@media screen and (min-width: 426px) and (max-width:440px){
+     .kasa-home {
+          @include pageLengthdesktop();
+          margin-bottom: 5325px;
+          &_body {
+       
+               position: absolute;
+               width: 1240px;
+               width: 90%;
+               height: 1095px;
+               left: 6%;
+               top: 99px;
+     
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 130px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 23.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 71%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -1150,7 +1568,8 @@
           }    
      }
 }
-@media screen and (min-width: 401px) and (max-width:425px){
+
+@media screen and (min-width: 416px) and (max-width:425px){
      .kasa-home {
           @include pageLengthmobile();
           width: 100%;
@@ -1175,6 +1594,24 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 74%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -1184,24 +1621,93 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
+                        
+                         .sectionimage{
+                              //margin-top: 84px;
+                              border-radius:10px;
+                              object-fit: cover;
+                              }
+                         img{
                
-                              color: #FFFFFF;
-                              z-index: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -215%);
+                                 
                          }
+                    }          
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    max-width: 372px;
+                    width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    left: 0;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }       
+}     
+@media screen and (min-width: 401px) and (max-width:415px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 88%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    width: 335px;
+                    width: 100%;
+                    height: 111px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 77%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                         opacity: 0;
+          
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -1260,6 +1766,24 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         width: 82%;
+               
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                          opacity: 0;
@@ -1269,24 +1793,7 @@
                          display: unset;
                          opacity: 1;
                          object-fit: cover;
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                             
-                    
-                              display: flex;
-                              align-items: flex-end;
-               
-                              color: #FFFFFF;
-                              z-index: 1;
-                         }
+                        
                          .sectionimage{
                               //margin-top: 84px;
                               border-radius:10px;
@@ -1320,7 +1827,7 @@
           }
      }       
 }
-@media screen and (min-width: 351px)and (max-width:375px){
+@media screen and (min-width: 370px)and (max-width:375px){
      .kasa-home {
           @include pageLengthmobile();
           width: 100%;
@@ -1345,6 +1852,26 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         //or 24px 
+                         //height: 48px;
+                         //width: 217px;
+                         width: 82%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                         opacity: 0;
@@ -1356,26 +1883,99 @@
                          opacity: 1;
                          object-fit: cover;
                          
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                              //or 24px 
-                              //height: 48px;
-                              //width: 217px;
-                    
-                              display: flex;
-                              align-items: flex-end;
-               
-                              color: #FFFFFF;
-                              z-index: 1;
+                         
+                         .sectionimage{
+                              border-radius:10px;
+                              object-fit: cover;
+                              
                          }
+                         img{
+                              opacity: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -204%);
+                              object-fit: cover;         
+                              }
+                    }          
+                    
+                    
+               
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }    
+}     
+@media screen and (min-width: 361px)and (max-width:369px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 90%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 111px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         //or 24px 
+                         //height: 48px;
+                         //width: 217px;
+                         width: 85%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                        opacity: 0;
+
+                         
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                         
+                         
                          .sectionimage{
                               border-radius:10px;
                               object-fit: cover;
@@ -1411,7 +2011,7 @@
           }
      }  
 }
-@media screen and (min-width: 321px)and (max-width:350px){
+@media screen and (min-width: 351px)and (max-width:360px){
      .kasa-home {
           @include pageLengthmobile();
           width: 100%;
@@ -1436,6 +2036,26 @@
                     //left: 20px;
                     //top: 83px;
                     border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         //or 24px 
+                         //height: 48px;
+                         //width: 217px;
+                         width: 88%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                         opacity: 0;
@@ -1447,26 +2067,191 @@
                          opacity: 1;
                          object-fit: cover;
                          
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              font-size: 24px;
-                              line-height: 100%;
-                              //or 24px 
-                              //height: 48px;
-                              //width: 217px;
-                    
-                              display: flex;
-                              align-items: flex-end;
-               
-                              color: #FFFFFF;
-                              z-index: 1;
+                        
+                         .sectionimage{
+                              border-radius:10px;
+                              object-fit: cover;
+                              
                          }
+                         img{
+                              opacity: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -204%);
+                              object-fit: cover;         
+                              }
+                    }          
+                    
+                    
+               
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }  
+}     
+@media screen and (min-width: 331px)and (max-width:350px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 90%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 100px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         //or 24px 
+                         //height: 48px;
+                         //width: 217px;
+                         width: 91%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                        opacity: 0;
+
+                         
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                         
+                        
+                         .sectionimage{
+                              border-radius:10px;
+                              object-fit: cover;
+                              
+                         }
+                         img{
+                              opacity: 1;
+                              width: 100%;
+                              mix-blend-mode: darken;
+                              border-radius: 25px;
+                              transform: translate(1px, -204%);
+                              object-fit: cover;         
+                              }
+                    }          
+                    
+                    
+               
+               }    
+          
+               .kasa-home-body_gallery{
+               //section 2 = gallery
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 805px;
+               
+                    //left: 21px;
+                    top: 133px;
+                    left: 1px;
+                    background-color: #FFFFFF;
+                    
+               }
+          }
+     }  
+}     
+@media screen and (min-width: 321px)and (max-width:330px){
+     .kasa-home {
+          @include pageLengthmobile();
+          width: 100%;
+          margin-bottom: 4800px;
+   
+          &_body {
+     
+               position: absolute;
+               width: 336px;
+               width: 90%;
+               //height: 938px;
+               height:805px;
+               left: 20px;
+               left: 6%;
+               top: 83px;
+               
+               .kasa-home-body_section1 { 
+                    position: absolute;
+                    max-width: 335px;
+                   width: 100%;
+                    height: 100px;
+                    //left: 20px;
+                    //top: 83px;
+                    border-radius: 10px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         font-size: 24px;
+                         line-height: 100%;
+                         //or 24px 
+                         //height: 48px;
+                         //width: 217px;
+                         width: 94%;
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
+                                            
+                    .kasa-home-body-section1_desk{
+                        opacity: 0;
+
+                         
+                    }
+                    .kasa-home-body-section1_mobile{
+                         display: unset;
+                         opacity: 1;
+                         object-fit: cover;
+                         
+                        
                          .sectionimage{
                               border-radius:10px;
                               object-fit: cover;
@@ -1527,6 +2312,24 @@
                     height: 95px;
                   
                     border-radius: 5px;
+                    h1{
+                         position: absolute;
+                         left: 5.6%;
+                         right: 32.53%;
+                         top: 14.04%;
+                         bottom: 26.05%;
+
+                         @include  policeStyle1();
+                         width: 83%;
+                         font-size: 20px;
+                         line-height: 100%;
+                        
+                         display: flex;
+                         align-items: flex-end;
+          
+                         color: #FFFFFF;
+                         z-index: 1;
+                    }
                                             
                     .kasa-home-body-section1_desk{
                         opacity: 0;
@@ -1538,24 +2341,7 @@
                          opacity: 1;
                          object-fit: cover;
                          
-                         h1{
-                              position: absolute;
-                              left: 5.6%;
-                              right: 32.53%;
-                              top: 14.04%;
-                              bottom: 26.05%;
-
-                              @include  policeStyle1();
-                              width: 100%;
-                              font-size: 20px;
-                              line-height: 100%;
-                             
-                              display: flex;
-                              align-items: flex-end;
-               
-                              color: #FFFFFF;
-                              z-index: 1;
-                         }
+                        
                          .sectionimage{
                       
                               //margin-top: 84px;
