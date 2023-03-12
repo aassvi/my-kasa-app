@@ -1,6 +1,7 @@
 /**
  * Fonction Home retourne l'affichage d'une section avec une image et une gallerie de photos 
  * en utilisant le composant Thumb et en lui passant en props un tableau data
+ * utilise la méthode map pour iterer sur le tableau pour afficher chaque élément du tableau de données
  */
 
 import React from 'react';

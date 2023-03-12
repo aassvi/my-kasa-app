@@ -1,6 +1,6 @@
 /**
- * Fonction affiche une galerie d'images
- * utilise la méthode map pour iterer sur le tableau pour afficher chaque élément du tableau de données
+ * Fonction affiche une image 
+ * 
  * en créant un lien pour chaque élément qui redirige vers une page de détail du logement correspondant.
  */
 import React from 'react';
