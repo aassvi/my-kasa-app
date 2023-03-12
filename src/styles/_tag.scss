@@ -1,7 +1,7 @@
 .logement-rectangle3-texte{
      p{
           position: absolute;
-          left: 23.78%;
+          left: 36.78%;
           //left: -37.22%;
           right: 35.65%;
           top: 12%;
@@ -10,7 +10,8 @@
           @include  policeStyle1();
           font-size: 14px;
           text-align: center;
-
+          display: flex;
+          justify-content: center;
           color: #FFFFFF;
 
      }
@@ -75,6 +76,96 @@
      border-radius: 10px;
  
 }
+@media screen and (min-width: 769px) and (max-width:1400px){
+     .logement-container{
+          top: 217%;
+          position: relative;
+          width: 100%;
+    
+          .logement-rectangle3-texte{
+               p{
+                    position: absolute;
+                    left: 32%;
+                    right: 36.82%;
+                    top: 12%;
+                    bottom: 10.22%;
+     
+                    @include  policeStyle1();
+                    font-size: 10px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+          
+                    color: #FFFFFF;
+          
+               }
+          }
+          
+          .logement-rectangle31{
+               position: absolute;
+               width: 84px;
+               width: 23%;
+               height: 18px;
+               left: 0px;
+               //top: 670px;
+               top: -214px;
+               background: #FF6060;
+               border-radius: 5px;
+               
+              
+                    
+          }
+          .logement-rectangle32{
+               position: absolute;
+               width: 84px;
+               width: 23%;
+               height: 18px;
+               //left: 225px;
+               left: 94px;
+               left: 24.5%;
+               //top: 670px;
+               top: -214px;
+               background-color: #FF6060;
+               border-radius: 5px;
+              
+              
+          }
+          .logement-rectangle33{
+               position: absolute;
+               width: 84px;
+               width: 23%;
+               height: 18px;
+               //left: 350px;
+               left: 187px;
+               left: 49%;
+          
+               //top: 670px;
+               top: -214px;
+               background-color: #FF6060;
+               border-radius: 5px;
+          
+          }
+          
+          .logement-rectangle34{
+               position: absolute;
+               width: 84px;
+               width: 23%;
+               height: 18px;
+               //left: 350px;
+               left: 280px;
+               left:74%;
+          
+               //top: 670px;
+               top: -214px;
+               background-color: #FF6060;
+               border-radius: 5px;
+             
+          }
+     .logement-rectangle35{
+          display: none;
+     }        
+}
+}     
 @media screen and (min-width: 551px) and (max-width:768px){
      .logement-container{
           top: 217%;
@@ -84,7 +175,7 @@
           .logement-rectangle3-texte{
                p{
                     position: absolute;
-                    left: 25%;
+                    left: 29%;
                     right: 36.82%;
                     top: 12%;
                     bottom: 10.22%;
@@ -92,7 +183,8 @@
                     @include  policeStyle1();
                     font-size: 10px;
                     text-align: center;
-          
+                    display: flex;
+                    justify-content: center;
                     color: #FFFFFF;
           
                }
@@ -173,7 +265,7 @@
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 25%;
+               left: 15%;
                right: 36.82%;
                top: 12%;
                bottom: 10.22%;
@@ -181,7 +273,8 @@
                @include  policeStyle1();
                font-size: 10px;
                text-align: center;
-     
+               display: flex;
+               justify-content: center;
                color: #FFFFFF;
      
           }
@@ -260,7 +353,7 @@
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 25%;
+               left: 37%;
                right: 36.82%;
                top: 12%;
                bottom: 10.22%;
@@ -268,7 +361,8 @@
                @include  policeStyle1();
                font-size: 10px;
                text-align: center;
-     
+               display: flex;
+               justify-content: center;
                color: #FFFFFF;
      
           }
@@ -338,12 +432,11 @@
           display: none;
      }    
 }}
-@media screen and (min-width: 321px)and (max-width:375px){
-
+@media screen and (min-width: 351px)and (max-width:375px){
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 25%;
+               left: 36%;
                right: 36.82%;
                top: 12%;
                bottom: 10.22%;
@@ -351,7 +444,82 @@
                @include  policeStyle1();
                font-size: 10px;
                text-align: center;
+               display: flex;
+               justify-content: center;
+               color: #FFFFFF;
      
+          }
+     }
+     
+     .logement-rectangle31{
+          position: absolute;
+          //width: 84px;
+          width: 23%;
+          height: 18px;
+          left: 0px;
+          //top: 670px;
+          top: -214px;
+          background: #FF6060;
+          border-radius: 5px;
+          
+         
+               
+     }
+     .logement-rectangle32{
+          position: absolute;
+          width: 84px;
+          width: 23%;
+          height: 18px;
+          //left: 225px;
+          left: 94px;
+          left: 26%;
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+         
+         
+     }
+     .logement-rectangle33{
+          position: absolute;
+          width: 84px;
+          width: 23%;
+          height: 18px;
+          //left: 350px;
+          //left: 187px;
+          left: 52%;
+
+     
+          //top: 670px;
+          top: -214px;
+          background-color: #FF6060;
+          border-radius: 5px;
+     
+     }
+     
+     .logement-rectangle34{
+          display:none
+        
+     }
+     .logement-rectangle35{
+          display: none;
+     }    
+}
+@media screen and (min-width: 321px)and (max-width:350px){
+
+     .logement-rectangle3-texte{
+          p{
+               position: absolute;
+               left: 36%;
+               right: 36.82%;
+               top: 12%;
+               bottom: 10.22%;
+
+               @include  policeStyle1();
+               font-size: 9px;
+               text-align: center;
+               display: flex;
+               justify-content: center;
                color: #FFFFFF;
      
           }
@@ -416,15 +584,16 @@
      .logement-rectangle3-texte{
           p{
                position: absolute;
-               left: 14%;
+               left: 34%;
                right: 36.82%;
-               top: 12%;
+               top: 24%;
                bottom: 10.22%;
 
                @include  policeStyle1();
-               font-size: 10px;
+               font-size: 8px;
                text-align: center;
-     
+               display: flex;
+               justify-content: center;
                color: #FFFFFF;
      
           }

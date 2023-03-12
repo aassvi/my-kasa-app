@@ -615,7 +615,7 @@
       bottom: 2.01%;
   
       @include  policeStyle1();
-      font-size: 18px;
+      font-size: 16px;
       line-height: 142.6%;
       /* or 26px */
   
@@ -723,7 +723,7 @@
       bottom: 2.01%;
   
       @include  policeStyle1();
-      font-size: 18px;
+      font-size: 16px;
       line-height: 142.6%;
       /* or 26px */
   
@@ -751,12 +751,7 @@
       height: 73px;
       
       top:42%;
-
-      //white-space: nowrap;
-      //overflow: hidden;
-      //text-overflow: ellipsis;
-      
-        
+  
       @include  policeStyle1();
       font-size: 18px;
           
@@ -832,7 +827,7 @@
       bottom: 53%;
   
       @include  policeStyle1();
-      font-size: 18px;
+      font-size: 16px;
       line-height: 142.6%;
       /* or 26px */
   
