@@ -34,7 +34,7 @@
           top: 59.18%;
           bottom: 35.84%;
           width: 862px;
-          width: 48%;
+          width: 60%;
           height: 51px;
           @include  policeStyle1();
           font-size: 36px;
@@ -76,7 +76,7 @@
           
           h1{
                position: absolute;
-               left: 40%;
+               left: 63%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -95,7 +95,7 @@
           
           h2{
                position: absolute;
-               left: 35.49%;
+               left: 52.49%;
                right: 18.96%;
                top: 59.18%;
                bottom: 35.84%;
@@ -112,11 +112,11 @@
         
           p{
                position: absolute;
-               left: 44.14%;
+               left: 70.14%;
                right: 30.14%;
                top: 81.93%;
                bottom: 15.53%;
-     
+               width: 80%;
                @include  policeStyle1();
                font-size: 24px;
               
@@ -191,7 +191,77 @@
                color: #FF6060;
           }
      }
-}     
+} 
+@media screen and (min-width: 1025px) and (max-width:1400px){
+     .kasa-error{
+          position: relative;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+     
+          background: #FFFFFF;
+          h1{
+               position: absolute;
+               left: 35%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 122px;
+              
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+         
+          h2{
+               position: absolute;
+               left: 24.27%;
+               right: 20.8%;
+               top: 52.6%;
+               bottom: 49.94%;
+               width: 52%;
+               height: 51px;
+               @include  policeStyle1();
+               font-size: 22px;
+              
+
+               display: flex;
+               align-items: flex-end;
+               text-align: center;
+
+               color: #FF6060;
+
+               }
+
+               
+          p{
+               position: absolute;
+               left: 34%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+
+               @include  policeStyle1();
+               font-size: 18px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+
+               color: #FF6060;
+
+          }
+     }
+}  
+
 @media screen and (min-width: 769px) and (max-width:1024px){
      .kasa-error{
           position: relative;
@@ -227,7 +297,7 @@
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
-               width: 48%;
+               width: 52%;
                height: 51px;
                @include  policeStyle1();
                font-size: 22px;
@@ -244,7 +314,7 @@
                
           p{
                position: absolute;
-               left: 35%;
+               left: 34%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -260,8 +330,8 @@
 
           }
      }
-}     
-@media screen and (min-width: 426px) and (max-width:768px){
+} 
+@media screen and (min-width: 701px) and (max-width:768px){
      .kasa-error{
           position: relative;
           width: 100%;
@@ -313,11 +383,150 @@
                
           p{
                position: absolute;
-               left: 35%;
+               left: 32%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
+               width: 67%;
+               @include  policeStyle1();
+               font-size: 18px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
 
+               color: #FF6060;
+
+          }
+     }
+}
+
+@media screen and (min-width: 601px) and (max-width:700px){
+     .kasa-error{
+          position: relative;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+     
+          background: #FFFFFF;
+          h1{
+               position: absolute;
+               left: 25%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 122px;
+              
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+        
+          h2{
+               position: absolute;
+               left: 16.27%;
+               right: 20.8%;
+               top: 52.6%;
+               bottom: 49.94%;
+               width: 63%;
+               height: 51px;
+               @include  policeStyle1();
+               font-size: 22px;
+              
+
+               display: flex;
+               align-items: flex-end;
+               text-align: center;
+
+               color: #FF6060;
+
+               }
+
+               
+          p{
+               position: absolute;
+               left: 24%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+               width: 67%;
+               @include  policeStyle1();
+               font-size: 18px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+
+               color: #FF6060;
+
+          }
+     }  
+}     
+@media screen and (min-width: 426px) and (max-width:600px){
+     .kasa-error{
+          position: relative;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+     
+          background: #FFFFFF;
+          h1{
+               position: absolute;
+               left: 25%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 122px;
+              
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+        
+          h2{
+               position: absolute;
+               left: 16.27%;
+               right: 20.8%;
+               top: 52.6%;
+               bottom: 49.94%;
+               width: 63%;
+               height: 51px;
+               @include  policeStyle1();
+               font-size: 22px;
+              
+
+               display: flex;
+               align-items: flex-end;
+               text-align: center;
+
+               color: #FF6060;
+
+               }
+
+               
+          p{
+               position: absolute;
+               left: 24%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+               width: 67%;
                @include  policeStyle1();
                font-size: 18px;
               
@@ -365,14 +574,14 @@
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
-               width: 48%;
+               width: 60%;
                height: 51px;
                @include  policeStyle1();
                font-size: 18px;
               
 
                display: flex;
-               align-items: flex-end;
+               align-items: center;
                text-align: center;
 
                color: #FF6060;
@@ -386,7 +595,7 @@
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
-
+               width: 71%;
                @include  policeStyle1();
                font-size: 14px;
               
@@ -410,7 +619,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 29%;
+               left: 26%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -433,13 +642,13 @@
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
-               width: 48%;
+               width: 59%;
                height: 51px;
                @include  policeStyle1();
                font-size: 18px;
           
                display: flex;
-               align-items: flex-end;
+               align-items: center;
                text-align: center;
 
                color: #FF6060;
@@ -449,11 +658,11 @@
                
           p{
                position: absolute;
-               left: 27.27%;
+               left: 23.27%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
-              
+               width: 78%;
                @include  policeStyle1();
                font-size: 14px;
               
@@ -462,6 +671,74 @@
                text-decoration-line: underline;
 
                color: #FF6060;
+
+          }
+     }
+}
+@media screen and (max-width: 320px){
+     .kasa-error{
+          position: relative;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     
+          background: #FFFFFF;
+          h1{
+               position: absolute;
+               left: 21%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+              
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 96px;
+              
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+        
+          h2{
+               position: absolute;
+               left: 20.27%;
+               right: 20.8%;
+               top: 49.6%;
+               bottom: 49.94%;
+               width: 68%;
+               height: 52px;
+               @include  policeStyle1();
+               font-size: 18px;
+          
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+               
+               }
+
+               
+          p{
+               position: absolute;
+               left: 19.27%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+               width: 79%;
+               @include  policeStyle1();
+               font-size: 14px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+
+               color: #FF6060;
+
 
           }
      }
