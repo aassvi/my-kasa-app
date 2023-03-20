@@ -192,8 +192,8 @@
                color: #FF6060;
           }
      }
-}     
-@media screen and (min-width: 2000px) and (max-width:2500px){
+}
+@media screen and (min-width: 2301px) and (max-width:2500px){
      .kasa-error{
           position: relative;
           width: 80%;
@@ -256,6 +256,70 @@
                color: #FF6060;
           }
      }
+}   
+@media screen and (min-width: 2000px) and (max-width:2300px){
+     .kasa-error{
+          position: relative;
+          width: 80%;
+          height: 1024px;
+     
+          background: #FFFFFF;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          h1{
+               position: absolute;
+               left: 60%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+          
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 288px;
+               
+               display: flex;
+               align-items: center;
+               text-align: center;
+          
+               color: #FF6060;
+          
+          }
+          
+          h2{
+               position: absolute;
+               left: 53.49%;
+               right: 18.96%;
+               top: 59.18%;
+               bottom: 35.84%;
+     
+               @include  policeStyle1();
+               font-size: 36px;
+              
+               display: flex;
+               align-items: flex-end;
+     
+               color: #FF6060;
+     
+          }
+         
+          p{
+               position: absolute;
+               left: 66.14%;
+               right: 0.14%;
+               top: 81.93%;
+               bottom: 15.53%;
+     
+               @include  policeStyle1();
+               font-size: 24px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+     
+               color: #FF6060;
+          }
+     }
 } 
 @media screen and (min-width: 1201px) and (max-width:1400px){
      .kasa-error{
@@ -269,7 +333,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 35%;
+               left: 41%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -288,7 +352,7 @@
          
           h2{
                position: absolute;
-               left: 24.27%;
+               left: 30.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
@@ -309,7 +373,7 @@
                
           p{
                position: absolute;
-               left: 34%;
+               left: 40%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -339,7 +403,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 37%;
+               left: 39%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -358,7 +422,7 @@
          
           h2{
                position: absolute;
-               left: 24.27%;
+               left: 28.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
@@ -379,7 +443,7 @@
                
           p{
                position: absolute;
-               left: 34%;
+               left: 37%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
