@@ -1,7 +1,7 @@
 .kasa-apropos{
      @include pageLengthdesktop();
      width: 100%;
-     margin-bottom: 220px;
+     margin-bottom: 335px;
      
      .kasa-apropos_section1{
           position: absolute;
@@ -34,7 +34,7 @@
 }
 @media screen and  (min-width: 2561px)  {
      .kasa-apropos{
-          margin-bottom: 270px;
+          margin-bottom: 325px;
           .kasa-apropos_section1{
               left: 9%;
               width: 85%;
@@ -169,7 +169,7 @@
      .kasa-apropos{
           @include pageLengthmobile();
           width: 100%;
-          margin-bottom: 10%;
+          margin-bottom: 14%;
          
           .kasa-apropos_section1{
                position: absolute;
@@ -208,7 +208,7 @@
      .kasa-apropos{
           @include pageLengthmobile();
           width: 100%;
-          margin-bottom: 20%;
+          margin-bottom: 22%;
          
           .kasa-apropos_section1{
                position: absolute;
@@ -249,7 +249,7 @@
      .kasa-apropos{
           @include pageLengthmobile();
           width: 100%;
-          margin-bottom: 24%;
+          margin-bottom: 54%;
          
           .kasa-apropos_section1{
                position: absolute;

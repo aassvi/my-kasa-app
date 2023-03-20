@@ -10,7 +10,7 @@
      background: #FFFFFF;
      h1{
           position: absolute;
-          left: 30%;
+          left: 29%;
           right: 0%;
           top: -30%;
           bottom: 0%;
@@ -29,7 +29,7 @@
      
      h2{
           position: absolute;
-          left: 20.49%;
+          left: 21.49%;
           right: 18.96%;
           top: 59.18%;
           bottom: 35.84%;
@@ -48,7 +48,7 @@
      
      p{
           position: absolute;
-          left: 38.14%;
+          left: 40.14%;
           right: 40.14%;
           top: 81.93%;
           bottom: 15.53%;
@@ -63,7 +63,72 @@
           color: #FF6060;
      }
 }
-@media screen and (min-width: 2501px) and (max-width:2561px){
+@media screen and (min-width: 2561px){
+     .kasa-error{
+          position: relative;
+          width: 90%;
+          height: 1024px;
+     
+          background: #FFFFFF;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          h1{
+               position: absolute;
+               left: 67%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+          
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 288px;
+               
+               display: flex;
+               align-items: center;
+               text-align: center;
+               text-decoration: none;
+               color: #FF6060;
+          
+          }
+          
+          h2{
+               position: absolute;
+               left: 57.49%;
+               right: 18.96%;
+               top: 59.18%;
+               bottom: 35.84%;
+     
+               @include  policeStyle1();
+               font-size: 36px;
+              
+               display: flex;
+               align-items: flex-end;
+     
+               color: #FF6060;
+     
+          }
+        
+          p{
+               position: absolute;
+               left: 74.14%;
+               right: 30.14%;
+               top: 81.93%;
+               bottom: 15.53%;
+               width: 80%;
+               @include  policeStyle1();
+               font-size: 24px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+     
+               color: #FF6060;
+          }
+     }
+}     
+@media screen and (min-width: 2501px) and (max-width:2560px){
      .kasa-error{
           position: relative;
           width: 90%;
@@ -140,7 +205,7 @@
           align-items: center;
           h1{
                position: absolute;
-               left: 40%;
+               left: 63%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -159,7 +224,7 @@
           
           h2{
                position: absolute;
-               left: 32.49%;
+               left: 53.49%;
                right: 18.96%;
                top: 59.18%;
                bottom: 35.84%;
@@ -176,8 +241,8 @@
          
           p{
                position: absolute;
-               left: 46.14%;
-               right: 30.14%;
+               left: 71.14%;
+               right: 0.14%;
                top: 81.93%;
                bottom: 15.53%;
      
@@ -192,7 +257,7 @@
           }
      }
 } 
-@media screen and (min-width: 1025px) and (max-width:1400px){
+@media screen and (min-width: 1201px) and (max-width:1400px){
      .kasa-error{
           position: relative;
           width: 100%;
@@ -205,6 +270,76 @@
           h1{
                position: absolute;
                left: 35%;
+               right: 0%;
+               top: -30%;
+               bottom: 0%;
+
+               @include  policeStyle1();
+               font-weight: 700;
+               font-size: 122px;
+              
+               display: flex;
+               align-items: center;
+               text-align: center;
+
+               color: #FF6060;
+          
+          }
+         
+          h2{
+               position: absolute;
+               left: 24.27%;
+               right: 20.8%;
+               top: 52.6%;
+               bottom: 49.94%;
+               width: 52%;
+               height: 51px;
+               @include  policeStyle1();
+               font-size: 22px;
+              
+
+               display: flex;
+               align-items: flex-end;
+               text-align: center;
+
+               color: #FF6060;
+
+               }
+
+               
+          p{
+               position: absolute;
+               left: 34%;
+               right: 20.8%;
+               top: 68.6%;
+               bottom: 28.94%;
+
+               @include  policeStyle1();
+               font-size: 18px;
+              
+               display: flex;
+               align-items: flex-end;
+               text-decoration-line: underline;
+
+               color: #FF6060;
+
+          }
+     }
+
+}    
+@media screen and (min-width: 1025px) and (max-width:1200px){
+     .kasa-error{
+          position: relative;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+     
+          background: #FFFFFF;
+          h1{
+               position: absolute;
+               left: 37%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -274,7 +409,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 35%;
+               left: 38%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -314,7 +449,7 @@
                
           p{
                position: absolute;
-               left: 34%;
+               left: 36%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -343,7 +478,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 35%;
+               left: 36%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -383,7 +518,7 @@
                
           p{
                position: absolute;
-               left: 32%;
+               left: 33%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -413,7 +548,7 @@
           background: #FFFFFF;
           h1{
                position: absolute;
-               left: 25%;
+               left: 31%;
                right: 0%;
                top: -30%;
                bottom: 0%;
@@ -432,7 +567,7 @@
         
           h2{
                position: absolute;
-               left: 16.27%;
+               left: 20.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
@@ -453,7 +588,7 @@
                
           p{
                position: absolute;
-               left: 24%;
+               left: 31%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -501,7 +636,7 @@
         
           h2{
                position: absolute;
-               left: 16.27%;
+               left: 22.27%;
                right: 20.8%;
                top: 52.6%;
                bottom: 49.94%;
@@ -522,7 +657,7 @@
                
           p{
                position: absolute;
-               left: 24%;
+               left: 22%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -570,7 +705,7 @@
         
           h2{
                position: absolute;
-               left: 23.27%;
+               left: 21.27%;
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
@@ -591,7 +726,7 @@
                
           p{
                position: absolute;
-               left: 27.27%;
+               left: 25.27%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
@@ -705,7 +840,7 @@
         
           h2{
                position: absolute;
-               left: 20.27%;
+               left: 18.27%;
                right: 20.8%;
                top: 49.6%;
                bottom: 49.94%;
@@ -725,7 +860,7 @@
                
           p{
                position: absolute;
-               left: 19.27%;
+               left: 18.27%;
                right: 20.8%;
                top: 68.6%;
                bottom: 28.94%;
