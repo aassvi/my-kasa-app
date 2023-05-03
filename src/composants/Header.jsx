@@ -21,7 +21,7 @@ function Header() {
             </div>
             <div className='kasa-header-nav'>
             <nav>
-               <Link className={location.pathname === "/my-kasa-app/" ? "Accueil active" : "Accueil"} to="/my-kasa-app/" >Accueil</Link>
+               <Link className={location.pathname === "/" ? "Accueil active" : "Accueil"} to="/" >Accueil</Link>
                <Link className={location.pathname === "/Apropos" ? "Apropos active" : "Apropos"} to="/Apropos">A Propos</Link>
             </nav>
             </div>
