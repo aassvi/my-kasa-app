@@ -16,7 +16,7 @@ function App() {
           <Route path="/my-kasa-app/" element={<Home />} />
           <Route path="/Apropos" element={<Apropos />} />
           <Route path="/Logement/:id" element={<Logement />} />
-          <Route path="/my-kasa-app/*" element={<Error />} />
+          <Route path="/*" element={<Error />} />
         </Routes>
       </React.StrictMode>
       <Footer />
